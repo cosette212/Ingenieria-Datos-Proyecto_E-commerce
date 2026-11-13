@@ -1,0 +1,2001 @@
+id_pedido,id_cliente,fecha_hora,monto_total,estado,metodo_pago,canal_venta
+1,421,2026-09-24 05:27:00,1104.0,cancelado,paypal,app movil
+2,274,2026-11-10 01:37:00,875.5,pendiente,transferencia,tienda fisica
+3,450,2026-09-16 00:56:00,1486.76,pendiente,transferencia,web
+4,421,2026-10-12 14:11:00,1002.82,enviado,paypal,app movil
+5,359,2026-11-01 10:48:00,2141.88,cancelado,tarjeta,app movil
+6,81,2026-09-03 15:30:00,1123.56,pagado,paypal,tienda fisica
+7,64,2026-11-05 22:50:00,1316.72,cancelado,paypal,tienda fisica
+8,380,2026-09-27 15:47:00,63.94,enviado,transferencia,web
+9,331,2026-09-01 20:31:00,2047.36,pagado,tarjeta,app movil
+10,231,2026-09-29 01:58:00,1950.81,pagado,transferencia,tienda fisica
+11,431,2026-09-25 18:25:00,1255.52,pagado,paypal,app movil
+12,101,2026-10-08 01:37:00,2837.85,pendiente,tarjeta,web
+13,394,2026-08-27 15:45:00,1598.94,pendiente,efectivo,tienda fisica
+14,47,2026-09-21 10:35:00,3783.45,cancelado,tarjeta,tienda fisica
+15,290,2026-08-30 00:30:00,1641.37,pagado,paypal,app movil
+16,22,2026-08-17 15:57:00,1825.83,cancelado,efectivo,app movil
+17,292,2026-10-19 10:09:00,3883.88,enviado,efectivo,tienda fisica
+18,499,2026-10-13 05:23:00,1107.74,enviado,efectivo,app movil
+19,77,2026-10-18 17:38:00,1195.85,pagado,tarjeta,tienda fisica
+20,332,2026-09-19 22:15:00,1682.6,pagado,tarjeta,web
+21,86,2026-10-08 16:52:00,1040.73,cancelado,paypal,tienda fisica
+22,111,2026-09-14 02:18:00,329.07,enviado,paypal,web
+23,306,2026-08-27 20:40:00,2618.79,pagado,paypal,app movil
+24,351,2026-09-18 17:54:00,1011.64,cancelado,tarjeta,web
+25,48,2026-09-10 00:30:00,511.45,pagado,tarjeta,tienda fisica
+26,218,2026-10-24 14:19:00,4271.5,enviado,transferencia,web
+27,106,2026-08-14 12:14:00,1181.79,enviado,efectivo,web
+28,212,2026-09-01 03:59:00,5778.31,enviado,transferencia,app movil
+29,487,2026-10-21 19:35:00,1640.34,pagado,paypal,app movil
+30,3,31/02/2026 25:61,514.14,enviado,paypal,web
+31,365,2026-08-26 21:03:00,1342.17,pagado,paypal,app movil
+32,346,2026-11-06 10:44:00,1316.11,pagado,tarjeta,web
+33,8,2026-08-12 20:40:00,1742.56,pendiente,efectivo,tienda fisica
+34,99999,2026-10-19 09:07:00,2559.04,cancelado,tarjeta,tienda fisica
+35,289,2026-09-10 14:42:00,4093.77,pagado,paypal,tienda fisica
+36,35,2026-09-23 01:23:00,636.28,pagado,transferencia,app movil
+37,345,2026-09-28 20:25:00,3023.86,cancelado,transferencia,app movil
+38,378,2026-10-16 15:00:00,1910.29,pagado,efectivo,web
+39,472,2026-10-30 23:56:00,487.97,enviado,tarjeta,tienda fisica
+40,385,2026-08-29 18:38:00,5011.25,pendiente,paypal,app movil
+41,441,2026-08-15 17:03:00,492.28,enviado,tarjeta,tienda fisica
+42,186,2026-08-24 14:09:00,921.96,pagado,efectivo,web
+43,438,2026-09-20 13:28:00,1646.17,enviado,transferencia,tienda fisica
+44,101,2026-10-23 17:54:00,888.77,enviado,tarjeta,web
+45,154,2026-10-09 03:49:00,1095.03,cancelado,tarjeta,app movil
+46,382,2026-09-29 14:08:00,336.75,pagado,efectivo,tienda fisica
+47,295,2026-08-19 00:51:00,743.96,cancelado,transferencia,app movil
+48,324,2026-08-24 03:30:00,3204.55,enviado,tarjeta,web
+49,331,2026-09-21 13:45:00,1299.13,enviado,efectivo,tienda fisica
+50,86,2026-09-21 19:30:00,1434.1,pendiente,tarjeta,app movil
+51,392,2026-10-31 19:28:00,526.93,pagado,transferencia,web
+52,18,2026-08-18 10:50:00,1537.24,pagado,paypal,app movil
+53,324,2026-08-21 03:45:00,2725.78,enviado,efectivo,app movil
+54,80,2026-10-03 22:39:00,1575.36,pendiente,transferencia,app movil
+55,154,2026-11-09 08:19:00,985.42,pagado,transferencia,web
+56,367,2026-08-20 09:42:00,2100.35,enviado,transferencia,app movil
+57,333,2026-09-03 13:50:00,2113.98,enviado,transferencia,web
+58,165,2026-11-08 17:49:00,2348.31,pendiente,tarjeta,web
+59,253,2026-10-14 11:20:00,831.52,enviado,efectivo,app movil
+60,99,2026-10-09 09:59:00,2515.36,pendiente,tarjeta,tienda fisica
+61,82,2026-08-22 21:34:00,2945.36,cancelado,tarjeta,app movil
+62,8,2026-10-20 13:35:00,1346.79,cancelado,tarjeta,app movil
+63,244,2026-08-14 02:39:00,505.12,pagado,efectivo,web
+64,250,2026-10-12 12:12:00,1043.19,cancelado,efectivo,app movil
+65,371,2026-10-24 14:27:00,1037.28,pendiente,paypal,tienda fisica
+66,240,2026-10-06 02:34:00,1596.53,cancelado,transferencia,web
+67,318,2026-09-25 01:50:00,4156.44,pagado,efectivo,tienda fisica
+68,50,2026-09-05 00:31:00,3639.75,pendiente,tarjeta,web
+69,99,2026-10-29 21:55:00,213.57,cancelado,paypal,tienda fisica
+70,240,2026-08-21 20:56:00,1872.57,pagado,paypal,app movil
+71,21,2026-11-01 12:38:00,219.62,pendiente,transferencia,tienda fisica
+72,128,2026-08-30 01:40:00,863.68,pagado,paypal,tienda fisica
+73,206,2026-09-07 11:29:00,1140.37,pagado,paypal,app movil
+74,110,2026-09-23 04:14:00,1607.76,pagado,efectivo,app movil
+75,439,2026-10-01 22:16:00,1056.22,devuelto??,transferencia,web
+76,132,2026-10-03 19:52:00,1027.51,cancelado,paypal,tienda fisica
+77,89,2026-09-08 23:28:00,312.62,cancelado,tarjeta,tienda fisica
+78,41,2026-11-03 11:36:00,1775.93,pagado,paypal,app movil
+79,335,2026-08-25 22:37:00,234.19,enviado,tarjeta,app movil
+80,345,2026-09-21 07:48:00,1938.05,cancelado,tarjeta,web
+81,205,2026-09-07 08:11:00,2659.8,pagado,transferencia,app movil
+82,166,2026-08-15 03:21:00,2772.86,pendiente,tarjeta,tienda fisica
+83,180,31/02/2026 25:61,1523.1,cancelado,transferencia,app movil
+84,379,2026-11-04 14:43:00,,cancelado,transferencia,app movil
+85,280,2026-09-05 14:11:00,568.04,cancelado,paypal,tienda fisica
+86,131,2026-10-20 20:57:00,1929.45,pagado,transferencia,tienda fisica
+87,199,2026-08-18 13:45:00,249.4,pagado,tarjeta,web
+88,257,2026-09-13 03:52:00,1463.27,pendiente,tarjeta,web
+89,321,2026-10-03 14:57:00,1987.01,cancelado,efectivo,web
+90,492,2026-08-16 02:06:00,2932.93,pagado,paypal,web
+91,159,2026-08-14 05:08:00,1345.54,pagado,paypal,web
+92,163,2026-10-23 22:00:00,172.44,pagado,paypal,app movil
+93,137,2026-08-25 03:39:00,1533.16,cancelado,transferencia,tienda fisica
+94,400,2026-09-10 18:26:00,46.43,cancelado,paypal,tienda fisica
+95,116,2026-11-06 09:04:00,2089.71,pendiente,efectivo,app movil
+96,251,2026-08-14 11:55:00,1615.96,enviado,transferencia,app movil
+97,161,2026-09-21 02:08:00,401.89,cancelado,tarjeta,tienda fisica
+98,150,2026-09-15 09:25:00,1543.14,pagado,efectivo,app movil
+99,370,2026-09-07 19:09:00,1405.2,pagado,transferencia,app movil
+100,376,2026-10-26 19:54:00,1431.55,pendiente,paypal,tienda fisica
+101,99999,2026-10-22 17:28:00,2692.82,pagado,transferencia,tienda fisica
+102,319,2026-10-09 22:35:00,2215.12,enviado,paypal,app movil
+103,112,2026-08-27 00:30:00,502.36,enviado,paypal,app movil
+104,318,2026-08-22 03:59:00,3680.65,pagado,tarjeta,web
+105,26,2026-10-28 08:47:00,1508.05,pagado,transferencia,tienda fisica
+106,166,2026-09-24 10:04:00,3251.47,pendiente,paypal,tienda fisica
+107,270,2026-09-19 05:06:00,777.96,pagado,transferencia,tienda fisica
+108,148,2026-09-17 02:14:00,2545.12,pagado,efectivo,tienda fisica
+109,414,2026-10-18 02:12:00,-3051.59,pagado,efectivo,web
+110,109,2026-11-09 01:09:00,2048.31,pagado,efectivo,app movil
+111,203,2026-08-30 01:59:00,1688.09,pendiente,transferencia,web
+112,459,2026-09-29 07:13:00,1507.37,enviado,tarjeta,tienda fisica
+113,497,2026-10-22 13:26:00,1645.95,pendiente,efectivo,app movil
+114,443,2026-10-02 12:16:00,1569.41,pendiente,efectivo,app movil
+115,90,2026-10-27 10:14:00,1954.05,pendiente,transferencia,web
+116,98,2026-09-28 06:30:00,3181.4,cancelado,efectivo,app movil
+117,371,2026-11-06 07:20:00,777.36,enviado,tarjeta,web
+118,171,2026-09-12 21:26:00,932.1,pendiente,efectivo,web
+119,396,2026-09-15 00:06:00,3774.86,pendiente,efectivo,web
+120,264,2026-10-28 15:57:00,622.49,cancelado,efectivo,tienda fisica
+121,160,2026-08-24 11:27:00,2224.43,cancelado,paypal,web
+122,323,2026-08-13 23:08:00,2565.33,enviado,efectivo,app movil
+123,68,2026-10-29 23:10:00,2042.73,enviado,tarjeta,app movil
+124,233,2026-09-09 21:59:00,3662.25,pendiente,paypal,web
+125,285,2026-08-19 20:35:00,1199.5,pagado,paypal,app movil
+126,34,2026-09-28 15:54:00,746.5,cancelado,paypal,app movil
+127,59,2026-08-27 02:40:00,1637.37,enviado,efectivo,tienda fisica
+128,339,2026-11-03 19:55:00,2544.26,pagado,transferencia,tienda fisica
+129,77,2026-09-14 04:52:00,478.19,pagado,paypal,tienda fisica
+130,368,2026-09-27 19:58:00,1013.89,cancelado,tarjeta,tienda fisica
+131,121,2026-09-15 23:02:00,3034.98,cancelado,paypal,tienda fisica
+132,432,2026-09-25 08:46:00,3393.46,pagado,efectivo,tienda fisica
+133,370,2026-09-09 00:33:00,160.25,enviado,transferencia,web
+134,116,2026-10-18 08:31:00,3639.63,cancelado,tarjeta,tienda fisica
+135,188,2026-11-06 21:43:00,2464.49,cancelado,paypal,tienda fisica
+136,126,2026-09-11 01:29:00,5319.12,devuelto??,efectivo,tienda fisica
+137,464,2026-09-11 03:25:00,388.22,pagado,paypal,app movil
+138,99999,2026-08-22 06:51:00,2960.72,cancelado,transferencia,tienda fisica
+139,65,2026-09-07 20:23:00,1032.92,pagado,efectivo,web
+140,229,2026-09-24 17:01:00,2994.41,pagado,transferencia,app movil
+141,305,2026-10-22 06:05:00,445.62,enviado,paypal,web
+142,136,2026-10-27 21:13:00,880.35,pagado,paypal,app movil
+143,475,2026-09-14 09:58:00,5609.51,pagado,tarjeta,web
+144,336,2026-08-28 09:39:00,2270.04,enviado,transferencia,tienda fisica
+145,281,2026-11-09 00:03:00,1451.47,pendiente,tarjeta,web
+146,113,2026-10-05 14:25:00,745.68,pagado,tarjeta,web
+147,327,2026-10-26 18:55:00,356.53,pendiente,transferencia,app movil
+148,480,2026-11-01 01:12:00,2356.74,enviado,efectivo,app movil
+149,133,2026-10-08 16:56:00,2359.06,enviado,tarjeta,app movil
+150,74,2026-09-02 08:17:00,927.0,pagado,tarjeta,app movil
+151,293,2026-10-09 07:47:00,192.77,pendiente,paypal,web
+152,78,2026-08-13 11:45:00,771.08,enviado,tarjeta,tienda fisica
+153,291,2026-09-03 10:45:00,3919.84,pagado,efectivo,app movil
+154,42,2026-09-13 13:07:00,1318.85,pagado,transferencia,tienda fisica
+155,44,2026-08-22 08:04:00,1375.29,pagado,transferencia,web
+156,274,2026-09-14 22:27:00,889.38,pendiente,efectivo,web
+157,414,2026-08-19 00:14:00,359.63,cancelado,paypal,tienda fisica
+158,73,2026-09-09 00:41:00,1377.05,pendiente,paypal,tienda fisica
+159,234,2026-08-24 17:11:00,1227.23,cancelado,tarjeta,web
+160,62,2026-08-15 03:21:00,1937.35,cancelado,transferencia,app movil
+161,62,2026-10-06 18:11:00,1026.44,enviado,transferencia,tienda fisica
+162,406,2026-08-22 02:06:00,460.15,enviado,transferencia,web
+163,475,2026-10-30 00:46:00,83.81,cancelado,efectivo,app movil
+164,20,2026-08-26 16:52:00,2784.47,enviado,tarjeta,tienda fisica
+165,317,2026-09-25 04:35:00,1740.64,cancelado,transferencia,app movil
+166,433,2026-09-11 06:02:00,1444.37,pagado,transferencia,tienda fisica
+167,108,2026-09-16 14:26:00,451.23,pagado,paypal,web
+168,403,2026-11-07 06:27:00,204.58,cancelado,tarjeta,web
+169,117,2026-10-29 14:55:00,1895.79,enviado,transferencia,app movil
+170,28,2026-09-16 18:04:00,512.24,pagado,paypal,web
+171,172,2026-10-25 21:55:00,1152.9,cancelado,tarjeta,app movil
+172,296,2026-09-01 15:10:00,5745.48,pendiente,paypal,tienda fisica
+173,220,2026-10-10 14:33:00,1137.37,pagado,paypal,tienda fisica
+174,376,2026-09-07 21:52:00,333.85,enviado,paypal,app movil
+175,43,2026-08-31 22:35:00,294.04,enviado,transferencia,web
+176,361,2026-09-13 03:32:00,2059.25,cancelado,tarjeta,app movil
+177,325,2026-11-10 01:36:00,1434.32,pendiente,paypal,tienda fisica
+178,358,2026-08-24 04:30:00,1647.48,cancelado,transferencia,tienda fisica
+179,239,2026-08-23 21:37:00,2817.08,pagado,efectivo,web
+180,172,2026-10-11 04:35:00,309.88,pendiente,paypal,tienda fisica
+181,349,2026-09-17 13:33:00,754.45,pendiente,tarjeta,app movil
+182,485,2026-08-14 20:46:00,1767.81,pagado,paypal,web
+183,357,2026-10-23 06:04:00,558.23,pagado,transferencia,tienda fisica
+184,278,2026-10-25 06:50:00,1317.98,pagado,paypal,app movil
+185,12,2026-10-12 05:16:00,823.74,pagado,paypal,tienda fisica
+186,291,2026-10-25 12:33:00,1969.71,pagado,efectivo,web
+187,365,2026-09-03 13:16:00,811.78,pagado,transferencia,tienda fisica
+188,65,2026-09-15 14:07:00,662.3,pagado,transferencia,web
+189,76,2026-09-24 07:42:00,308.46,cancelado,transferencia,tienda fisica
+190,486,2026-09-13 12:05:00,1438.52,pagado,tarjeta,tienda fisica
+191,465,2026-09-15 11:27:00,3321.23,pendiente,paypal,web
+192,317,2026-10-13 07:47:00,37.96,pagado,tarjeta,app movil
+193,12,2026-10-31 04:38:00,2122.21,enviado,tarjeta,tienda fisica
+194,198,2026-09-24 22:36:00,2245.14,pagado,efectivo,app movil
+195,459,2026-09-18 18:15:00,2537.34,cancelado,tarjeta,web
+196,285,2026-09-12 03:37:00,2685.64,pagado,transferencia,web
+197,238,2026-10-13 22:06:00,3179.42,pendiente,transferencia,app movil
+198,497,2026-11-02 02:34:00,2043.12,pagado,paypal,tienda fisica
+199,433,2026-10-08 17:27:00,2822.36,cancelado,tarjeta,web
+200,326,2026-09-26 21:21:00,928.42,pagado,efectivo,tienda fisica
+201,94,2026-10-29 02:34:00,131.7,pagado,efectivo,app movil
+202,266,2026-10-05 10:17:00,1677.81,enviado,paypal,app movil
+203,408,2026-08-31 02:04:00,576.76,cancelado,tarjeta,app movil
+204,246,2026-09-27 12:22:00,1038.76,pagado,transferencia,app movil
+205,117,2026-10-02 18:44:00,1795.94,pagado,transferencia,web
+206,388,2026-09-16 21:33:00,152.24,pagado,tarjeta,web
+207,23,2026-11-02 12:43:00,107.84,pendiente,tarjeta,web
+208,47,2026-10-23 13:32:00,648.82,cancelado,efectivo,app movil
+209,271,2026-10-14 16:28:00,,pagado,transferencia,tienda fisica
+210,226,2026-08-16 19:21:00,2082.82,pagado,efectivo,app movil
+211,267,2026-10-24 06:05:00,920.34,pagado,efectivo,tienda fisica
+212,198,2026-10-05 07:25:00,556.4,cancelado,efectivo,tienda fisica
+213,346,2026-09-09 00:04:00,2749.32,pendiente,paypal,app movil
+214,206,2026-08-14 02:51:00,279.07,pendiente,transferencia,web
+215,430,2026-09-17 05:58:00,1161.75,pagado,efectivo,tienda fisica
+216,63,2026-10-09 06:18:00,2076.92,enviado,transferencia,tienda fisica
+217,256,2026-08-16 22:06:00,100.0,pagado,paypal,tienda fisica
+218,385,2026-09-05 06:12:00,1069.73,enviado,transferencia,app movil
+219,162,2026-09-23 07:54:00,3154.52,enviado,tarjeta,web
+220,392,2026-10-27 03:35:00,1829.03,enviado,paypal,app movil
+221,498,2026-09-23 01:57:00,2355.09,pagado,efectivo,app movil
+222,415,2026-08-28 22:05:00,557.79,pagado,paypal,web
+223,44,2026-08-14 20:46:00,1999.02,pagado,tarjeta,app movil
+224,357,2026-09-11 02:56:00,1854.65,pendiente,efectivo,app movil
+225,174,2026-10-20 02:01:00,1968.08,pagado,efectivo,app movil
+226,136,2026-11-04 12:52:00,204.58,cancelado,paypal,web
+227,304,2026-09-28 13:41:00,966.8,pendiente,paypal,app movil
+228,412,2026-10-03 08:14:00,1447.2,cancelado,efectivo,web
+229,296,2026-09-08 15:44:00,1529.27,enviado,efectivo,tienda fisica
+230,211,2026-10-01 20:49:00,3260.21,pagado,paypal,app movil
+231,77,2026-10-17 22:04:00,1501.91,pagado,efectivo,app movil
+232,330,2026-11-05 06:25:00,2837.46,pendiente,tarjeta,web
+233,58,2026-08-29 05:56:00,643.1,pendiente,efectivo,app movil
+234,200,2026-10-11 08:34:00,371.63,pagado,transferencia,web
+235,486,2026-10-27 12:12:00,868.49,cancelado,paypal,app movil
+236,431,2026-08-18 21:09:00,2123.6,pagado,efectivo,tienda fisica
+237,155,2026-10-30 14:58:00,1164.48,pagado,transferencia,web
+238,368,2026-09-17 19:35:00,1599.53,pagado,efectivo,tienda fisica
+239,206,2026-10-16 01:34:00,1083.06,pagado,efectivo,tienda fisica
+240,352,2026-09-19 12:06:00,3207.99,enviado,paypal,tienda fisica
+241,213,2026-09-24 16:48:00,1448.56,enviado,paypal,tienda fisica
+242,118,2026-10-30 07:13:00,619.76,pagado,efectivo,tienda fisica
+243,308,2026-10-08 17:55:00,1708.24,pendiente,efectivo,web
+244,396,2026-09-13 00:01:00,657.07,enviado,tarjeta,web
+245,221,2026-10-15 02:32:00,2238.27,pagado,efectivo,tienda fisica
+246,351,2026-08-20 07:22:00,3420.34,pendiente,tarjeta,app movil
+247,38,2026-10-29 04:00:00,2639.87,pendiente,tarjeta,app movil
+248,344,2026-09-24 18:30:00,1871.03,cancelado,tarjeta,tienda fisica
+249,163,2026-08-12 04:54:00,1189.72,enviado,transferencia,app movil
+250,383,2026-09-25 08:20:00,743.72,pagado,efectivo,tienda fisica
+251,437,2026-08-18 01:17:00,1462.79,enviado,tarjeta,web
+252,240,2026-09-16 19:03:00,1068.78,enviado,tarjeta,app movil
+253,384,2026-09-06 13:42:00,3356.89,cancelado,transferencia,tienda fisica
+254,214,2026-11-01 14:36:00,994.35,enviado,tarjeta,app movil
+255,476,2026-10-28 11:58:00,701.27,pagado,tarjeta,web
+256,109,2026-11-04 01:02:00,3289.79,pagado,efectivo,web
+257,146,2026-08-20 00:41:00,1798.29,pagado,tarjeta,app movil
+258,229,2026-09-22 06:45:00,1109.84,pagado,paypal,web
+259,499,2026-09-11 23:55:00,1481.43,pagado,transferencia,app movil
+260,41,2026-09-10 12:45:00,1565.11,pagado,transferencia,tienda fisica
+261,40,2026-11-05 05:29:00,1699.38,pendiente,paypal,app movil
+262,403,2026-10-18 09:36:00,2752.88,pendiente,tarjeta,app movil
+263,109,2026-10-18 20:20:00,4339.89,cancelado,efectivo,tienda fisica
+264,7,2026-10-20 00:37:00,335.24,enviado,paypal,tienda fisica
+265,418,2026-11-07 23:15:00,2581.61,pagado,tarjeta,web
+266,45,2026-10-03 07:11:00,mil pesos,pagado,paypal,app movil
+267,300,2026-10-10 16:08:00,1051.57,pagado,paypal,web
+268,435,2026-09-08 03:15:00,660.71,cancelado,efectivo,web
+269,162,2026-09-01 20:50:00,1301.23,pagado,paypal,app movil
+270,225,2026-10-12 05:41:00,1134.17,pagado,efectivo,tienda fisica
+271,145,2026-08-14 20:04:00,2473.38,enviado,transferencia,web
+272,347,2026-10-21 17:03:00,1148.94,cancelado,tarjeta,web
+273,288,2026-10-13 06:24:00,151.06,pagado,efectivo,app movil
+274,493,2026-10-27 19:24:00,,cancelado,tarjeta,tienda fisica
+275,150,2026-08-12 07:56:00,595.9,cancelado,paypal,tienda fisica
+276,225,2026-09-18 22:47:00,569.32,pagado,paypal,app movil
+277,323,2026-08-17 14:38:00,1084.63,pagado,paypal,web
+278,44,2026-09-28 12:16:00,-3628.22,enviado,transferencia,app movil
+279,215,2026-09-19 23:46:00,1146.91,cancelado,efectivo,tienda fisica
+280,106,2026-09-02 01:42:00,1654.45,cancelado,paypal,tienda fisica
+281,277,2026-10-05 15:43:00,952.41,pendiente,efectivo,tienda fisica
+282,427,2026-10-03 08:35:00,628.69,devuelto??,tarjeta,tienda fisica
+283,294,2026-11-10 07:32:00,1574.37,pagado,transferencia,tienda fisica
+284,72,2026-09-23 05:16:00,933.55,pagado,tarjeta,app movil
+285,218,2026-09-19 20:13:00,904.93,pendiente,tarjeta,app movil
+286,300,2026-09-08 01:17:00,3529.57,enviado,paypal,tienda fisica
+287,61,2026-08-14 15:45:00,4561.16,enviado,paypal,web
+288,268,2026-10-22 18:59:00,1892.48,pagado,efectivo,app movil
+289,63,2026-09-01 11:06:00,1519.64,pendiente,tarjeta,app movil
+290,259,2026-08-21 07:17:00,1720.95,enviado,paypal,web
+291,277,2026-11-05 00:07:00,1514.97,enviado,efectivo,tienda fisica
+292,331,2026-10-26 01:02:00,720.17,cancelado,tarjeta,web
+293,385,2026-09-11 05:51:00,803.65,pendiente,tarjeta,tienda fisica
+294,44,2026-09-03 02:18:00,-3890.46,pagado,paypal,tienda fisica
+295,59,2026-10-29 04:31:00,2109.48,pagado,efectivo,web
+296,348,2026-10-20 21:00:00,-387.17,cancelado,efectivo,web
+297,27,2026-10-16 14:50:00,4167.29,cancelado,transferencia,app movil
+298,120,2026-11-08 13:49:00,2665.4,cancelado,tarjeta,web
+299,257,2026-10-15 18:09:00,1103.52,pagado,transferencia,web
+300,307,2026-10-08 23:48:00,2213.82,enviado,efectivo,tienda fisica
+301,358,2026-10-26 18:14:00,922.44,cancelado,efectivo,app movil
+302,108,2026-09-13 02:33:00,5090.24,pagado,tarjeta,tienda fisica
+303,462,2026-11-09 00:03:00,502.36,pagado,paypal,tienda fisica
+304,424,2026-08-26 10:47:00,1734.11,enviado,transferencia,tienda fisica
+305,228,2026-11-09 15:27:00,748.2,pendiente,efectivo,tienda fisica
+306,496,2026-09-25 21:45:00,775.96,pagado,paypal,tienda fisica
+307,292,2026-09-07 06:09:00,393.83,pagado,transferencia,tienda fisica
+308,133,2026-08-30 15:14:00,1057.48,cancelado,efectivo,web
+309,130,2026-08-15 03:53:00,1166.94,enviado,tarjeta,app movil
+310,141,2026-10-25 23:48:00,528.58,cancelado,paypal,app movil
+311,143,2026-09-18 04:50:00,219.38,enviado,efectivo,web
+312,101,2026-10-20 11:46:00,1081.37,pagado,tarjeta,tienda fisica
+313,304,2026-08-22 11:36:00,2545.12,pagado,transferencia,web
+314,321,2026-09-14 03:15:00,1312.44,pendiente,tarjeta,web
+315,347,2026-11-03 03:55:00,1708.79,pendiente,efectivo,app movil
+316,174,2026-08-18 23:57:00,3010.61,pendiente,paypal,tienda fisica
+317,405,2026-10-17 03:27:00,293.91,pagado,efectivo,app movil
+318,299,2026-09-02 18:02:00,763.02,pagado,paypal,app movil
+319,440,2026-11-04 08:36:00,955.42,pagado,transferencia,web
+320,355,2026-09-12 02:32:00,573.55,pagado,efectivo,tienda fisica
+321,118,2026-09-12 01:43:00,791.85,pagado,transferencia,app movil
+322,184,2026-11-07 04:04:00,1982.11,pendiente,transferencia,app movil
+323,99999,2026-09-28 04:05:00,1124.59,pagado,transferencia,web
+324,336,2026-10-27 11:27:00,249.43,pagado,efectivo,app movil
+325,452,2026-10-25 16:32:00,940.17,pagado,paypal,tienda fisica
+326,28,2026-08-22 13:27:00,2123.74,pagado,paypal,web
+327,92,2026-09-30 10:15:00,5528.76,cancelado,paypal,tienda fisica
+328,203,2026-10-14 12:34:00,3155.55,enviado,paypal,tienda fisica
+329,118,2026-08-28 21:36:00,1477.39,enviado,efectivo,app movil
+330,39,2026-09-26 20:12:00,1898.39,pagado,tarjeta,app movil
+331,20,2026-09-02 16:10:00,146.88,pagado,transferencia,tienda fisica
+332,5,2026-10-03 13:23:00,4837.04,pagado,paypal,app movil
+333,444,2026-09-21 15:14:00,539.2,pagado,transferencia,app movil
+334,16,2026-09-24 18:16:00,1817.5,cancelado,transferencia,app movil
+335,116,2026-09-18 08:29:00,1165.65,enviado,efectivo,app movil
+336,291,2026-08-22 02:26:00,236.18,cancelado,paypal,app movil
+337,88,2026-10-27 23:58:00,1435.45,cancelado,transferencia,web
+338,233,2026-11-03 10:26:00,2729.42,cancelado,tarjeta,web
+339,159,2026-09-16 00:19:00,2377.63,enviado,transferencia,tienda fisica
+340,229,2026-11-02 09:23:00,1304.57,cancelado,transferencia,tienda fisica
+341,314,2026-10-19 08:50:00,3723.57,pagado,transferencia,tienda fisica
+342,276,2026-10-04 00:15:00,1597.11,pendiente,transferencia,app movil
+343,259,2026-09-30 09:01:00,100.0,enviado,transferencia,app movil
+344,328,2026-08-13 23:57:00,249.4,enviado,paypal,app movil
+345,470,2026-10-24 11:51:00,384.95,enviado,paypal,app movil
+346,88,2026-11-08 02:17:00,1096.96,pendiente,transferencia,app movil
+347,366,2026-11-05 23:58:00,895.79,cancelado,transferencia,app movil
+348,27,2026-08-26 22:51:00,1390.14,pendiente,paypal,web
+349,349,2026-08-17 20:51:00,1173.47,pagado,tarjeta,tienda fisica
+350,288,2026-08-22 16:32:00,801.56,cancelado,transferencia,tienda fisica
+351,200,2026-10-14 07:21:00,2517.41,pagado,tarjeta,tienda fisica
+352,275,2026-08-30 17:09:00,1335.73,pagado,tarjeta,tienda fisica
+353,230,2026-09-23 05:34:00,,pagado,tarjeta,web
+354,152,2026-10-16 17:50:00,878.81,enviado,transferencia,tienda fisica
+355,118,2026-09-29 11:19:00,2903.18,pagado,transferencia,tienda fisica
+356,94,31/02/2026 25:61,1627.51,pendiente,tarjeta,app movil
+357,65,2026-10-30 17:05:00,258.44,cancelado,transferencia,web
+358,296,2026-09-14 01:19:00,3140.71,pagado,efectivo,app movil
+359,222,2026-10-22 06:33:00,2139.63,pendiente,paypal,app movil
+360,233,2026-10-05 10:12:00,2286.67,cancelado,paypal,web
+361,497,2026-09-24 09:54:00,2957.2,enviado,efectivo,tienda fisica
+362,198,2026-08-30 17:28:00,332.82,pagado,paypal,app movil
+363,377,2026-10-10 14:44:00,1330.93,enviado,tarjeta,app movil
+364,310,2026-09-12 23:46:00,556.76,pagado,efectivo,web
+365,362,2026-08-27 20:16:00,709.89,cancelado,transferencia,app movil
+366,294,2026-09-27 18:08:00,1022.8,pagado,transferencia,tienda fisica
+367,214,2026-08-19 13:10:00,1184.02,enviado,transferencia,web
+368,291,2026-10-14 16:40:00,1063.33,pagado,tarjeta,tienda fisica
+369,445,2026-08-21 17:20:00,3182.07,pendiente,efectivo,web
+370,32,2026-10-07 22:46:00,948.03,cancelado,tarjeta,web
+371,493,2026-10-07 06:25:00,1162.75,enviado,efectivo,tienda fisica
+372,30,2026-09-26 11:44:00,2133.96,pendiente,tarjeta,app movil
+373,338,2026-09-11 05:26:00,1853.17,enviado,transferencia,web
+374,249,2026-09-20 02:06:00,1200.88,pendiente,efectivo,app movil
+375,66,2026-09-08 20:02:00,2921.42,pagado,paypal,web
+376,125,2026-10-14 17:11:00,3181.4,pendiente,tarjeta,app movil
+377,393,2026-10-06 15:29:00,457.91,pagado,paypal,tienda fisica
+378,478,2026-08-29 02:30:00,1187.12,pendiente,efectivo,app movil
+379,380,2026-08-27 16:35:00,4977.36,pendiente,efectivo,web
+380,479,2026-10-25 05:16:00,1371.19,cancelado,transferencia,web
+381,341,2026-08-13 21:50:00,2102.04,cancelado,efectivo,app movil
+382,324,2026-10-14 06:07:00,2913.46,pagado,paypal,web
+383,418,2026-08-18 17:34:00,607.99,pendiente,paypal,app movil
+384,50,2026-10-25 11:58:00,2462.04,cancelado,tarjeta,tienda fisica
+385,460,2026-10-23 15:51:00,1541.29,pagado,transferencia,tienda fisica
+386,50,2026-09-26 06:50:00,1200.65,pagado,tarjeta,web
+387,204,2026-09-09 12:41:00,1568.97,cancelado,transferencia,tienda fisica
+388,196,2026-10-06 01:25:00,836.42,enviado,efectivo,web
+389,343,2026-09-06 15:20:00,470.02,pendiente,paypal,app movil
+390,248,2026-08-19 23:01:00,323.34,enviado,efectivo,tienda fisica
+391,251,2026-11-02 05:18:00,1446.43,cancelado,tarjeta,web
+392,93,2026-11-10 04:04:00,400.0,enviado,efectivo,web
+393,44,2026-10-26 05:44:00,1536.82,pagado,efectivo,tienda fisica
+394,485,2026-09-05 13:00:00,2208.39,cancelado,paypal,web
+395,420,2026-11-05 14:55:00,1768.34,pendiente,transferencia,web
+396,143,2026-10-25 01:46:00,2085.45,enviado,tarjeta,tienda fisica
+397,37,2026-08-22 13:49:00,3735.58,pagado,efectivo,tienda fisica
+398,494,2026-08-25 14:34:00,1465.84,pendiente,efectivo,web
+399,51,2026-09-23 15:25:00,1774.82,enviado,tarjeta,web
+400,139,2026-08-25 19:38:00,1765.89,pendiente,transferencia,app movil
+401,5,2026-08-15 05:29:00,2105.18,pagado,transferencia,web
+402,235,2026-10-18 08:02:00,1624.82,pagado,paypal,tienda fisica
+403,374,2026-10-11 19:49:00,2034.26,pagado,tarjeta,web
+404,64,2026-09-20 22:32:00,2839.61,cancelado,transferencia,tienda fisica
+405,477,2026-09-04 15:20:00,3175.17,pagado,tarjeta,app movil
+406,128,2026-09-02 18:59:00,3037.43,pagado,efectivo,app movil
+407,264,2026-11-06 07:12:00,1144.04,cancelado,paypal,web
+408,221,2026-09-09 16:16:00,512.27,pendiente,transferencia,app movil
+409,275,2026-10-07 19:18:00,2265.77,enviado,paypal,web
+410,170,2026-11-06 17:32:00,1515.32,pagado,paypal,tienda fisica
+411,254,2026-08-15 18:40:00,604.66,pagado,paypal,tienda fisica
+412,348,2026-09-28 08:21:00,1611.68,cancelado,tarjeta,app movil
+413,128,2026-10-06 19:05:00,5610.77,pagado,transferencia,tienda fisica
+414,93,2026-10-17 02:50:00,1768.73,pagado,transferencia,web
+415,219,2026-11-08 01:58:00,1226.72,pagado,tarjeta,web
+416,330,2026-11-04 12:37:00,2806.58,pendiente,efectivo,app movil
+417,339,2026-09-30 15:46:00,977.67,pagado,paypal,app movil
+418,486,2026-09-09 10:36:00,564.96,pagado,efectivo,web
+419,170,2026-09-25 10:40:00,932.1,cancelado,efectivo,web
+420,381,2026-08-25 18:54:00,1531.52,pendiente,transferencia,web
+421,176,2026-10-03 06:49:00,721.12,pagado,transferencia,web
+422,269,2026-09-07 22:16:00,1325.8,pagado,efectivo,tienda fisica
+423,273,2026-09-06 20:27:00,1877.45,pagado,paypal,tienda fisica
+424,234,2026-09-07 05:05:00,3125.2,pagado,efectivo,web
+425,328,2026-10-23 13:32:00,602.88,pagado,efectivo,web
+426,310,2026-09-24 11:56:00,1127.49,pendiente,efectivo,tienda fisica
+427,132,2026-11-08 04:40:00,1647.91,cancelado,tarjeta,tienda fisica
+428,298,2026-08-22 09:31:00,3026.27,pagado,paypal,web
+429,483,2026-10-18 00:54:00,2473.5,pagado,tarjeta,app movil
+430,219,2026-10-10 07:29:00,1461.67,enviado,tarjeta,tienda fisica
+431,197,2026-11-08 19:15:00,119.31,pendiente,tarjeta,web
+432,308,2026-11-09 22:41:00,456.05,pendiente,efectivo,tienda fisica
+433,246,2026-10-22 14:41:00,3504.34,pendiente,efectivo,tienda fisica
+434,152,2026-10-28 05:33:00,113.65,enviado,transferencia,web
+435,76,2026-09-26 00:38:00,672.3,pagado,transferencia,tienda fisica
+436,115,2026-10-28 13:23:00,127.84,pagado,tarjeta,tienda fisica
+437,93,2026-08-16 08:30:00,888.42,pagado,efectivo,tienda fisica
+438,442,2026-10-22 00:37:00,1551.24,pagado,efectivo,web
+439,164,2026-09-08 08:32:00,1352.84,enviado,paypal,tienda fisica
+440,273,2026-09-03 15:09:00,1508.06,enviado,tarjeta,tienda fisica
+441,436,2026-11-08 10:38:00,542.15,cancelado,paypal,web
+442,151,2026-09-13 18:05:00,522.27,cancelado,paypal,web
+443,376,2026-11-06 23:15:00,763.22,enviado,efectivo,web
+444,16,2026-10-23 10:32:00,3181.4,pagado,tarjeta,web
+445,401,2026-08-19 23:17:00,2813.32,pendiente,efectivo,web
+446,83,2026-11-09 09:29:00,226.06,enviado,paypal,tienda fisica
+447,268,2026-09-23 18:44:00,2137.01,pagado,paypal,tienda fisica
+448,161,2026-08-19 01:06:00,3533.63,devuelto??,paypal,web
+449,278,2026-10-28 20:47:00,1183.35,pagado,tarjeta,app movil
+450,290,2026-11-05 03:46:00,385.75,enviado,tarjeta,web
+451,183,2026-10-24 23:01:00,1963.08,pendiente,efectivo,app movil
+452,301,2026-09-23 06:44:00,345.46,cancelado,tarjeta,app movil
+453,374,2026-08-25 00:46:00,1946.67,cancelado,efectivo,app movil
+454,107,2026-08-24 02:18:00,2383.55,pendiente,transferencia,tienda fisica
+455,479,2026-10-04 17:30:00,2850.7,pendiente,efectivo,tienda fisica
+456,396,2026-09-13 14:12:00,256.4,enviado,efectivo,app movil
+457,206,2026-09-19 01:51:00,1076.52,pagado,paypal,app movil
+458,330,2026-11-03 14:39:00,2208.64,cancelado,tarjeta,web
+459,48,2026-09-27 07:06:00,2385.6,enviado,paypal,web
+460,206,2026-09-29 20:48:00,1038.92,pagado,efectivo,tienda fisica
+461,17,2026-08-26 10:02:00,3455.81,pendiente,efectivo,app movil
+462,130,2026-08-21 17:00:00,1461.36,pendiente,transferencia,web
+463,269,2026-10-14 00:09:00,835.77,pagado,transferencia,web
+464,224,2026-09-25 23:21:00,4683.09,cancelado,paypal,web
+465,422,2026-10-01 22:31:00,1468.17,pagado,paypal,web
+466,497,2026-08-28 19:41:00,3041.74,pendiente,transferencia,tienda fisica
+467,190,2026-09-25 22:27:00,3390.31,pagado,efectivo,tienda fisica
+468,234,2026-09-19 09:00:00,890.82,pagado,efectivo,tienda fisica
+469,278,2026-09-16 09:59:00,2132.99,pagado,paypal,tienda fisica
+470,333,2026-11-08 01:58:00,130.07,enviado,tarjeta,app movil
+471,298,2026-11-06 00:13:00,465.19,pagado,paypal,web
+472,482,2026-09-24 15:22:00,2687.94,cancelado,efectivo,app movil
+473,79,2026-09-24 05:18:00,431.49,cancelado,efectivo,app movil
+474,200,2026-10-19 09:15:00,1503.45,pagado,transferencia,app movil
+475,470,2026-10-08 04:08:00,858.63,pagado,efectivo,web
+476,395,2026-08-27 17:47:00,225.98,pendiente,tarjeta,tienda fisica
+477,100,2026-09-03 14:38:00,,enviado,efectivo,tienda fisica
+478,236,2026-08-26 18:49:00,475.72,pendiente,transferencia,app movil
+479,52,2026-09-09 22:16:00,624.73,enviado,tarjeta,app movil
+480,456,2026-10-01 01:23:00,704.03,enviado,transferencia,web
+481,500,2026-09-28 11:10:00,1496.63,enviado,tarjeta,web
+482,111,2026-09-25 19:05:00,3005.38,pagado,tarjeta,app movil
+483,141,2026-09-10 16:12:00,747.76,pendiente,efectivo,tienda fisica
+484,352,2026-10-06 09:36:00,1590.02,pendiente,efectivo,web
+485,291,2026-09-26 10:15:00,3686.69,pendiente,paypal,web
+486,93,2026-09-30 08:21:00,1568.4,pagado,efectivo,web
+487,169,2026-10-14 07:07:00,554.34,cancelado,efectivo,web
+488,458,2026-08-20 08:37:00,2173.78,enviado,efectivo,app movil
+489,141,2026-09-18 18:56:00,1554.2,pendiente,paypal,web
+490,19,2026-09-03 05:00:00,1494.5,pendiente,efectivo,tienda fisica
+491,202,2026-10-02 23:14:00,3012.63,enviado,paypal,tienda fisica
+492,15,2026-10-13 21:23:00,500.0,pendiente,transferencia,web
+493,485,2026-10-03 20:27:00,786.79,pagado,efectivo,tienda fisica
+494,327,2026-09-14 00:12:00,3893.96,pendiente,transferencia,tienda fisica
+495,428,2026-10-10 00:30:00,4485.36,pagado,tarjeta,web
+496,111,2026-09-12 09:52:00,248.65,pagado,paypal,web
+497,470,2026-09-25 09:51:00,1806.89,enviado,transferencia,app movil
+498,449,2026-10-28 19:15:00,640.52,pagado,tarjeta,app movil
+499,181,2026-10-08 18:58:00,512.24,cancelado,tarjeta,app movil
+500,226,2026-10-07 10:23:00,1480.65,pendiente,tarjeta,tienda fisica
+501,56,2026-08-15 21:18:00,5593.96,pagado,tarjeta,web
+502,34,2026-09-03 19:34:00,675.42,pagado,transferencia,tienda fisica
+503,306,2026-10-05 22:54:00,2211.88,pendiente,transferencia,tienda fisica
+504,99999,2026-11-09 00:16:00,1304.23,enviado,paypal,app movil
+505,181,2026-09-11 03:06:00,90.0,pendiente,paypal,web
+506,149,2026-10-12 05:05:00,525.12,cancelado,transferencia,web
+507,252,2026-09-27 04:23:00,626.83,pagado,paypal,app movil
+508,171,2026-09-05 00:21:00,139.3,cancelado,paypal,web
+509,338,2026-10-23 10:49:00,1245.08,enviado,tarjeta,web
+510,491,2026-09-04 17:02:00,1624.27,pagado,efectivo,app movil
+511,291,2026-09-27 13:10:00,3718.11,pendiente,tarjeta,app movil
+512,341,2026-10-21 12:39:00,2302.34,enviado,efectivo,web
+513,145,2026-08-27 18:48:00,611.74,devuelto??,paypal,app movil
+514,180,2026-10-05 05:52:00,1005.9,cancelado,transferencia,web
+515,113,2026-11-06 06:51:00,1046.99,pagado,transferencia,tienda fisica
+516,72,2026-08-15 16:12:00,3266.11,pagado,transferencia,app movil
+517,50,2026-10-24 05:02:00,998.59,enviado,efectivo,tienda fisica
+518,14,2026-09-18 19:59:00,1882.97,pagado,efectivo,web
+519,207,2026-08-17 22:48:00,2514.36,enviado,paypal,web
+520,170,2026-11-03 18:52:00,1248.41,cancelado,tarjeta,tienda fisica
+521,322,2026-10-02 22:47:00,mil pesos,enviado,transferencia,web
+522,105,2026-10-28 06:50:00,,pendiente,paypal,app movil
+523,316,2026-10-26 08:15:00,2282.21,pagado,tarjeta,web
+524,244,2026-09-10 13:07:00,1791.9,pagado,tarjeta,tienda fisica
+525,146,2026-09-13 18:54:00,1596.79,cancelado,paypal,web
+526,22,2026-09-26 18:15:00,mil pesos,enviado,paypal,app movil
+527,336,2026-10-22 11:00:00,1772.89,cancelado,efectivo,app movil
+528,493,2026-09-11 02:20:00,2057.81,pagado,efectivo,web
+529,50,2026-08-17 19:23:00,2428.22,enviado,paypal,app movil
+530,32,2026-08-24 14:28:00,2136.12,devuelto??,tarjeta,tienda fisica
+531,358,2026-09-14 10:07:00,848.52,pagado,transferencia,web
+532,492,2026-08-17 19:43:00,1608.94,pagado,tarjeta,web
+533,98,2026-10-15 03:32:00,1638.32,enviado,efectivo,app movil
+534,292,2026-10-31 18:40:00,1005.22,cancelado,efectivo,web
+535,421,2026-10-04 14:26:00,1552.24,enviado,efectivo,web
+536,478,2026-08-24 05:56:00,,pagado,paypal,tienda fisica
+537,419,2026-09-29 00:22:00,3278.08,pendiente,transferencia,app movil
+538,307,2026-08-24 20:15:00,165.39,cancelado,paypal,web
+539,260,2026-10-13 00:49:00,109.87,pagado,paypal,app movil
+540,312,2026-09-22 23:44:00,601.76,pendiente,paypal,web
+541,181,2026-10-17 11:18:00,2377.68,enviado,tarjeta,web
+542,386,2026-09-03 03:37:00,566.14,pendiente,tarjeta,tienda fisica
+543,225,2026-10-18 13:22:00,160.25,pendiente,efectivo,app movil
+544,63,2026-08-18 20:23:00,1572.5,pendiente,efectivo,tienda fisica
+545,458,2026-10-07 12:07:00,1767.04,cancelado,tarjeta,web
+546,63,2026-09-24 18:10:00,2726.86,pendiente,transferencia,tienda fisica
+547,438,2026-08-24 09:54:00,1856.17,enviado,tarjeta,app movil
+548,95,2026-08-18 08:18:00,256.4,cancelado,tarjeta,tienda fisica
+549,372,2026-08-23 08:12:00,4139.52,enviado,tarjeta,web
+550,240,2026-10-11 18:30:00,2558.19,pendiente,efectivo,tienda fisica
+551,173,2026-08-29 09:32:00,3680.65,pendiente,efectivo,app movil
+552,434,2026-10-19 07:52:00,-4104.86,enviado,tarjeta,app movil
+553,283,2026-10-01 20:49:00,3761.01,enviado,transferencia,app movil
+554,59,2026-08-19 21:42:00,2863.81,pagado,paypal,tienda fisica
+555,368,2026-11-05 02:31:00,705.91,pagado,efectivo,web
+556,293,2026-09-23 23:46:00,233.36,enviado,tarjeta,tienda fisica
+557,483,2026-10-04 01:47:00,mil pesos,pendiente,transferencia,app movil
+558,414,2026-10-01 05:34:00,578.25,cancelado,efectivo,web
+559,391,2026-08-19 20:20:00,651.24,pendiente,transferencia,tienda fisica
+560,100,2026-08-29 13:00:00,3573.15,pagado,efectivo,web
+561,491,2026-09-19 10:39:00,1601.0,pendiente,efectivo,tienda fisica
+562,474,2026-09-03 14:39:00,3486.5,enviado,transferencia,tienda fisica
+563,254,2026-08-22 16:15:00,2041.95,pagado,paypal,web
+564,68,2026-09-06 04:56:00,3832.0,enviado,paypal,app movil
+565,312,2026-08-24 19:20:00,1783.25,pendiente,tarjeta,tienda fisica
+566,43,2026-10-22 22:45:00,2765.5,cancelado,efectivo,tienda fisica
+567,25,2026-08-30 05:20:00,1994.08,cancelado,paypal,app movil
+568,451,2026-08-24 12:17:00,1887.11,pendiente,efectivo,app movil
+569,474,2026-10-12 00:16:00,5643.72,pagado,transferencia,web
+570,4,2026-09-09 22:08:00,1909.35,pagado,transferencia,app movil
+571,45,2026-10-24 13:30:00,3713.02,pendiente,efectivo,web
+572,142,2026-09-13 01:29:00,1177.23,cancelado,tarjeta,tienda fisica
+573,407,2026-09-05 12:10:00,225.98,pagado,tarjeta,tienda fisica
+574,241,2026-10-22 06:28:00,830.83,pagado,paypal,app movil
+575,223,2026-11-02 06:16:00,777.36,cancelado,transferencia,tienda fisica
+576,431,2026-10-12 13:02:00,2758.13,enviado,paypal,tienda fisica
+577,497,2026-09-14 11:54:00,1941.18,pagado,paypal,web
+578,308,2026-09-18 23:33:00,1940.11,pagado,tarjeta,app movil
+579,346,2026-10-01 08:58:00,738.65,enviado,paypal,app movil
+580,113,2026-09-28 01:17:00,912.1,pendiente,efectivo,app movil
+581,169,2026-10-25 02:22:00,2500.87,cancelado,tarjeta,tienda fisica
+582,393,2026-09-01 20:51:00,784.14,pendiente,transferencia,app movil
+583,467,2026-09-24 11:42:00,858.09,enviado,transferencia,tienda fisica
+584,53,2026-09-07 09:26:00,173.49,enviado,tarjeta,web
+585,140,2026-10-26 10:07:00,353.84,enviado,transferencia,tienda fisica
+586,370,2026-08-12 08:50:00,144.22,pendiente,tarjeta,tienda fisica
+587,402,2026-09-30 08:30:00,1043.15,cancelado,tarjeta,app movil
+588,150,2026-09-17 19:50:00,1095.53,pagado,paypal,tienda fisica
+589,391,2026-09-02 19:19:00,5751.43,enviado,transferencia,tienda fisica
+590,288,2026-10-20 15:55:00,1296.32,enviado,transferencia,web
+591,165,2026-08-14 03:43:00,4102.01,cancelado,paypal,web
+592,492,2026-08-19 14:58:00,2309.03,pagado,paypal,tienda fisica
+593,40,2026-09-23 18:40:00,370.08,pendiente,transferencia,tienda fisica
+594,88,2026-08-22 05:06:00,1631.77,enviado,transferencia,tienda fisica
+595,289,2026-08-19 17:21:00,1938.81,pagado,efectivo,tienda fisica
+596,269,2026-09-11 22:40:00,2461.54,pagado,paypal,web
+597,97,2026-10-15 23:19:00,201.14,pendiente,paypal,app movil
+598,300,2026-10-02 10:28:00,3188.76,cancelado,paypal,app movil
+599,92,2026-10-08 03:46:00,1032.55,pendiente,transferencia,tienda fisica
+600,111,2026-10-30 02:01:00,922.03,pagado,transferencia,web
+601,71,2026-09-06 08:00:00,139.1,enviado,paypal,app movil
+602,194,2026-09-22 06:49:00,554.23,pagado,efectivo,tienda fisica
+603,485,2026-08-21 13:32:00,251.18,pagado,paypal,tienda fisica
+604,395,2026-08-17 11:12:00,1469.85,enviado,transferencia,tienda fisica
+605,227,2026-09-25 05:03:00,1425.1,pagado,tarjeta,tienda fisica
+606,472,2026-11-09 02:18:00,270.0,pagado,tarjeta,tienda fisica
+607,324,2026-09-13 06:16:00,1774.28,pagado,paypal,tienda fisica
+608,314,2026-10-22 16:58:00,578.31,pagado,tarjeta,app movil
+609,364,2026-11-03 12:17:00,374.88,pendiente,efectivo,web
+610,87,2026-08-27 10:30:00,104.14,cancelado,tarjeta,tienda fisica
+611,76,2026-10-07 20:09:00,146.72,pagado,paypal,web
+612,141,2026-08-31 11:02:00,1514.61,pendiente,efectivo,app movil
+613,60,2026-10-30 16:47:00,642.92,pendiente,transferencia,app movil
+614,112,2026-08-21 10:13:00,292.74,enviado,tarjeta,tienda fisica
+615,147,2026-10-19 13:29:00,1968.97,pagado,efectivo,app movil
+616,226,2026-10-08 19:51:00,1558.55,enviado,efectivo,tienda fisica
+617,331,2026-08-15 13:09:00,3319.19,pagado,efectivo,tienda fisica
+618,265,2026-08-18 01:28:00,2415.32,pagado,paypal,web
+619,184,2026-11-09 17:35:00,2300.08,enviado,paypal,app movil
+620,84,2026-09-12 04:21:00,300.0,pagado,tarjeta,app movil
+621,248,2026-08-16 09:19:00,4020.86,pagado,tarjeta,web
+622,489,2026-08-29 09:20:00,671.84,cancelado,tarjeta,web
+623,497,2026-10-30 12:27:00,2340.09,pagado,efectivo,app movil
+624,371,2026-10-10 17:45:00,1964.68,cancelado,efectivo,web
+625,193,2026-09-12 14:43:00,1951.14,pendiente,paypal,web
+626,202,2026-09-03 20:34:00,1696.61,pagado,paypal,tienda fisica
+627,394,2026-10-11 10:25:00,674.75,pagado,efectivo,tienda fisica
+628,335,2026-10-18 08:29:00,2354.11,pagado,efectivo,app movil
+629,352,2026-10-29 00:37:00,2268.29,enviado,tarjeta,web
+630,325,2026-10-27 02:24:00,1526.36,enviado,efectivo,app movil
+631,173,2026-08-12 02:52:00,1521.61,pagado,transferencia,tienda fisica
+632,190,2026-10-09 08:29:00,2123.47,pagado,efectivo,web
+633,153,2026-08-21 21:48:00,1698.95,cancelado,tarjeta,app movil
+634,177,2026-09-12 23:29:00,3726.96,cancelado,transferencia,tienda fisica
+635,475,2026-08-21 12:42:00,427.9,enviado,paypal,web
+636,264,2026-09-02 14:41:00,2682.34,pendiente,efectivo,tienda fisica
+637,209,2026-10-15 22:22:00,2732.28,enviado,transferencia,app movil
+638,373,2026-08-25 07:17:00,1001.39,cancelado,paypal,tienda fisica
+639,273,2026-08-13 17:12:00,3570.02,enviado,efectivo,app movil
+640,177,2026-10-31 15:55:00,625.93,cancelado,efectivo,app movil
+641,290,2026-09-16 08:50:00,1405.37,pendiente,efectivo,tienda fisica
+642,50,2026-09-21 15:33:00,2583.9,pagado,tarjeta,tienda fisica
+643,215,2026-08-26 13:29:00,1525.39,pagado,efectivo,tienda fisica
+644,423,2026-09-14 17:39:00,2824.97,devuelto??,paypal,app movil
+645,15,2026-08-23 15:21:00,3786.91,pagado,tarjeta,tienda fisica
+646,381,2026-08-26 00:41:00,2626.08,enviado,transferencia,web
+647,151,2026-11-02 21:57:00,1579.52,pagado,paypal,app movil
+648,384,2026-11-05 23:44:00,713.33,enviado,paypal,app movil
+649,247,2026-11-03 13:01:00,1837.42,enviado,tarjeta,app movil
+650,337,2026-09-28 18:10:00,1527.62,pagado,paypal,web
+651,152,2026-08-14 07:50:00,2153.82,pagado,paypal,tienda fisica
+652,289,2026-09-25 13:04:00,2073.46,pagado,transferencia,tienda fisica
+653,132,2026-08-21 15:14:00,2154.32,pendiente,transferencia,tienda fisica
+654,261,2026-09-05 09:09:00,1460.66,enviado,transferencia,app movil
+655,460,2026-09-23 22:31:00,2431.73,pendiente,efectivo,web
+656,101,2026-09-26 05:59:00,575.9,enviado,tarjeta,tienda fisica
+657,321,2026-10-29 11:46:00,597.22,cancelado,tarjeta,app movil
+658,268,2026-10-10 14:39:00,421.74,pagado,transferencia,tienda fisica
+659,283,2026-10-06 19:53:00,1339.08,pagado,tarjeta,web
+660,300,2026-08-28 06:43:00,370.54,enviado,tarjeta,tienda fisica
+661,245,2026-10-27 07:55:00,77.95,pendiente,paypal,web
+662,221,2026-10-27 07:54:00,936.94,pagado,paypal,web
+663,445,2026-09-03 14:31:00,2308.76,pagado,efectivo,tienda fisica
+664,241,2026-09-08 17:26:00,1489.62,pagado,tarjeta,app movil
+665,352,2026-09-03 16:46:00,276.79,pagado,tarjeta,web
+666,80,2026-09-30 17:40:00,1423.6,pagado,paypal,web
+667,400,2026-10-07 15:12:00,3206.72,pagado,paypal,app movil
+668,391,2026-09-18 22:49:00,1190.61,enviado,tarjeta,app movil
+669,339,2026-10-09 12:57:00,2392.38,pagado,tarjeta,app movil
+670,125,2026-10-21 11:54:00,2097.62,enviado,paypal,web
+671,276,2026-09-24 08:03:00,4407.24,pagado,tarjeta,app movil
+672,448,2026-10-22 02:53:00,556.4,pagado,transferencia,tienda fisica
+673,272,2026-10-03 23:28:00,1159.71,pendiente,transferencia,web
+674,186,2026-09-29 16:13:00,1939.54,pagado,efectivo,tienda fisica
+675,211,2026-09-17 09:29:00,94.47,enviado,tarjeta,tienda fisica
+676,295,2026-09-29 01:21:00,1996.59,pendiente,tarjeta,tienda fisica
+677,434,2026-10-30 03:25:00,184.12,enviado,transferencia,web
+678,233,2026-09-03 23:22:00,3525.84,enviado,tarjeta,app movil
+679,5,2026-10-13 12:00:00,302.12,enviado,transferencia,app movil
+680,97,2026-10-23 15:58:00,802.6,pagado,transferencia,web
+681,179,2026-11-02 11:50:00,470.48,pagado,transferencia,tienda fisica
+682,64,2026-09-23 22:08:00,1299.61,enviado,transferencia,app movil
+683,260,2026-08-28 05:23:00,813.85,pendiente,transferencia,web
+684,131,2026-09-06 19:11:00,3820.69,enviado,tarjeta,web
+685,330,2026-09-22 06:55:00,2221.08,pendiente,efectivo,tienda fisica
+686,72,2026-08-14 06:58:00,2596.41,pendiente,tarjeta,tienda fisica
+687,380,31/02/2026 25:61,2531.88,pagado,tarjeta,web
+688,456,2026-09-11 21:50:00,1784.04,pagado,paypal,web
+689,215,2026-11-02 19:10:00,508.85,enviado,paypal,app movil
+690,490,2026-08-24 00:12:00,1730.24,pendiente,paypal,app movil
+691,338,2026-10-31 19:46:00,706.53,enviado,efectivo,tienda fisica
+692,364,2026-09-12 00:12:00,1278.73,cancelado,efectivo,web
+693,94,2026-11-09 18:08:00,1304.55,pendiente,transferencia,web
+694,440,2026-09-27 16:36:00,855.53,cancelado,paypal,app movil
+695,175,2026-09-09 04:16:00,4254.24,enviado,tarjeta,tienda fisica
+696,500,2026-09-13 19:13:00,553.6,pendiente,efectivo,web
+697,73,2026-08-15 15:26:00,2081.94,pendiente,transferencia,tienda fisica
+698,277,2026-10-11 23:20:00,2399.78,cancelado,transferencia,app movil
+699,483,2026-08-24 08:32:00,1184.07,pagado,efectivo,web
+700,129,2026-08-12 04:02:00,2563.48,pagado,transferencia,tienda fisica
+701,74,2026-09-10 17:32:00,468.6,pagado,paypal,web
+702,78,2026-10-15 07:52:00,,pagado,efectivo,app movil
+703,421,2026-10-26 04:32:00,2322.42,devuelto??,paypal,web
+704,355,2026-09-09 13:04:00,3017.36,pagado,tarjeta,web
+705,432,2026-10-06 14:25:00,1632.52,cancelado,efectivo,app movil
+706,303,2026-09-16 00:17:00,1804.52,pagado,tarjeta,tienda fisica
+707,61,2026-10-11 10:42:00,1697.51,cancelado,paypal,app movil
+708,294,2026-09-05 21:44:00,661.54,enviado,paypal,tienda fisica
+709,150,2026-09-19 22:02:00,843.07,enviado,efectivo,app movil
+710,108,2026-08-31 04:20:00,2024.81,pagado,paypal,app movil
+711,379,2026-10-12 12:12:00,649.73,pagado,tarjeta,tienda fisica
+712,413,31/02/2026 25:61,1347.08,pagado,transferencia,app movil
+713,357,2026-11-01 16:14:00,3226.79,pendiente,tarjeta,tienda fisica
+714,292,2026-10-31 11:57:00,4007.62,pagado,paypal,web
+715,113,31/02/2026 25:61,930.14,enviado,transferencia,web
+716,213,2026-08-31 04:12:00,309.09,cancelado,transferencia,app movil
+717,164,2026-09-02 10:49:00,3437.46,pendiente,transferencia,app movil
+718,244,2026-09-03 12:18:00,911.45,pendiente,transferencia,tienda fisica
+719,225,2026-09-08 02:50:00,1880.46,enviado,tarjeta,web
+720,130,2026-11-07 02:36:00,2127.98,enviado,paypal,tienda fisica
+721,357,2026-08-16 12:37:00,614.05,pagado,transferencia,tienda fisica
+722,62,2026-11-01 02:03:00,2627.64,pendiente,paypal,tienda fisica
+723,476,2026-09-08 18:56:00,3760.65,pagado,tarjeta,web
+724,221,2026-10-09 05:57:00,1473.57,pendiente,transferencia,app movil
+725,132,2026-11-08 02:19:00,240.25,pendiente,tarjeta,tienda fisica
+726,157,2026-11-07 03:37:00,657.91,cancelado,efectivo,web
+727,500,2026-09-27 19:42:00,1113.8,pagado,efectivo,tienda fisica
+728,56,2026-09-26 23:42:00,1553.46,pagado,transferencia,web
+729,402,2026-09-14 19:02:00,1859.93,cancelado,tarjeta,app movil
+730,31,2026-09-10 00:30:00,826.35,cancelado,tarjeta,tienda fisica
+731,103,2026-10-05 12:04:00,3186.55,pagado,paypal,web
+732,200,2026-10-02 06:01:00,2403.22,pagado,tarjeta,tienda fisica
+733,89,2026-08-20 12:18:00,3275.87,pendiente,tarjeta,web
+734,358,2026-11-05 15:41:00,1988.86,pendiente,paypal,web
+735,473,2026-09-23 15:59:00,1126.89,pendiente,efectivo,web
+736,127,2026-08-23 00:11:00,1775.89,pagado,paypal,tienda fisica
+737,432,2026-10-17 06:21:00,2105.65,pagado,tarjeta,tienda fisica
+738,340,2026-08-14 15:24:00,1113.52,pendiente,tarjeta,web
+739,439,2026-08-30 14:05:00,1302.27,pendiente,tarjeta,app movil
+740,19,2026-09-11 06:40:00,1022.49,pendiente,tarjeta,web
+741,225,2026-10-23 07:55:00,1516.13,cancelado,tarjeta,tienda fisica
+742,8,2026-10-22 11:21:00,304.35,pagado,transferencia,app movil
+743,485,2026-10-04 05:45:00,1038.92,pendiente,transferencia,web
+744,286,2026-10-21 18:07:00,2114.32,cancelado,efectivo,web
+745,9,2026-08-23 17:13:00,1497.69,pagado,efectivo,web
+746,196,2026-11-10 03:48:00,372.84,pendiente,paypal,tienda fisica
+747,333,2026-09-11 03:30:00,400.27,enviado,efectivo,tienda fisica
+748,451,2026-09-25 15:22:00,2510.09,pagado,efectivo,tienda fisica
+749,451,2026-09-02 15:16:00,2947.79,enviado,transferencia,tienda fisica
+750,205,2026-10-24 04:55:00,5079.56,pagado,transferencia,web
+751,192,2026-08-20 12:32:00,3054.05,pagado,paypal,web
+752,222,2026-10-18 07:53:00,5177.35,pendiente,transferencia,app movil
+753,401,2026-10-16 17:52:00,1966.63,enviado,efectivo,app movil
+754,377,2026-08-22 21:48:00,-1156.79,pendiente,tarjeta,web
+755,320,2026-10-01 03:06:00,879.79,enviado,paypal,app movil
+756,467,2026-08-23 09:01:00,670.45,pagado,paypal,tienda fisica
+757,451,2026-09-23 06:52:00,1086.82,enviado,paypal,web
+758,454,2026-09-28 20:06:00,1238.59,pagado,tarjeta,web
+759,406,2026-10-31 10:54:00,1851.21,cancelado,paypal,web
+760,333,2026-10-10 23:06:00,1393.3,pagado,efectivo,app movil
+761,17,2026-10-25 01:42:00,1215.75,pendiente,tarjeta,app movil
+762,363,2026-09-28 18:29:00,2743.88,pagado,efectivo,tienda fisica
+763,12,2026-10-25 19:21:00,742.78,pagado,tarjeta,web
+764,7,2026-09-28 01:56:00,578.48,pendiente,transferencia,tienda fisica
+765,47,2026-10-30 22:53:00,,enviado,transferencia,web
+766,375,2026-08-16 02:48:00,2822.24,pendiente,paypal,web
+767,74,2026-09-02 03:22:00,565.68,pagado,tarjeta,tienda fisica
+768,429,2026-08-27 12:53:00,814.14,cancelado,paypal,tienda fisica
+769,4,2026-08-18 23:41:00,,pagado,efectivo,web
+770,302,2026-09-24 23:11:00,2688.45,cancelado,tarjeta,tienda fisica
+771,280,2026-10-17 15:13:00,2869.58,cancelado,transferencia,web
+772,487,2026-11-07 18:15:00,3460.34,pagado,paypal,tienda fisica
+773,9,2026-09-21 06:53:00,1151.77,pagado,efectivo,app movil
+774,223,2026-10-21 06:22:00,1739.49,devuelto??,efectivo,web
+775,82,2026-09-28 01:29:00,2444.07,pagado,paypal,tienda fisica
+776,443,2026-10-25 10:24:00,859.87,devuelto??,paypal,web
+777,407,2026-09-28 23:10:00,2926.12,pagado,transferencia,app movil
+778,289,2026-09-11 22:21:00,1475.3,pagado,tarjeta,app movil
+779,200,2026-10-17 13:35:00,1761.1,pagado,efectivo,web
+780,288,2026-10-23 13:42:00,404.91,pagado,paypal,app movil
+781,376,2026-11-03 16:21:00,396.33,cancelado,efectivo,web
+782,189,2026-09-12 17:58:00,4051.47,enviado,paypal,tienda fisica
+783,66,2026-09-30 22:26:00,4579.17,pendiente,tarjeta,app movil
+784,166,2026-09-21 16:56:00,2595.38,pagado,tarjeta,tienda fisica
+785,368,2026-10-25 06:03:00,65.85,pendiente,tarjeta,web
+786,174,2026-10-31 08:55:00,1283.33,pagado,tarjeta,app movil
+787,405,2026-09-20 23:18:00,636.38,pagado,tarjeta,web
+788,123,2026-11-03 01:00:00,593.07,cancelado,tarjeta,web
+789,489,2026-10-24 05:55:00,906.18,pagado,efectivo,app movil
+790,302,2026-11-06 15:53:00,1744.85,pagado,paypal,web
+791,461,2026-10-20 09:27:00,908.87,pagado,transferencia,tienda fisica
+792,172,2026-10-16 11:51:00,2878.44,pagado,paypal,web
+793,381,2026-10-15 16:11:00,3995.93,cancelado,efectivo,tienda fisica
+794,13,2026-10-02 22:35:00,1607.57,pagado,transferencia,app movil
+795,439,2026-10-10 20:21:00,2316.75,cancelado,tarjeta,web
+796,156,31/02/2026 25:61,414.99,cancelado,transferencia,web
+797,12,2026-10-03 21:49:00,2452.02,pendiente,efectivo,web
+798,45,2026-10-11 07:28:00,422.38,cancelado,efectivo,app movil
+799,99999,2026-10-19 22:33:00,2158.73,cancelado,tarjeta,tienda fisica
+800,354,2026-09-14 22:57:00,1236.84,pendiente,paypal,tienda fisica
+801,338,2026-09-24 04:12:00,1239.01,cancelado,transferencia,app movil
+802,417,2026-08-16 06:08:00,2146.29,cancelado,paypal,app movil
+803,171,2026-09-26 00:59:00,376.77,enviado,paypal,tienda fisica
+804,175,2026-09-02 01:25:00,653.92,pagado,transferencia,web
+805,341,2026-10-20 15:16:00,1854.67,pagado,paypal,web
+806,209,2026-08-14 19:23:00,2384.34,pagado,paypal,web
+807,469,2026-10-31 23:17:00,636.62,pagado,transferencia,app movil
+808,152,2026-10-26 15:56:00,381.87,pagado,tarjeta,web
+809,207,2026-11-08 23:11:00,391.42,cancelado,efectivo,app movil
+810,315,2026-08-27 21:35:00,1336.36,enviado,tarjeta,app movil
+811,386,2026-09-03 19:40:00,594.81,enviado,efectivo,tienda fisica
+812,389,2026-10-30 06:48:00,245.47,pagado,tarjeta,web
+813,173,2026-10-11 02:24:00,1957.57,enviado,tarjeta,app movil
+814,228,2026-11-02 05:52:00,2535.31,pagado,paypal,app movil
+815,21,2026-10-04 02:29:00,2146.84,pagado,paypal,web
+816,128,2026-11-10 09:47:00,854.28,pagado,paypal,web
+817,486,2026-10-27 19:33:00,2682.84,pagado,transferencia,web
+818,407,2026-08-13 08:20:00,461.32,pendiente,efectivo,tienda fisica
+819,184,2026-09-11 09:19:00,1713.02,cancelado,transferencia,web
+820,338,2026-09-02 10:16:00,845.71,cancelado,efectivo,app movil
+821,104,2026-10-23 12:45:00,1501.42,pagado,paypal,web
+822,137,2026-08-28 04:54:00,2077.52,pendiente,efectivo,web
+823,246,2026-10-14 19:38:00,2575.05,pagado,paypal,tienda fisica
+824,75,2026-11-02 06:42:00,560.29,cancelado,tarjeta,tienda fisica
+825,99,2026-08-17 10:15:00,4707.93,enviado,paypal,tienda fisica
+826,331,2026-08-21 17:38:00,1621.23,pagado,efectivo,app movil
+827,202,2026-10-06 07:09:00,1420.28,pagado,efectivo,tienda fisica
+828,339,2026-08-29 18:19:00,3160.55,enviado,efectivo,web
+829,448,2026-10-05 02:43:00,1155.79,cancelado,transferencia,app movil
+830,211,2026-10-06 14:00:00,1279.23,cancelado,paypal,tienda fisica
+831,278,2026-09-01 12:03:00,886.52,pagado,paypal,tienda fisica
+832,127,2026-10-15 02:36:00,263.26,pagado,transferencia,tienda fisica
+833,75,2026-10-09 02:19:00,6378.07,pendiente,efectivo,web
+834,102,2026-10-07 21:16:00,1726.5,enviado,paypal,tienda fisica
+835,281,2026-09-03 13:51:00,2207.79,pagado,tarjeta,tienda fisica
+836,320,2026-10-06 13:18:00,769.73,enviado,transferencia,web
+837,88,2026-09-22 16:04:00,1526.26,cancelado,tarjeta,web
+838,85,2026-10-19 15:29:00,3428.49,pagado,tarjeta,web
+839,210,2026-09-15 07:54:00,3399.16,pagado,paypal,tienda fisica
+840,452,2026-08-16 06:14:00,667.05,enviado,efectivo,app movil
+841,404,2026-09-20 15:56:00,2123.33,pagado,efectivo,app movil
+842,492,2026-11-06 23:35:00,1807.43,cancelado,transferencia,tienda fisica
+843,46,2026-09-16 14:18:00,2178.01,pagado,transferencia,app movil
+844,415,2026-10-16 21:46:00,3561.42,enviado,efectivo,web
+845,316,2026-08-13 04:08:00,557.16,pendiente,efectivo,web
+846,160,2026-10-20 05:14:00,1582.1,pendiente,transferencia,web
+847,9,2026-10-16 02:26:00,1552.77,pendiente,tarjeta,web
+848,92,2026-10-22 04:48:00,412.49,pagado,transferencia,web
+849,459,2026-11-03 09:34:00,985.96,pagado,transferencia,web
+850,126,2026-09-13 17:02:00,1225.05,pendiente,transferencia,web
+851,1,2026-10-05 07:17:00,326.04,cancelado,paypal,tienda fisica
+852,258,2026-09-08 18:42:00,3381.86,pendiente,transferencia,web
+853,162,2026-09-09 16:14:00,2122.48,pendiente,transferencia,app movil
+854,126,2026-10-23 22:27:00,630.6,pagado,paypal,app movil
+855,192,2026-11-04 11:03:00,1993.75,enviado,paypal,tienda fisica
+856,421,2026-09-06 04:11:00,594.21,devuelto??,tarjeta,app movil
+857,382,2026-08-31 13:48:00,338.13,pendiente,tarjeta,tienda fisica
+858,146,2026-09-24 21:16:00,1682.73,cancelado,tarjeta,app movil
+859,170,2026-08-18 08:00:00,4479.28,pagado,transferencia,web
+860,22,2026-11-05 12:40:00,3071.27,pendiente,transferencia,web
+861,470,2026-10-15 22:59:00,976.02,pendiente,transferencia,web
+862,490,2026-10-08 03:19:00,1201.61,cancelado,efectivo,tienda fisica
+863,399,2026-10-10 15:17:00,966.02,pendiente,paypal,app movil
+864,115,2026-10-13 14:31:00,2272.91,enviado,transferencia,web
+865,320,2026-09-10 00:23:00,1954.37,pendiente,efectivo,web
+866,302,2026-10-14 09:10:00,1678.33,enviado,transferencia,app movil
+867,437,2026-10-31 19:34:00,1462.84,pendiente,tarjeta,tienda fisica
+868,432,2026-09-24 23:50:00,1332.44,pagado,tarjeta,web
+869,405,2026-10-20 09:40:00,461.35,enviado,tarjeta,app movil
+870,34,2026-09-12 02:19:00,244.02,pagado,transferencia,tienda fisica
+871,353,2026-10-05 21:55:00,1942.75,enviado,efectivo,tienda fisica
+872,168,2026-10-15 14:48:00,1633.02,enviado,transferencia,tienda fisica
+873,76,2026-10-28 07:41:00,585.75,devuelto??,transferencia,tienda fisica
+874,301,2026-10-03 15:51:00,3543.98,enviado,tarjeta,app movil
+875,96,2026-09-08 07:11:00,723.48,enviado,efectivo,app movil
+876,489,2026-10-09 08:49:00,2491.58,pendiente,paypal,app movil
+877,370,2026-10-18 08:45:00,1690.71,pendiente,tarjeta,tienda fisica
+878,109,2026-10-23 11:40:00,1055.49,cancelado,efectivo,tienda fisica
+879,149,2026-09-03 07:26:00,761.96,pendiente,efectivo,app movil
+880,469,2026-08-25 03:29:00,409.79,pagado,efectivo,tienda fisica
+881,272,2026-10-12 21:37:00,1513.23,pagado,paypal,web
+882,340,2026-11-04 06:03:00,1741.5,cancelado,transferencia,tienda fisica
+883,336,2026-10-16 22:31:00,2290.56,enviado,tarjeta,app movil
+884,464,2026-09-17 16:03:00,3529.81,pagado,efectivo,web
+885,489,2026-10-11 20:45:00,427.07,pagado,transferencia,web
+886,403,2026-10-31 10:51:00,5089.36,pendiente,efectivo,web
+887,33,2026-10-21 18:02:00,1190.04,pagado,transferencia,tienda fisica
+888,54,2026-09-06 09:16:00,3602.2,pagado,transferencia,web
+889,165,2026-08-20 10:25:00,2461.34,pagado,tarjeta,web
+890,341,2026-09-24 00:52:00,675.42,pagado,paypal,tienda fisica
+891,70,2026-09-11 06:08:00,838.85,cancelado,efectivo,web
+892,99999,2026-09-03 08:29:00,387.66,pagado,tarjeta,web
+893,436,2026-09-19 20:28:00,1200.93,cancelado,efectivo,web
+894,477,2026-09-04 02:26:00,1300.87,cancelado,tarjeta,app movil
+895,119,2026-11-04 13:34:00,2257.54,pagado,tarjeta,tienda fisica
+896,171,2026-10-07 21:14:00,888.14,pagado,tarjeta,web
+897,241,2026-09-25 09:09:00,462.6,cancelado,tarjeta,app movil
+898,444,2026-10-28 01:29:00,711.19,pendiente,paypal,web
+899,268,2026-10-07 03:19:00,766.26,pagado,paypal,tienda fisica
+900,467,2026-08-28 13:11:00,5065.08,pagado,transferencia,tienda fisica
+901,332,2026-08-25 06:01:00,1114.32,pendiente,tarjeta,app movil
+902,365,2026-11-05 15:08:00,1172.42,pagado,tarjeta,tienda fisica
+903,108,2026-10-26 23:15:00,1112.54,pendiente,paypal,web
+904,141,2026-09-15 00:22:00,2548.06,pagado,transferencia,web
+905,26,2026-10-09 22:54:00,-377.53,enviado,paypal,web
+906,243,2026-09-04 20:47:00,2994.6,cancelado,paypal,app movil
+907,139,31/02/2026 25:61,2448.38,pagado,paypal,web
+908,442,2026-08-18 05:23:00,,pagado,paypal,web
+909,295,2026-09-04 16:46:00,2119.61,enviado,tarjeta,web
+910,56,2026-10-02 08:30:00,2450.01,pagado,efectivo,tienda fisica
+911,24,2026-09-28 10:50:00,2324.7,enviado,transferencia,tienda fisica
+912,290,2026-10-24 15:07:00,1671.72,enviado,tarjeta,web
+913,368,2026-10-24 15:28:00,549.34,pagado,transferencia,app movil
+914,48,2026-09-28 14:56:00,1690.3,cancelado,tarjeta,web
+915,337,2026-08-13 22:47:00,3470.9,enviado,transferencia,app movil
+916,118,2026-08-29 13:32:00,585.31,pendiente,paypal,tienda fisica
+917,293,2026-11-08 00:14:00,1832.51,pagado,transferencia,web
+918,102,2026-10-25 12:56:00,765.5,enviado,tarjeta,tienda fisica
+919,322,2026-10-02 23:34:00,mil pesos,enviado,transferencia,tienda fisica
+920,38,2026-10-22 08:50:00,1687.21,pendiente,paypal,web
+921,461,2026-08-28 11:45:00,1837.35,enviado,transferencia,tienda fisica
+922,162,2026-10-08 02:19:00,619.4,pagado,tarjeta,web
+923,287,2026-09-10 09:32:00,2748.85,cancelado,transferencia,web
+924,453,2026-11-01 14:46:00,742.26,cancelado,tarjeta,app movil
+925,282,2026-10-24 16:55:00,1825.83,pendiente,paypal,app movil
+926,76,2026-08-23 07:55:00,305.24,pendiente,paypal,tienda fisica
+927,85,2026-08-15 13:35:00,711.84,pagado,tarjeta,web
+928,16,2026-10-31 12:00:00,209.1,pagado,tarjeta,web
+929,161,2026-09-23 00:04:00,1899.96,pendiente,efectivo,app movil
+930,343,2026-08-29 04:35:00,400.23,enviado,efectivo,app movil
+931,257,2026-08-23 21:34:00,271.7,pagado,paypal,app movil
+932,186,2026-09-05 13:37:00,2090.44,cancelado,transferencia,app movil
+933,409,2026-10-07 05:33:00,466.72,pagado,efectivo,app movil
+934,241,2026-11-04 09:08:00,459.17,pagado,transferencia,app movil
+935,411,2026-11-04 18:50:00,1291.32,enviado,efectivo,tienda fisica
+936,91,2026-09-01 06:50:00,1460.66,enviado,transferencia,tienda fisica
+937,345,2026-11-02 18:11:00,758.99,enviado,efectivo,tienda fisica
+938,370,2026-09-04 08:18:00,1845.63,pagado,tarjeta,app movil
+939,485,2026-09-24 13:05:00,2561.11,pendiente,transferencia,app movil
+940,44,2026-09-11 10:08:00,2381.58,pagado,paypal,app movil
+941,56,2026-09-24 14:46:00,234.19,cancelado,transferencia,app movil
+942,149,2026-08-15 01:12:00,1349.05,pendiente,efectivo,web
+943,162,2026-08-12 18:50:00,1092.76,enviado,transferencia,web
+944,270,2026-09-12 18:47:00,475.0,cancelado,tarjeta,tienda fisica
+945,111,2026-10-24 09:11:00,462.17,pagado,transferencia,web
+946,471,2026-08-24 05:46:00,109.69,enviado,efectivo,app movil
+947,172,2026-09-18 19:11:00,2241.99,cancelado,transferencia,tienda fisica
+948,242,2026-08-20 23:01:00,2944.52,enviado,efectivo,tienda fisica
+949,452,2026-08-22 23:48:00,438.76,pagado,paypal,app movil
+950,396,2026-08-29 13:13:00,905.41,pendiente,efectivo,web
+951,76,2026-11-01 14:49:00,1638.57,enviado,efectivo,app movil
+952,357,2026-10-04 18:34:00,390.21,devuelto??,paypal,tienda fisica
+953,253,2026-09-21 08:23:00,784.14,enviado,tarjeta,tienda fisica
+954,400,2026-11-08 21:34:00,1234.87,pagado,tarjeta,tienda fisica
+955,165,2026-10-14 19:36:00,2422.94,pagado,transferencia,app movil
+956,321,2026-09-09 08:31:00,1670.59,cancelado,transferencia,tienda fisica
+957,400,2026-10-17 11:19:00,1125.0,pagado,transferencia,app movil
+958,371,2026-10-26 21:11:00,810.5,pendiente,efectivo,app movil
+959,189,2026-08-30 03:11:00,113.03,pendiente,efectivo,app movil
+960,299,2026-10-20 09:15:00,773.44,cancelado,paypal,tienda fisica
+961,275,2026-09-25 03:14:00,5148.33,enviado,transferencia,web
+962,455,2026-10-02 03:34:00,370.68,cancelado,transferencia,web
+963,400,2026-10-23 08:20:00,200.0,enviado,tarjeta,app movil
+964,204,2026-08-21 18:59:00,619.76,enviado,paypal,web
+965,311,2026-10-13 11:53:00,1578.75,cancelado,efectivo,tienda fisica
+966,492,2026-09-19 00:21:00,1972.03,pendiente,transferencia,tienda fisica
+967,339,2026-10-07 19:49:00,2381.41,cancelado,paypal,tienda fisica
+968,414,2026-09-04 12:18:00,1334.25,cancelado,efectivo,web
+969,301,2026-10-02 05:38:00,1189.63,pagado,tarjeta,web
+970,308,2026-09-21 09:43:00,1670.66,pendiente,tarjeta,web
+971,29,2026-08-24 00:53:00,869.0,pagado,tarjeta,app movil
+972,233,2026-09-19 16:58:00,749.31,cancelado,transferencia,tienda fisica
+973,227,2026-08-26 13:24:00,2355.9,enviado,transferencia,web
+974,447,2026-09-09 01:40:00,1112.04,enviado,paypal,web
+975,204,2026-09-03 23:59:00,439.11,cancelado,efectivo,web
+976,184,2026-10-20 16:06:00,1159.38,pagado,paypal,web
+977,435,2026-10-19 23:52:00,249.4,pendiente,tarjeta,tienda fisica
+978,500,2026-09-27 10:10:00,3350.12,pendiente,transferencia,web
+979,443,2026-09-21 12:58:00,850.53,cancelado,tarjeta,web
+980,56,2026-10-23 07:12:00,mil pesos,enviado,transferencia,web
+981,424,2026-10-18 19:31:00,287.64,pagado,efectivo,tienda fisica
+982,448,2026-09-02 14:43:00,3469.16,pendiente,transferencia,tienda fisica
+983,403,2026-08-13 02:55:00,1410.47,cancelado,paypal,app movil
+984,32,2026-09-20 06:04:00,1957.57,pagado,paypal,tienda fisica
+985,44,2026-08-18 17:10:00,1706.94,pagado,transferencia,tienda fisica
+986,398,2026-09-29 04:36:00,1444.5,enviado,tarjeta,tienda fisica
+987,293,2026-10-24 11:50:00,1408.49,cancelado,paypal,app movil
+988,396,2026-08-15 13:51:00,697.23,pagado,paypal,tienda fisica
+989,374,2026-10-12 00:24:00,1179.36,cancelado,paypal,tienda fisica
+990,284,2026-08-22 20:45:00,2921.85,pendiente,efectivo,app movil
+991,200,2026-09-10 16:19:00,3344.11,cancelado,transferencia,web
+992,197,2026-09-02 17:53:00,3565.58,cancelado,paypal,tienda fisica
+993,384,2026-11-06 01:03:00,929.78,cancelado,efectivo,tienda fisica
+994,196,2026-08-23 11:41:00,2571.16,enviado,tarjeta,web
+995,138,2026-10-09 16:47:00,3850.94,cancelado,paypal,app movil
+996,127,2026-08-21 18:28:00,977.84,cancelado,efectivo,app movil
+997,85,2026-10-08 20:17:00,840.94,pagado,transferencia,tienda fisica
+998,272,2026-08-24 23:35:00,3622.88,pagado,tarjeta,web
+999,188,2026-11-07 00:58:00,619.76,enviado,efectivo,app movil
+1000,4,2026-10-17 12:33:00,2387.47,cancelado,tarjeta,tienda fisica
+1001,248,2026-10-20 21:24:00,1869.77,pagado,efectivo,tienda fisica
+1002,202,2026-10-02 20:00:00,390.21,pagado,efectivo,app movil
+1003,244,2026-09-04 19:41:00,1116.08,pagado,paypal,app movil
+1004,488,2026-10-21 23:13:00,656.4,devuelto??,efectivo,web
+1005,303,2026-09-04 06:52:00,2361.36,cancelado,tarjeta,tienda fisica
+1006,121,2026-09-06 05:02:00,2050.57,cancelado,efectivo,app movil
+1007,443,2026-08-28 05:43:00,374.06,enviado,paypal,tienda fisica
+1008,324,2026-09-28 02:56:00,2145.34,enviado,efectivo,app movil
+1009,14,2026-10-24 22:48:00,2928.82,pendiente,tarjeta,web
+1010,450,2026-10-27 11:53:00,720.1,devuelto??,tarjeta,web
+1011,146,2026-09-05 05:06:00,2128.67,cancelado,paypal,app movil
+1012,383,2026-11-10 18:35:00,3569.86,pagado,transferencia,app movil
+1013,363,2026-09-02 19:24:00,397.74,pagado,transferencia,web
+1014,31,2026-09-23 22:44:00,320.13,pendiente,transferencia,app movil
+1015,85,2026-09-11 09:13:00,1036.71,cancelado,tarjeta,tienda fisica
+1016,499,2026-09-25 03:49:00,995.38,pagado,paypal,web
+1017,47,2026-09-06 00:09:00,250.38,enviado,paypal,tienda fisica
+1018,445,2026-10-18 08:00:00,233.76,pendiente,paypal,web
+1019,336,2026-08-28 16:39:00,1392.38,pendiente,efectivo,web
+1020,337,2026-08-28 20:26:00,1399.08,pagado,transferencia,tienda fisica
+1021,439,2026-09-02 16:04:00,714.79,pagado,efectivo,app movil
+1022,171,2026-10-08 14:21:00,4255.93,cancelado,paypal,tienda fisica
+1023,423,2026-08-28 08:02:00,360.0,pendiente,transferencia,tienda fisica
+1024,127,2026-08-17 02:40:00,160.67,enviado,paypal,tienda fisica
+1025,407,2026-09-25 09:27:00,-3982.31,pendiente,transferencia,web
+1026,225,2026-09-26 23:40:00,2168.44,pagado,efectivo,tienda fisica
+1027,9,2026-10-06 12:42:00,671.38,pagado,paypal,tienda fisica
+1028,12,2026-10-22 01:04:00,4295.1,cancelado,transferencia,tienda fisica
+1029,30,2026-08-24 16:18:00,3827.45,pendiente,paypal,app movil
+1030,81,2026-10-25 23:34:00,2238.03,enviado,paypal,app movil
+1031,58,2026-09-23 09:16:00,448.14,pendiente,transferencia,web
+1032,176,2026-08-18 04:57:00,117.62,enviado,transferencia,web
+1033,173,2026-10-15 04:42:00,952.27,pendiente,transferencia,app movil
+1034,12,2026-08-30 23:42:00,1814.45,enviado,transferencia,app movil
+1035,359,2026-09-25 11:04:00,1901.88,enviado,tarjeta,tienda fisica
+1036,177,2026-10-24 23:18:00,1398.64,cancelado,paypal,web
+1037,479,2026-09-26 04:15:00,1777.12,pagado,efectivo,app movil
+1038,73,2026-09-10 21:10:00,631.31,enviado,tarjeta,app movil
+1039,219,2026-08-27 22:15:00,2553.64,enviado,transferencia,web
+1040,360,2026-08-12 13:16:00,619.14,pendiente,transferencia,web
+1041,34,2026-09-24 07:54:00,2320.49,cancelado,efectivo,app movil
+1042,237,2026-09-16 22:55:00,,pendiente,tarjeta,tienda fisica
+1043,413,2026-09-19 04:06:00,385.54,pagado,tarjeta,app movil
+1044,265,2026-11-05 04:26:00,121.45,pendiente,tarjeta,tienda fisica
+1045,22,2026-09-19 07:33:00,819.06,pendiente,transferencia,web
+1046,489,2026-10-06 06:13:00,740.61,pagado,transferencia,app movil
+1047,273,2026-09-03 23:55:00,708.53,pagado,paypal,app movil
+1048,412,2026-10-16 02:17:00,1192.37,enviado,transferencia,app movil
+1049,17,2026-11-03 13:56:00,2198.9,enviado,paypal,app movil
+1050,249,2026-08-17 07:03:00,2375.3,pendiente,efectivo,web
+1051,440,2026-08-12 01:28:00,2111.21,pagado,tarjeta,app movil
+1052,131,2026-08-24 02:14:00,155.9,cancelado,tarjeta,tienda fisica
+1053,62,2026-09-18 09:58:00,2489.91,cancelado,efectivo,web
+1054,426,2026-10-19 12:00:00,1191.93,enviado,transferencia,web
+1055,453,2026-09-16 00:28:00,2252.99,pagado,tarjeta,web
+1056,436,2026-09-02 20:09:00,2121.8,pagado,efectivo,tienda fisica
+1057,261,2026-11-07 20:36:00,1221.13,cancelado,paypal,app movil
+1058,378,2026-10-12 03:31:00,413.82,enviado,efectivo,app movil
+1059,243,2026-10-01 06:51:00,328.38,pendiente,transferencia,web
+1060,47,2026-08-20 00:12:00,1044.71,pendiente,transferencia,tienda fisica
+1061,386,2026-09-21 03:16:00,1568.63,devuelto??,tarjeta,app movil
+1062,58,2026-09-26 08:26:00,811.19,pendiente,paypal,tienda fisica
+1063,115,2026-09-29 10:08:00,1320.35,pagado,tarjeta,app movil
+1064,128,2026-10-08 02:08:00,2521.66,enviado,tarjeta,app movil
+1065,73,2026-10-21 10:52:00,801.39,cancelado,transferencia,tienda fisica
+1066,274,2026-09-20 04:50:00,899.9,cancelado,transferencia,tienda fisica
+1067,309,2026-08-29 20:41:00,2958.01,enviado,tarjeta,tienda fisica
+1068,425,2026-10-27 02:59:00,219.94,pagado,efectivo,tienda fisica
+1069,99999,2026-09-19 23:00:00,1077.23,pagado,transferencia,web
+1070,465,2026-10-06 12:42:00,1900.37,enviado,transferencia,app movil
+1071,17,2026-10-16 23:13:00,391.42,pagado,efectivo,web
+1072,276,2026-08-29 04:21:00,2457.21,pendiente,tarjeta,app movil
+1073,265,2026-10-28 15:17:00,628.69,pagado,transferencia,app movil
+1074,357,2026-08-23 04:15:00,5839.5,enviado,efectivo,tienda fisica
+1075,64,2026-08-24 18:24:00,2565.37,cancelado,transferencia,web
+1076,373,2026-11-03 15:15:00,1505.77,cancelado,paypal,web
+1077,168,2026-09-24 02:33:00,-1077.19,pendiente,paypal,app movil
+1078,193,2026-08-15 13:39:00,2284.31,cancelado,paypal,app movil
+1079,83,2026-11-09 12:24:00,556.4,pagado,paypal,app movil
+1080,15,2026-09-17 18:33:00,4079.11,pagado,efectivo,app movil
+1081,178,2026-10-12 21:11:00,2255.46,pendiente,paypal,web
+1082,93,2026-09-14 08:24:00,565.68,enviado,paypal,app movil
+1083,52,2026-10-30 10:18:00,915.61,cancelado,efectivo,tienda fisica
+1084,66,2026-10-16 20:18:00,3335.81,pagado,efectivo,app movil
+1085,368,2026-09-19 14:02:00,1140.12,pagado,paypal,web
+1086,271,2026-10-09 15:12:00,100.0,enviado,efectivo,web
+1087,159,2026-10-25 18:48:00,6042.84,cancelado,transferencia,tienda fisica
+1088,334,2026-09-12 11:27:00,1682.27,pagado,transferencia,web
+1089,392,2026-09-08 23:43:00,1202.07,cancelado,tarjeta,app movil
+1090,445,2026-08-31 04:37:00,1027.93,enviado,transferencia,web
+1091,424,2026-11-05 14:18:00,879.4,pagado,transferencia,web
+1092,458,2026-10-12 11:43:00,1466.38,pagado,efectivo,web
+1093,447,2026-09-21 07:58:00,65.85,enviado,efectivo,tienda fisica
+1094,108,2026-09-03 10:40:00,1661.94,pendiente,paypal,tienda fisica
+1095,492,2026-09-07 05:31:00,4038.47,pagado,paypal,tienda fisica
+1096,360,2026-10-24 06:39:00,1662.71,pendiente,efectivo,app movil
+1097,130,2026-10-19 13:52:00,3181.87,pagado,transferencia,tienda fisica
+1098,16,2026-09-21 17:39:00,3123.54,cancelado,transferencia,web
+1099,474,2026-10-14 17:17:00,870.12,pagado,tarjeta,web
+1100,456,2026-11-10 22:27:00,200.0,pendiente,paypal,app movil
+1101,431,2026-08-22 02:38:00,113.65,cancelado,paypal,tienda fisica
+1102,97,2026-09-24 09:55:00,131.38,pendiente,efectivo,web
+1103,484,2026-10-31 02:53:00,1251.74,cancelado,tarjeta,app movil
+1104,427,2026-08-16 19:40:00,2004.99,pendiente,tarjeta,web
+1105,2,2026-09-24 13:29:00,2446.96,pagado,paypal,app movil
+1106,7,2026-08-20 09:36:00,1483.17,pagado,efectivo,web
+1107,205,2026-08-24 02:49:00,912.37,pagado,paypal,web
+1108,221,2026-09-18 04:18:00,500.0,pagado,efectivo,tienda fisica
+1109,460,2026-08-21 03:42:00,2666.58,pendiente,paypal,tienda fisica
+1110,233,2026-09-23 22:13:00,,cancelado,transferencia,web
+1111,287,2026-10-18 10:02:00,1587.48,pendiente,efectivo,web
+1112,479,2026-10-24 20:31:00,988.45,enviado,efectivo,app movil
+1113,149,2026-08-12 19:56:00,2324.61,pagado,paypal,app movil
+1114,144,2026-10-30 02:14:00,1002.18,cancelado,paypal,web
+1115,301,2026-11-01 07:40:00,2007.16,pendiente,efectivo,tienda fisica
+1116,223,2026-09-07 18:42:00,753.53,pendiente,transferencia,web
+1117,205,2026-10-13 11:20:00,759.19,enviado,efectivo,web
+1118,471,2026-08-31 02:09:00,1750.76,pagado,efectivo,web
+1119,70,2026-09-18 20:32:00,769.39,enviado,efectivo,web
+1120,358,2026-11-03 19:53:00,696.36,pendiente,efectivo,web
+1121,28,2026-08-30 18:22:00,1536.76,pagado,tarjeta,web
+1122,365,2026-09-29 23:09:00,1288.6,pagado,transferencia,tienda fisica
+1123,393,2026-10-27 08:54:00,2684.93,pendiente,transferencia,app movil
+1124,79,2026-09-26 03:51:00,2074.49,cancelado,paypal,web
+1125,498,2026-09-25 08:04:00,748.2,pagado,transferencia,app movil
+1126,223,2026-11-06 08:21:00,1810.8,enviado,transferencia,tienda fisica
+1127,196,2026-08-22 12:50:00,2406.4,devuelto??,transferencia,tienda fisica
+1128,361,2026-11-04 09:35:00,294.04,pagado,paypal,tienda fisica
+1129,106,2026-08-30 16:46:00,1055.08,pendiente,tarjeta,tienda fisica
+1130,456,2026-10-12 19:36:00,1324.76,pendiente,tarjeta,app movil
+1131,360,2026-10-19 17:16:00,2370.76,pendiente,paypal,tienda fisica
+1132,458,2026-10-31 00:15:00,394.54,pagado,transferencia,app movil
+1133,110,2026-10-18 11:10:00,363.06,cancelado,efectivo,app movil
+1134,98,2026-10-25 07:11:00,1908.81,cancelado,tarjeta,app movil
+1135,491,2026-08-16 01:47:00,806.55,pagado,efectivo,tienda fisica
+1136,65,2026-11-06 15:41:00,251.43,enviado,tarjeta,tienda fisica
+1137,316,2026-10-19 04:23:00,1537.42,pagado,efectivo,web
+1138,292,2026-08-29 22:34:00,1244.21,pendiente,paypal,tienda fisica
+1139,368,2026-09-15 06:43:00,761.19,pagado,tarjeta,tienda fisica
+1140,358,2026-09-24 15:20:00,1969.5,pendiente,tarjeta,app movil
+1141,195,2026-10-01 14:18:00,1657.49,pagado,paypal,web
+1142,405,2026-10-13 12:30:00,-1498.93,pagado,tarjeta,web
+1143,24,2026-09-26 14:40:00,481.31,pendiente,paypal,tienda fisica
+1144,197,2026-09-21 07:51:00,135.85,pagado,transferencia,tienda fisica
+1145,439,2026-08-30 16:39:00,1573.69,pendiente,transferencia,tienda fisica
+1146,190,2026-09-26 05:14:00,1157.11,pagado,tarjeta,app movil
+1147,93,2026-10-17 08:17:00,2197.8,pagado,tarjeta,tienda fisica
+1148,466,2026-09-09 22:52:00,881.04,pagado,tarjeta,app movil
+1149,275,2026-09-24 11:40:00,690.92,cancelado,tarjeta,tienda fisica
+1150,285,2026-09-05 21:29:00,933.23,pendiente,efectivo,web
+1151,466,2026-08-28 06:38:00,613.23,pagado,efectivo,app movil
+1152,1,2026-11-04 16:57:00,1686.19,cancelado,transferencia,tienda fisica
+1153,130,2026-10-30 13:32:00,1033.26,pagado,paypal,app movil
+1154,499,2026-09-25 03:18:00,mil pesos,cancelado,transferencia,tienda fisica
+1155,107,2026-11-04 13:33:00,148.74,pagado,transferencia,web
+1156,48,2026-09-18 11:33:00,2114.51,pendiente,paypal,app movil
+1157,367,2026-08-26 15:08:00,186.42,enviado,paypal,app movil
+1158,68,2026-10-31 23:40:00,406.7,pendiente,transferencia,tienda fisica
+1159,443,2026-08-25 21:37:00,307.34,pagado,transferencia,web
+1160,278,2026-10-06 20:44:00,973.78,cancelado,paypal,app movil
+1161,250,2026-11-09 05:54:00,213.57,pendiente,efectivo,app movil
+1162,44,2026-08-29 05:32:00,1629.85,enviado,efectivo,app movil
+1163,351,2026-10-02 02:22:00,2423.26,pagado,transferencia,tienda fisica
+1164,86,2026-09-13 16:32:00,1044.71,pagado,transferencia,app movil
+1165,131,2026-10-14 08:59:00,390.21,pagado,efectivo,tienda fisica
+1166,377,2026-09-08 02:44:00,1458.51,cancelado,tarjeta,tienda fisica
+1167,103,2026-08-31 11:27:00,2097.45,pagado,transferencia,tienda fisica
+1168,126,2026-10-08 16:06:00,1530.88,devuelto??,transferencia,web
+1169,170,2026-09-13 09:18:00,1944.86,cancelado,efectivo,tienda fisica
+1170,198,2026-08-26 05:51:00,1744.47,enviado,tarjeta,app movil
+1171,466,2026-11-09 03:28:00,2047.91,pagado,efectivo,tienda fisica
+1172,155,2026-09-14 16:48:00,2149.34,pendiente,transferencia,web
+1173,63,2026-10-05 21:13:00,2084.64,pagado,transferencia,web
+1174,110,2026-11-03 07:33:00,952.1,cancelado,paypal,web
+1175,73,2026-10-26 20:18:00,965.61,pagado,paypal,web
+1176,409,2026-09-13 14:09:00,1807.17,pagado,paypal,web
+1177,271,2026-09-19 11:21:00,377.93,pagado,transferencia,app movil
+1178,97,2026-10-17 07:02:00,1386.83,pendiente,tarjeta,app movil
+1179,417,2026-09-15 04:41:00,593.07,pendiente,tarjeta,app movil
+1180,248,2026-08-15 16:56:00,192.77,pagado,tarjeta,app movil
+1181,391,2026-09-21 04:57:00,1487.51,pendiente,paypal,web
+1182,364,2026-10-22 05:19:00,505.66,enviado,transferencia,tienda fisica
+1183,192,2026-08-24 10:59:00,1179.1,pagado,transferencia,web
+1184,356,2026-10-13 10:55:00,3760.56,pagado,transferencia,web
+1185,241,2026-09-21 19:53:00,518.19,pendiente,paypal,web
+1186,64,2026-10-22 09:29:00,2485.05,pendiente,efectivo,tienda fisica
+1187,342,2026-08-22 08:10:00,714.76,pagado,efectivo,app movil
+1188,488,2026-10-21 05:39:00,1487.17,pendiente,tarjeta,tienda fisica
+1189,368,2026-08-16 23:37:00,1945.21,pagado,transferencia,tienda fisica
+1190,35,2026-08-20 19:06:00,3734.71,cancelado,tarjeta,app movil
+1191,288,2026-09-30 17:56:00,1053.83,pendiente,tarjeta,web
+1192,293,2026-09-11 00:35:00,1356.59,pagado,paypal,web
+1193,338,2026-11-02 10:26:00,574.71,pendiente,paypal,tienda fisica
+1194,220,2026-10-07 22:26:00,482.19,cancelado,tarjeta,tienda fisica
+1195,413,2026-10-18 20:57:00,mil pesos,enviado,tarjeta,web
+1196,293,2026-10-10 08:20:00,620.84,cancelado,paypal,app movil
+1197,41,2026-08-25 16:41:00,2438.54,pagado,paypal,tienda fisica
+1198,296,2026-09-04 04:45:00,1468.18,cancelado,paypal,tienda fisica
+1199,60,2026-08-25 19:53:00,1710.33,enviado,efectivo,app movil
+1200,181,2026-11-07 11:06:00,1245.67,enviado,paypal,app movil
+1201,159,2026-09-02 00:18:00,2649.0,enviado,paypal,app movil
+1202,440,2026-09-29 21:53:00,2850.46,pendiente,paypal,web
+1203,290,2026-09-17 01:58:00,896.4,pagado,paypal,app movil
+1204,190,2026-08-27 07:06:00,1137.36,pendiente,transferencia,app movil
+1205,154,2026-10-11 20:20:00,1010.21,pagado,efectivo,tienda fisica
+1206,498,2026-09-29 14:04:00,1716.66,pagado,transferencia,app movil
+1207,203,2026-08-30 02:25:00,199.8,cancelado,transferencia,tienda fisica
+1208,9,2026-09-03 23:56:00,4518.39,cancelado,transferencia,web
+1209,419,2026-09-03 01:05:00,2336.05,cancelado,efectivo,web
+1210,67,2026-11-02 23:25:00,657.07,pagado,tarjeta,app movil
+1211,68,2026-10-25 21:44:00,3023.46,pagado,tarjeta,web
+1212,70,2026-10-27 16:03:00,3530.65,enviado,efectivo,app movil
+1213,484,2026-11-02 14:06:00,3834.74,pagado,efectivo,web
+1214,25,2026-10-15 12:53:00,2254.4,pagado,transferencia,app movil
+1215,94,2026-10-08 09:08:00,545.38,pagado,tarjeta,web
+1216,363,2026-10-23 03:35:00,2970.26,pagado,paypal,tienda fisica
+1217,456,2026-10-05 20:49:00,1731.29,enviado,efectivo,web
+1218,83,2026-08-31 02:12:00,1064.11,pagado,paypal,app movil
+1219,5,2026-10-24 22:27:00,2398.94,pagado,efectivo,app movil
+1220,118,2026-11-08 15:31:00,621.62,pagado,efectivo,app movil
+1221,462,2026-09-17 07:26:00,299.1,pagado,tarjeta,app movil
+1222,128,2026-11-03 17:05:00,mil pesos,pagado,efectivo,web
+1223,88,2026-10-11 22:01:00,1541.12,pagado,efectivo,tienda fisica
+1224,485,2026-08-28 22:27:00,1874.78,pendiente,paypal,tienda fisica
+1225,225,2026-09-19 14:10:00,1691.42,cancelado,paypal,tienda fisica
+1226,423,2026-10-08 08:53:00,431.36,devuelto??,transferencia,app movil
+1227,76,2026-09-28 05:45:00,958.25,pendiente,transferencia,web
+1228,202,2026-09-03 13:23:00,959.37,pagado,transferencia,web
+1229,44,2026-10-30 21:24:00,467.55,devuelto??,paypal,tienda fisica
+1230,478,2026-10-13 02:35:00,4895.98,pagado,efectivo,web
+1231,53,2026-10-19 17:01:00,1441.13,pagado,paypal,app movil
+1232,185,2026-10-04 17:54:00,841.01,pagado,tarjeta,app movil
+1233,277,2026-10-16 16:06:00,1195.88,pagado,efectivo,app movil
+1234,256,2026-09-06 02:33:00,179.82,cancelado,efectivo,web
+1235,315,2026-08-15 10:07:00,100.0,cancelado,efectivo,web
+1236,325,2026-08-18 15:52:00,1437.91,pagado,efectivo,app movil
+1237,467,2026-09-26 03:39:00,435.24,pagado,tarjeta,app movil
+1238,304,2026-10-05 19:01:00,3076.88,pendiente,efectivo,app movil
+1239,120,2026-09-16 14:40:00,1930.17,enviado,transferencia,tienda fisica
+1240,264,2026-11-07 00:57:00,1452.71,cancelado,efectivo,web
+1241,23,2026-10-07 03:25:00,674.75,cancelado,transferencia,tienda fisica
+1242,436,2026-10-22 19:47:00,150.41,pagado,tarjeta,app movil
+1243,79,2026-09-16 04:28:00,522.07,enviado,paypal,app movil
+1244,272,2026-09-30 14:04:00,578.25,cancelado,tarjeta,app movil
+1245,469,2026-09-08 07:55:00,1830.59,cancelado,paypal,web
+1246,61,2026-08-26 08:09:00,3421.19,pagado,transferencia,app movil
+1247,477,2026-09-16 18:04:00,130.14,pagado,tarjeta,web
+1248,408,2026-10-27 13:24:00,1506.78,enviado,tarjeta,web
+1249,83,2026-09-05 23:10:00,3467.63,pagado,tarjeta,tienda fisica
+1250,210,31/02/2026 25:61,512.81,pagado,tarjeta,web
+1251,447,2026-10-29 22:53:00,1556.45,pagado,tarjeta,app movil
+1252,432,2026-08-24 17:10:00,4061.65,cancelado,tarjeta,web
+1253,405,2026-10-15 15:41:00,2621.99,enviado,paypal,tienda fisica
+1254,127,2026-09-16 04:10:00,2031.7,pagado,tarjeta,web
+1255,312,2026-10-22 19:37:00,1038.95,cancelado,transferencia,app movil
+1256,49,2026-08-19 21:32:00,3936.26,enviado,efectivo,tienda fisica
+1257,395,2026-11-01 01:48:00,1608.0,pagado,paypal,tienda fisica
+1258,355,2026-10-03 11:04:00,2925.86,enviado,transferencia,tienda fisica
+1259,197,2026-10-20 02:08:00,1417.84,pagado,tarjeta,web
+1260,176,2026-09-30 15:23:00,1030.72,cancelado,efectivo,tienda fisica
+1261,153,2026-10-24 03:14:00,632.61,cancelado,tarjeta,app movil
+1262,12,2026-08-31 22:53:00,2874.43,cancelado,paypal,app movil
+1263,411,2026-08-25 05:48:00,3455.71,pagado,tarjeta,app movil
+1264,414,2026-09-03 19:22:00,4976.1,enviado,efectivo,tienda fisica
+1265,449,2026-11-09 11:51:00,2050.35,pagado,tarjeta,web
+1266,309,2026-11-03 22:23:00,1552.15,cancelado,transferencia,app movil
+1267,285,2026-10-17 00:17:00,1280.17,pendiente,efectivo,app movil
+1268,55,2026-09-01 11:09:00,560.94,enviado,transferencia,web
+1269,304,2026-08-26 10:52:00,2630.52,pagado,tarjeta,app movil
+1270,99,2026-09-15 04:32:00,418.34,pagado,paypal,app movil
+1271,324,2026-10-15 08:25:00,1492.35,pagado,tarjeta,web
+1272,341,2026-09-28 08:36:00,2689.09,cancelado,paypal,app movil
+1273,60,2026-09-30 11:16:00,516.78,cancelado,paypal,app movil
+1274,407,2026-11-07 14:11:00,1683.54,enviado,efectivo,app movil
+1275,168,2026-10-20 19:43:00,,pagado,transferencia,app movil
+1276,86,2026-08-13 02:40:00,967.93,pendiente,tarjeta,tienda fisica
+1277,473,2026-08-21 18:07:00,1011.56,enviado,paypal,web
+1278,346,2026-09-30 04:06:00,4461.67,pagado,transferencia,web
+1279,168,2026-09-09 10:26:00,1203.75,devuelto??,tarjeta,app movil
+1280,158,2026-08-26 19:51:00,198.87,pagado,paypal,app movil
+1281,427,2026-09-12 18:57:00,3270.46,pagado,efectivo,tienda fisica
+1282,114,2026-10-17 18:45:00,1419.6,cancelado,transferencia,app movil
+1283,423,2026-08-20 05:13:00,518.64,cancelado,transferencia,app movil
+1284,147,2026-08-31 08:10:00,mil pesos,pagado,efectivo,tienda fisica
+1285,168,2026-08-18 15:45:00,328.69,pagado,transferencia,app movil
+1286,443,2026-10-28 10:51:00,450.0,enviado,paypal,web
+1287,159,2026-10-13 15:51:00,4110.69,enviado,transferencia,tienda fisica
+1288,405,2026-11-06 23:28:00,2200.43,pendiente,tarjeta,web
+1289,49,2026-08-12 20:06:00,2360.96,cancelado,paypal,tienda fisica
+1290,315,2026-09-13 03:07:00,3924.88,pagado,paypal,web
+1291,485,2026-09-05 19:13:00,3185.97,cancelado,tarjeta,web
+1292,97,2026-08-21 02:14:00,6102.12,devuelto??,tarjeta,app movil
+1293,201,2026-09-05 19:26:00,3066.78,pendiente,transferencia,tienda fisica
+1294,175,2026-09-16 04:42:00,833.72,pendiente,tarjeta,tienda fisica
+1295,434,2026-10-20 19:25:00,3294.27,devuelto??,paypal,tienda fisica
+1296,422,2026-09-24 19:57:00,1262.01,pagado,tarjeta,tienda fisica
+1297,65,2026-08-16 09:32:00,439.11,pendiente,tarjeta,web
+1298,65,2026-08-29 06:49:00,248.99,pagado,transferencia,tienda fisica
+1299,424,2026-09-03 19:34:00,967.54,cancelado,tarjeta,web
+1300,366,2026-09-12 15:57:00,354.27,enviado,tarjeta,app movil
+1301,291,2026-10-10 15:52:00,-2536.6,pagado,transferencia,tienda fisica
+1302,127,2026-10-30 00:48:00,2263.85,pagado,paypal,app movil
+1303,338,2026-10-24 05:40:00,2569.37,pagado,paypal,app movil
+1304,216,2026-08-19 10:06:00,723.01,enviado,tarjeta,app movil
+1305,18,2026-10-28 01:44:00,2515.41,enviado,efectivo,tienda fisica
+1306,343,2026-08-31 04:21:00,1047.02,pendiente,transferencia,app movil
+1307,215,2026-10-15 08:36:00,1156.36,pagado,tarjeta,app movil
+1308,475,2026-11-08 03:22:00,2555.46,enviado,tarjeta,app movil
+1309,275,2026-10-06 02:04:00,1779.78,cancelado,paypal,app movil
+1310,137,2026-10-16 22:17:00,1508.64,enviado,tarjeta,web
+1311,260,2026-09-08 16:00:00,1196.96,cancelado,paypal,app movil
+1312,8,2026-10-09 19:47:00,,pagado,tarjeta,tienda fisica
+1313,69,2026-09-27 13:59:00,mil pesos,pagado,tarjeta,app movil
+1314,237,2026-10-24 22:46:00,831.27,pagado,efectivo,web
+1315,139,2026-09-24 14:49:00,321.46,cancelado,tarjeta,web
+1316,374,2026-08-31 06:48:00,1231.41,pagado,paypal,app movil
+1317,427,2026-08-14 00:58:00,1317.29,pagado,transferencia,app movil
+1318,196,2026-09-04 08:17:00,-385.54,pendiente,paypal,web
+1319,479,2026-10-22 21:49:00,1363.57,pendiente,efectivo,web
+1320,239,2026-09-11 02:22:00,2552.01,pagado,tarjeta,web
+1321,111,2026-08-24 07:15:00,450.26,pendiente,transferencia,web
+1322,290,2026-11-05 05:37:00,1040.7,enviado,tarjeta,tienda fisica
+1323,397,2026-10-06 09:06:00,475.67,pendiente,paypal,web
+1324,132,2026-10-02 14:39:00,102.45,enviado,tarjeta,web
+1325,74,2026-09-28 16:50:00,1952.92,pagado,efectivo,web
+1326,380,2026-09-14 06:49:00,1009.86,pagado,paypal,tienda fisica
+1327,241,2026-09-19 20:19:00,703.88,enviado,efectivo,tienda fisica
+1328,180,2026-10-27 09:58:00,945.25,pendiente,transferencia,web
+1329,473,2026-10-30 17:11:00,350.78,enviado,paypal,tienda fisica
+1330,465,2026-11-09 05:56:00,2549.39,cancelado,efectivo,app movil
+1331,99999,2026-08-18 03:59:00,156.39,pendiente,tarjeta,tienda fisica
+1332,293,2026-09-04 16:08:00,534.89,enviado,transferencia,web
+1333,230,2026-11-05 05:48:00,3396.04,pagado,tarjeta,web
+1334,373,2026-09-08 23:35:00,818.82,pagado,tarjeta,app movil
+1335,32,2026-11-08 22:23:00,370.54,cancelado,paypal,web
+1336,63,2026-10-09 18:57:00,5200.88,enviado,tarjeta,web
+1337,322,2026-10-22 14:59:00,1951.08,pagado,paypal,web
+1338,218,2026-09-10 14:12:00,3009.6,enviado,transferencia,web
+1339,43,2026-10-29 05:09:00,863.73,pendiente,efectivo,web
+1340,97,2026-08-21 14:08:00,1168.79,pendiente,tarjeta,app movil
+1341,193,2026-08-29 02:17:00,2968.85,cancelado,efectivo,app movil
+1342,137,2026-08-20 22:28:00,2263.61,pagado,tarjeta,tienda fisica
+1343,496,2026-11-10 17:55:00,1332.35,enviado,transferencia,web
+1344,167,2026-10-24 07:03:00,932.52,pagado,efectivo,tienda fisica
+1345,396,2026-08-31 18:15:00,1994.62,cancelado,efectivo,web
+1346,32,2026-09-12 02:28:00,1080.79,pagado,transferencia,web
+1347,371,2026-10-19 16:10:00,1957.73,pagado,paypal,web
+1348,255,2026-09-17 08:09:00,1010.78,pagado,transferencia,tienda fisica
+1349,215,2026-10-13 01:22:00,968.34,pagado,paypal,web
+1350,188,2026-09-08 01:39:00,86.78,pagado,efectivo,app movil
+1351,84,2026-10-01 19:33:00,2138.7,pagado,paypal,tienda fisica
+1352,142,2026-11-01 01:48:00,2787.2,enviado,paypal,tienda fisica
+1353,328,2026-10-15 10:40:00,1218.13,pendiente,tarjeta,app movil
+1354,290,2026-09-10 12:43:00,222.24,pagado,transferencia,web
+1355,79,2026-10-27 17:52:00,1759.61,pendiente,efectivo,tienda fisica
+1356,338,2026-08-14 13:34:00,802.18,pagado,tarjeta,web
+1357,158,2026-10-13 11:30:00,2169.05,cancelado,efectivo,tienda fisica
+1358,411,2026-09-18 04:41:00,1148.16,pendiente,paypal,app movil
+1359,23,2026-10-18 19:54:00,174.09,pagado,efectivo,app movil
+1360,313,2026-09-04 08:32:00,694.71,pendiente,transferencia,app movil
+1361,319,2026-08-25 21:19:00,-996.96,pendiente,tarjeta,app movil
+1362,255,2026-10-29 02:53:00,973.1,enviado,paypal,web
+1363,390,2026-09-25 23:40:00,695.48,cancelado,tarjeta,tienda fisica
+1364,239,2026-09-04 11:47:00,807.89,pagado,tarjeta,tienda fisica
+1365,362,2026-10-26 22:14:00,2574.09,enviado,transferencia,tienda fisica
+1366,485,2026-09-18 19:24:00,1660.2,enviado,tarjeta,tienda fisica
+1367,500,2026-10-22 18:35:00,1241.56,pagado,paypal,app movil
+1368,174,2026-10-12 21:38:00,194.35,enviado,paypal,tienda fisica
+1369,8,2026-08-16 04:16:00,270.0,pagado,efectivo,app movil
+1370,132,2026-08-17 13:00:00,221.33,pagado,transferencia,web
+1371,309,2026-08-17 09:57:00,472.43,cancelado,efectivo,app movil
+1372,436,2026-09-24 23:13:00,,pagado,tarjeta,app movil
+1373,268,2026-10-08 17:40:00,1057.8,pagado,transferencia,tienda fisica
+1374,296,2026-10-24 13:10:00,-377.65,cancelado,efectivo,tienda fisica
+1375,218,2026-08-26 20:28:00,,pendiente,efectivo,web
+1376,149,2026-09-20 14:39:00,1292.62,pagado,efectivo,web
+1377,9,2026-10-26 13:35:00,130.07,enviado,paypal,app movil
+1378,242,2026-10-10 04:10:00,450.73,pagado,efectivo,tienda fisica
+1379,464,2026-09-14 06:11:00,590.45,pagado,tarjeta,web
+1380,193,2026-08-21 21:27:00,1903.07,cancelado,paypal,web
+1381,73,31/02/2026 25:61,2421.75,pendiente,paypal,web
+1382,186,2026-09-22 14:01:00,690.92,enviado,transferencia,app movil
+1383,163,2026-10-02 15:13:00,295.27,cancelado,tarjeta,web
+1384,83,2026-08-30 17:07:00,1277.8,pagado,efectivo,app movil
+1385,6,2026-09-14 00:44:00,2988.91,enviado,transferencia,web
+1386,107,2026-09-01 09:19:00,557.16,enviado,paypal,tienda fisica
+1387,311,2026-11-04 09:08:00,1997.38,pendiente,efectivo,tienda fisica
+1388,352,2026-09-04 02:24:00,1466.0,pagado,paypal,web
+1389,220,2026-10-09 22:42:00,660.73,pagado,transferencia,tienda fisica
+1390,364,2026-09-28 11:15:00,2983.12,pagado,transferencia,app movil
+1391,76,2026-10-18 06:44:00,583.4,pagado,paypal,tienda fisica
+1392,428,2026-09-12 10:21:00,1383.49,enviado,paypal,tienda fisica
+1393,429,2026-09-01 09:13:00,2778.89,cancelado,transferencia,web
+1394,107,2026-08-28 16:54:00,815.45,pagado,tarjeta,web
+1395,348,2026-09-21 13:50:00,300.0,enviado,tarjeta,web
+1396,453,2026-11-08 15:38:00,608.95,pendiente,paypal,web
+1397,150,2026-08-28 16:14:00,445.62,pagado,transferencia,app movil
+1398,442,2026-09-15 17:33:00,896.39,cancelado,efectivo,app movil
+1399,380,2026-09-21 11:55:00,814.2,pagado,tarjeta,web
+1400,81,2026-09-08 16:51:00,2422.08,cancelado,tarjeta,web
+1401,334,2026-11-04 12:49:00,975.54,cancelado,paypal,web
+1402,106,2026-08-27 06:19:00,3066.32,pagado,efectivo,web
+1403,155,2026-11-10 08:43:00,820.47,enviado,efectivo,app movil
+1404,6,2026-08-17 19:29:00,mil pesos,cancelado,transferencia,tienda fisica
+1405,318,2026-11-06 13:28:00,300.0,pagado,tarjeta,tienda fisica
+1406,491,2026-10-20 14:39:00,718.72,pagado,tarjeta,web
+1407,146,2026-09-28 23:42:00,2461.19,pendiente,transferencia,app movil
+1408,202,2026-10-21 02:48:00,1176.05,enviado,transferencia,web
+1409,380,2026-09-03 00:59:00,696.36,pagado,tarjeta,web
+1410,202,2026-10-01 02:08:00,2011.35,cancelado,transferencia,web
+1411,159,2026-08-27 10:19:00,2163.15,pagado,transferencia,web
+1412,68,2026-10-18 09:30:00,1444.43,enviado,tarjeta,tienda fisica
+1413,470,2026-09-20 14:25:00,3840.14,enviado,tarjeta,web
+1414,162,2026-10-24 13:47:00,2252.23,pendiente,transferencia,web
+1415,182,2026-11-09 12:10:00,116.08,pendiente,efectivo,web
+1416,342,2026-11-04 05:21:00,746.95,enviado,paypal,tienda fisica
+1417,380,2026-10-09 18:32:00,2637.23,pagado,tarjeta,tienda fisica
+1418,396,2026-09-02 06:31:00,717.4,enviado,tarjeta,app movil
+1419,447,2026-08-23 21:03:00,1526.7,pagado,efectivo,app movil
+1420,270,2026-09-04 16:27:00,2194.82,cancelado,transferencia,app movil
+1421,186,2026-10-02 15:37:00,3881.48,pagado,efectivo,web
+1422,408,2026-08-18 01:19:00,1430.18,enviado,transferencia,app movil
+1423,292,2026-08-29 17:02:00,1481.51,cancelado,tarjeta,web
+1424,99999,2026-08-28 10:41:00,3688.01,enviado,transferencia,web
+1425,39,2026-11-04 20:08:00,236.3,cancelado,transferencia,web
+1426,429,2026-09-12 19:49:00,747.63,pendiente,transferencia,app movil
+1427,74,2026-09-12 06:25:00,151.16,pendiente,efectivo,app movil
+1428,243,2026-09-16 18:35:00,745.68,enviado,efectivo,web
+1429,217,2026-10-30 07:50:00,954.47,enviado,transferencia,web
+1430,145,2026-10-30 08:09:00,1590.89,pagado,transferencia,web
+1431,186,2026-09-10 08:40:00,3817.82,pendiente,paypal,tienda fisica
+1432,168,2026-09-28 19:36:00,607.24,cancelado,paypal,web
+1433,113,2026-09-15 12:30:00,1393.9,pagado,efectivo,web
+1434,257,2026-09-22 03:28:00,894.12,pagado,paypal,tienda fisica
+1435,396,2026-09-03 10:23:00,300.0,pagado,paypal,web
+1436,102,2026-09-05 08:12:00,-2453.44,pagado,tarjeta,tienda fisica
+1437,47,2026-09-21 13:30:00,2129.44,pagado,efectivo,tienda fisica
+1438,274,2026-11-01 14:04:00,639.58,enviado,tarjeta,app movil
+1439,203,2026-09-23 20:12:00,3144.87,cancelado,paypal,tienda fisica
+1440,284,2026-11-02 10:27:00,1804.49,pagado,tarjeta,tienda fisica
+1441,244,2026-08-13 17:19:00,222.59,cancelado,tarjeta,web
+1442,187,2026-09-19 08:23:00,3334.32,pendiente,efectivo,web
+1443,109,2026-11-07 09:29:00,1179.59,enviado,paypal,tienda fisica
+1444,144,2026-10-31 02:02:00,1097.36,pendiente,paypal,tienda fisica
+1445,213,2026-10-15 12:37:00,934.84,devuelto??,paypal,app movil
+1446,135,2026-08-20 03:52:00,1627.92,enviado,tarjeta,tienda fisica
+1447,477,2026-08-16 22:30:00,1520.36,enviado,transferencia,tienda fisica
+1448,477,2026-10-21 06:16:00,772.16,pendiente,transferencia,app movil
+1449,469,2026-11-10 04:47:00,694.33,enviado,efectivo,tienda fisica
+1450,346,2026-10-11 11:51:00,2391.32,pagado,tarjeta,web
+1451,189,2026-10-08 02:17:00,916.25,cancelado,transferencia,app movil
+1452,372,2026-09-03 19:12:00,1293.94,enviado,paypal,tienda fisica
+1453,139,2026-08-18 15:26:00,1560.86,pendiente,efectivo,tienda fisica
+1454,436,2026-10-09 03:11:00,370.08,pagado,tarjeta,app movil
+1455,80,2026-09-19 01:29:00,97.06,pagado,tarjeta,app movil
+1456,328,2026-11-02 07:30:00,838.2,pagado,paypal,web
+1457,76,2026-09-05 05:41:00,1571.55,cancelado,efectivo,tienda fisica
+1458,308,2026-09-22 19:15:00,1549.36,pagado,paypal,app movil
+1459,69,2026-11-08 14:49:00,mil pesos,cancelado,tarjeta,app movil
+1460,130,2026-09-29 05:12:00,2402.37,enviado,tarjeta,web
+1461,300,2026-10-30 17:41:00,2831.63,pagado,paypal,app movil
+1462,31,2026-10-10 02:11:00,589.96,enviado,paypal,web
+1463,358,2026-09-17 14:17:00,3472.91,cancelado,tarjeta,tienda fisica
+1464,181,2026-08-30 07:35:00,1685.76,enviado,transferencia,tienda fisica
+1465,497,2026-09-04 09:05:00,2873.73,pagado,tarjeta,web
+1466,310,2026-09-04 09:48:00,1972.78,pagado,transferencia,app movil
+1467,486,2026-08-30 03:06:00,772.4,enviado,transferencia,web
+1468,165,2026-09-01 06:43:00,2244.84,enviado,paypal,tienda fisica
+1469,131,2026-09-04 17:07:00,619.94,pendiente,efectivo,tienda fisica
+1470,271,2026-10-17 02:33:00,250.38,pendiente,transferencia,web
+1471,153,2026-11-04 00:44:00,83.81,enviado,paypal,web
+1472,446,2026-10-05 03:45:00,79.92,pendiente,transferencia,app movil
+1473,432,2026-09-02 06:58:00,2068.79,pagado,tarjeta,tienda fisica
+1474,497,2026-08-12 00:51:00,3497.64,pagado,tarjeta,tienda fisica
+1475,483,2026-10-08 03:56:00,515.15,cancelado,paypal,web
+1476,274,2026-10-25 22:52:00,1527.6,pendiente,paypal,tienda fisica
+1477,210,2026-10-29 05:03:00,349.17,enviado,efectivo,app movil
+1478,116,2026-11-01 00:36:00,705.03,pagado,paypal,tienda fisica
+1479,116,2026-09-18 20:04:00,3191.76,cancelado,transferencia,web
+1480,100,2026-10-15 07:19:00,1506.45,pendiente,transferencia,app movil
+1481,221,2026-11-07 07:51:00,1514.78,cancelado,paypal,web
+1482,403,2026-09-11 01:31:00,1297.82,pendiente,efectivo,web
+1483,138,2026-09-26 09:55:00,1127.51,pagado,efectivo,web
+1484,1,2026-09-27 11:11:00,418.34,cancelado,tarjeta,tienda fisica
+1485,139,2026-08-23 09:37:00,556.4,pagado,transferencia,tienda fisica
+1486,458,2026-10-02 19:00:00,2464.59,cancelado,efectivo,web
+1487,13,2026-08-15 15:52:00,882.51,cancelado,paypal,app movil
+1488,469,2026-09-02 04:05:00,583.4,enviado,efectivo,tienda fisica
+1489,277,2026-11-09 17:50:00,1233.94,enviado,efectivo,web
+1490,370,31/02/2026 25:61,1746.24,enviado,transferencia,web
+1491,495,2026-08-25 03:57:00,2779.81,enviado,tarjeta,tienda fisica
+1492,277,2026-08-14 01:32:00,990.35,pagado,transferencia,web
+1493,142,2026-09-01 11:27:00,2221.08,cancelado,tarjeta,app movil
+1494,345,2026-10-21 18:00:00,3780.86,pendiente,efectivo,web
+1495,348,2026-08-16 18:19:00,3224.58,pagado,tarjeta,app movil
+1496,216,2026-09-09 09:47:00,4659.98,enviado,transferencia,app movil
+1497,197,2026-11-01 04:46:00,1795.06,pagado,tarjeta,web
+1498,203,2026-10-11 08:12:00,1866.03,pendiente,efectivo,web
+1499,429,2026-11-09 01:43:00,601.64,cancelado,tarjeta,web
+1500,31,2026-10-11 01:12:00,170.18,pendiente,transferencia,app movil
+1501,306,2026-09-25 15:07:00,2126.57,pendiente,transferencia,app movil
+1502,23,2026-10-01 13:15:00,3389.72,cancelado,efectivo,tienda fisica
+1503,368,2026-09-01 02:41:00,2278.5,enviado,efectivo,tienda fisica
+1504,444,2026-10-20 02:38:00,1813.61,pagado,transferencia,web
+1505,278,2026-09-17 21:58:00,2938.64,enviado,tarjeta,app movil
+1506,181,31/02/2026 25:61,1398.27,cancelado,efectivo,web
+1507,348,2026-08-21 19:56:00,326.04,enviado,paypal,web
+1508,293,2026-11-03 10:16:00,826.93,pagado,transferencia,app movil
+1509,136,2026-11-03 10:12:00,3824.51,pagado,efectivo,web
+1510,478,2026-10-31 01:04:00,2288.84,cancelado,paypal,app movil
+1511,121,2026-10-17 12:00:00,2378.33,cancelado,paypal,app movil
+1512,411,2026-10-30 04:30:00,4461.12,pagado,transferencia,web
+1513,14,2026-08-25 10:43:00,321.46,enviado,paypal,web
+1514,69,2026-10-15 03:42:00,2055.33,enviado,efectivo,app movil
+1515,317,2026-08-27 00:44:00,1265.17,pagado,efectivo,web
+1516,334,2026-10-23 21:25:00,699.51,pagado,transferencia,tienda fisica
+1517,217,2026-08-24 16:34:00,156.53,pagado,transferencia,tienda fisica
+1518,303,2026-09-04 17:55:00,1194.29,cancelado,tarjeta,tienda fisica
+1519,166,2026-09-16 03:36:00,1552.53,cancelado,tarjeta,web
+1520,126,2026-10-14 00:01:00,920.32,pagado,transferencia,app movil
+1521,105,2026-11-01 08:52:00,1704.13,cancelado,tarjeta,app movil
+1522,122,2026-09-23 21:50:00,2075.67,pagado,efectivo,web
+1523,28,2026-10-25 06:05:00,912.19,pagado,tarjeta,tienda fisica
+1524,426,2026-10-21 22:32:00,1159.78,pendiente,transferencia,tienda fisica
+1525,162,2026-08-26 06:26:00,1750.26,cancelado,transferencia,web
+1526,363,2026-10-06 02:35:00,968.36,pendiente,efectivo,tienda fisica
+1527,422,2026-09-18 08:07:00,1927.92,pagado,transferencia,web
+1528,81,2026-09-01 03:01:00,685.01,cancelado,tarjeta,tienda fisica
+1529,288,2026-09-28 15:14:00,216.95,pagado,tarjeta,web
+1530,466,2026-10-17 02:49:00,1207.94,cancelado,efectivo,app movil
+1531,252,2026-11-02 05:29:00,2423.58,cancelado,transferencia,web
+1532,103,2026-08-13 14:17:00,3777.28,cancelado,efectivo,app movil
+1533,138,2026-08-30 09:48:00,1539.62,pagado,transferencia,web
+1534,206,2026-10-25 22:45:00,1135.62,pendiente,paypal,app movil
+1535,475,2026-09-05 09:24:00,2026.18,pagado,efectivo,app movil
+1536,198,2026-09-04 07:46:00,715.17,pagado,paypal,tienda fisica
+1537,55,2026-10-22 17:02:00,969.49,pagado,efectivo,app movil
+1538,429,31/02/2026 25:61,3053.82,pendiente,tarjeta,app movil
+1539,24,2026-08-14 11:39:00,2338.15,pendiente,transferencia,web
+1540,34,2026-08-25 06:46:00,3152.26,cancelado,paypal,tienda fisica
+1541,108,2026-09-25 09:43:00,1319.91,devuelto??,efectivo,tienda fisica
+1542,386,2026-09-22 23:25:00,498.8,enviado,efectivo,tienda fisica
+1543,328,2026-08-21 15:24:00,641.65,devuelto??,efectivo,tienda fisica
+1544,87,2026-08-24 14:27:00,472.36,pagado,transferencia,tienda fisica
+1545,467,2026-09-04 02:31:00,176.92,pagado,efectivo,tienda fisica
+1546,79,2026-11-05 15:15:00,498.8,pendiente,paypal,tienda fisica
+1547,263,2026-09-17 13:53:00,3265.69,cancelado,transferencia,web
+1548,264,2026-10-06 19:23:00,1545.19,cancelado,paypal,web
+1549,281,2026-09-23 01:45:00,999.45,pagado,transferencia,app movil
+1550,110,2026-08-18 01:05:00,3371.14,pendiente,efectivo,web
+1551,77,2026-10-04 18:00:00,1122.3,enviado,efectivo,app movil
+1552,335,2026-09-11 18:57:00,1306.08,enviado,tarjeta,web
+1553,422,2026-10-07 04:30:00,1310.28,enviado,tarjeta,tienda fisica
+1554,255,2026-10-01 12:18:00,1975.85,pagado,tarjeta,tienda fisica
+1555,264,2026-11-02 10:58:00,139.67,cancelado,tarjeta,app movil
+1556,190,2026-09-06 02:14:00,774.7,enviado,transferencia,app movil
+1557,106,2026-09-04 22:14:00,779.15,pagado,tarjeta,tienda fisica
+1558,205,2026-08-15 19:18:00,244.53,pagado,tarjeta,tienda fisica
+1559,46,2026-09-01 04:21:00,417.29,pendiente,transferencia,tienda fisica
+1560,390,2026-08-26 21:45:00,4069.96,pendiente,tarjeta,app movil
+1561,284,2026-08-25 15:07:00,1439.69,pagado,efectivo,tienda fisica
+1562,236,2026-09-06 02:03:00,2789.11,enviado,transferencia,web
+1563,324,2026-11-04 23:45:00,1745.15,pagado,paypal,tienda fisica
+1564,141,2026-08-12 13:27:00,3339.46,pagado,tarjeta,app movil
+1565,487,2026-11-04 00:46:00,347.95,pendiente,transferencia,web
+1566,309,2026-11-01 21:44:00,1546.99,cancelado,paypal,app movil
+1567,499,2026-10-03 01:35:00,498.03,pagado,efectivo,app movil
+1568,439,2026-09-17 12:50:00,2078.41,pendiente,tarjeta,app movil
+1569,339,2026-10-15 18:57:00,1350.73,pagado,paypal,app movil
+1570,261,2026-09-21 03:55:00,547.57,pagado,tarjeta,web
+1571,472,2026-08-12 00:25:00,216.95,pagado,transferencia,web
+1572,127,2026-08-28 08:14:00,976.27,enviado,tarjeta,app movil
+1573,381,2026-08-22 03:28:00,2641.9,pagado,efectivo,tienda fisica
+1574,263,2026-08-17 19:48:00,2152.86,enviado,tarjeta,tienda fisica
+1575,303,2026-10-09 03:49:00,2753.47,pagado,paypal,app movil
+1576,327,2026-10-11 16:08:00,1169.44,pendiente,transferencia,app movil
+1577,286,2026-10-17 08:49:00,1663.12,enviado,paypal,app movil
+1578,69,2026-10-25 18:27:00,2337.02,pagado,efectivo,tienda fisica
+1579,225,2026-09-17 04:06:00,256.4,pagado,paypal,app movil
+1580,315,2026-11-01 11:50:00,380.0,pagado,efectivo,app movil
+1581,316,2026-10-20 15:48:00,1840.08,pagado,efectivo,web
+1582,195,2026-10-14 20:44:00,6939.01,cancelado,efectivo,tienda fisica
+1583,416,2026-10-30 12:49:00,1563.93,cancelado,tarjeta,web
+1584,400,2026-10-04 23:41:00,1012.03,pagado,paypal,app movil
+1585,34,2026-10-09 10:41:00,440.82,pagado,paypal,tienda fisica
+1586,298,2026-10-16 17:56:00,400.0,pagado,tarjeta,web
+1587,299,2026-09-30 13:16:00,2000.58,pagado,paypal,app movil
+1588,495,2026-10-10 20:05:00,2824.23,pagado,transferencia,tienda fisica
+1589,222,2026-09-10 04:45:00,244.53,enviado,transferencia,tienda fisica
+1590,281,2026-09-13 19:41:00,319.6,pendiente,paypal,tienda fisica
+1591,99999,2026-08-28 00:36:00,2721.16,pagado,transferencia,tienda fisica
+1592,95,2026-10-17 21:09:00,916.79,pagado,paypal,app movil
+1593,149,2026-10-22 22:05:00,759.13,devuelto??,paypal,app movil
+1594,302,2026-08-30 18:10:00,375.67,pendiente,tarjeta,app movil
+1595,143,2026-11-06 21:56:00,1298.21,pagado,transferencia,tienda fisica
+1596,492,2026-08-18 02:03:00,1073.69,pendiente,tarjeta,web
+1597,90,2026-09-25 16:49:00,1163.43,cancelado,paypal,web
+1598,146,2026-09-29 18:42:00,3819.5,pagado,efectivo,web
+1599,263,2026-09-16 08:21:00,1620.19,pagado,efectivo,web
+1600,294,2026-09-01 01:16:00,4977.51,pagado,transferencia,tienda fisica
+1601,492,2026-09-20 10:21:00,314.6,pagado,tarjeta,app movil
+1602,243,2026-09-24 15:32:00,1635.06,pagado,paypal,tienda fisica
+1603,369,2026-10-01 00:15:00,1784.14,pagado,efectivo,web
+1604,473,2026-08-27 17:52:00,3522.62,pagado,tarjeta,app movil
+1605,382,2026-08-22 04:20:00,1594.83,pagado,efectivo,app movil
+1606,212,2026-10-29 09:35:00,2869.12,cancelado,transferencia,app movil
+1607,50,2026-09-26 15:21:00,691.65,cancelado,tarjeta,web
+1608,255,2026-10-15 06:50:00,1356.32,pagado,paypal,web
+1609,217,2026-09-10 04:06:00,3021.5,pendiente,transferencia,app movil
+1610,304,2026-10-03 07:55:00,1326.68,enviado,transferencia,app movil
+1611,152,2026-09-27 09:10:00,2919.72,pagado,transferencia,tienda fisica
+1612,111,2026-09-21 03:28:00,3446.3,pagado,tarjeta,tienda fisica
+1613,350,2026-09-01 15:21:00,3534.87,pagado,efectivo,web
+1614,87,2026-09-27 03:31:00,462.6,pendiente,tarjeta,app movil
+1615,390,2026-10-31 16:22:00,2673.05,pagado,transferencia,app movil
+1616,141,2026-09-03 19:35:00,958.21,pagado,tarjeta,tienda fisica
+1617,129,2026-09-02 19:54:00,1457.81,pendiente,paypal,web
+1618,435,2026-10-02 00:37:00,146.37,pagado,tarjeta,web
+1619,74,2026-10-26 16:10:00,1311.13,pagado,efectivo,app movil
+1620,32,2026-08-13 06:41:00,447.87,cancelado,tarjeta,app movil
+1621,31,2026-10-31 11:57:00,880.03,enviado,tarjeta,tienda fisica
+1622,343,2026-11-10 17:30:00,2185.3,cancelado,tarjeta,app movil
+1623,466,2026-09-08 23:13:00,987.15,pendiente,transferencia,app movil
+1624,404,2026-10-31 21:44:00,837.69,enviado,efectivo,tienda fisica
+1625,364,2026-10-11 20:12:00,1288.48,pagado,transferencia,app movil
+1626,388,2026-08-19 06:03:00,1714.27,pagado,tarjeta,web
+1627,315,2026-10-06 05:14:00,2009.17,cancelado,efectivo,app movil
+1628,322,2026-08-13 11:23:00,1002.23,enviado,paypal,app movil
+1629,80,2026-09-22 09:13:00,2576.88,pagado,efectivo,app movil
+1630,430,2026-10-13 22:50:00,1612.36,enviado,paypal,web
+1631,249,2026-10-24 04:42:00,2206.38,pagado,tarjeta,app movil
+1632,118,2026-10-23 04:10:00,520.91,pagado,transferencia,web
+1633,311,2026-08-27 02:41:00,1412.91,pagado,tarjeta,web
+1634,232,2026-08-25 19:03:00,548.45,pagado,efectivo,web
+1635,475,2026-10-23 17:23:00,497.94,cancelado,transferencia,web
+1636,99999,2026-11-07 18:39:00,1974.01,cancelado,tarjeta,web
+1637,483,2026-09-29 14:44:00,181.27,pagado,tarjeta,tienda fisica
+1638,241,2026-08-31 09:01:00,2596.45,enviado,efectivo,tienda fisica
+1639,285,2026-08-24 15:23:00,546.3,pendiente,paypal,web
+1640,422,2026-08-18 01:50:00,1341.43,enviado,efectivo,web
+1641,157,2026-08-13 22:18:00,2047.25,cancelado,efectivo,web
+1642,291,2026-08-21 21:20:00,797.81,pagado,efectivo,web
+1643,388,2026-10-07 10:20:00,1295.08,enviado,tarjeta,web
+1644,287,2026-11-02 12:48:00,893.16,cancelado,tarjeta,web
+1645,246,2026-09-20 01:59:00,246.93,cancelado,transferencia,tienda fisica
+1646,381,2026-10-23 14:27:00,4324.22,pagado,transferencia,app movil
+1647,364,2026-10-25 12:30:00,582.69,pendiente,efectivo,app movil
+1648,428,2026-09-08 03:47:00,2794.72,enviado,tarjeta,web
+1649,407,2026-09-27 23:57:00,1085.86,cancelado,efectivo,app movil
+1650,199,2026-10-13 21:26:00,433.07,pagado,tarjeta,web
+1651,425,2026-10-25 22:06:00,2173.63,pagado,tarjeta,app movil
+1652,461,2026-09-20 09:57:00,935.91,cancelado,transferencia,app movil
+1653,420,2026-09-26 21:53:00,519.46,pagado,tarjeta,web
+1654,4,2026-10-18 17:51:00,1099.7,pendiente,paypal,web
+1655,330,2026-10-10 15:47:00,578.25,pagado,transferencia,app movil
+1656,30,2026-08-20 22:16:00,125.59,pagado,efectivo,app movil
+1657,253,2026-11-02 05:28:00,749.06,pagado,efectivo,tienda fisica
+1658,120,2026-10-31 09:52:00,2984.63,enviado,paypal,tienda fisica
+1659,61,2026-08-24 12:55:00,611.81,pagado,transferencia,tienda fisica
+1660,220,2026-09-18 08:24:00,394.17,pagado,tarjeta,app movil
+1661,281,2026-11-03 09:07:00,2365.71,pendiente,tarjeta,web
+1662,245,2026-08-22 04:20:00,163.01,enviado,tarjeta,app movil
+1663,183,2026-08-28 17:42:00,1057.15,pendiente,transferencia,app movil
+1664,434,31/02/2026 25:61,1174.9,pagado,transferencia,web
+1665,74,2026-10-08 08:05:00,2982.17,pagado,paypal,app movil
+1666,338,2026-09-01 16:07:00,3123.3,enviado,paypal,app movil
+1667,446,2026-11-07 09:46:00,1679.94,pagado,transferencia,tienda fisica
+1668,144,2026-10-01 11:13:00,2029.93,pagado,transferencia,app movil
+1669,271,2026-09-15 05:33:00,2193.65,pagado,paypal,web
+1670,3,2026-09-19 03:16:00,1557.63,pagado,paypal,app movil
+1671,365,2026-09-08 16:53:00,3307.91,cancelado,transferencia,tienda fisica
+1672,399,2026-10-14 14:13:00,292.82,pagado,transferencia,web
+1673,191,2026-11-10 16:39:00,703.81,pagado,transferencia,app movil
+1674,150,2026-08-13 00:38:00,1421.39,pendiente,paypal,web
+1675,99,2026-09-15 00:59:00,680.58,pagado,tarjeta,tienda fisica
+1676,203,2026-10-16 09:07:00,1634.81,pagado,transferencia,tienda fisica
+1677,453,2026-10-22 22:05:00,519.38,pendiente,efectivo,tienda fisica
+1678,217,2026-09-13 23:57:00,1687.52,cancelado,paypal,web
+1679,379,2026-08-21 20:05:00,2317.76,pagado,paypal,web
+1680,144,2026-08-30 21:14:00,1195.65,pendiente,transferencia,web
+1681,56,2026-09-29 13:03:00,1646.35,enviado,tarjeta,app movil
+1682,488,2026-09-04 05:37:00,222.35,cancelado,tarjeta,app movil
+1683,140,2026-10-11 20:50:00,351.45,pagado,paypal,app movil
+1684,264,2026-08-20 15:36:00,1311.02,enviado,efectivo,app movil
+1685,328,2026-11-09 19:29:00,202.33,enviado,efectivo,app movil
+1686,135,2026-11-06 19:54:00,230.11,cancelado,tarjeta,web
+1687,356,2026-08-31 00:58:00,1618.34,pagado,paypal,tienda fisica
+1688,476,2026-09-22 08:32:00,312.26,cancelado,paypal,web
+1689,446,2026-11-05 12:03:00,4635.88,pendiente,efectivo,tienda fisica
+1690,179,2026-09-17 11:50:00,575.79,enviado,transferencia,tienda fisica
+1691,199,2026-09-20 00:30:00,3104.03,pagado,tarjeta,app movil
+1692,445,2026-10-15 22:52:00,1993.11,pagado,tarjeta,web
+1693,416,2026-08-20 15:26:00,2697.97,pagado,efectivo,web
+1694,448,2026-09-05 10:21:00,300.0,pagado,paypal,web
+1695,482,2026-11-10 04:44:00,889.4,cancelado,paypal,web
+1696,285,2026-10-20 06:30:00,516.88,enviado,paypal,app movil
+1697,72,2026-10-01 18:38:00,734.4,enviado,paypal,web
+1698,75,2026-11-01 21:22:00,553.32,pagado,efectivo,web
+1699,340,2026-09-14 06:59:00,2003.82,pendiente,paypal,web
+1700,152,2026-11-05 02:17:00,3003.6,cancelado,paypal,tienda fisica
+1701,188,2026-10-22 17:30:00,1299.81,pagado,transferencia,tienda fisica
+1702,99999,2026-10-08 14:41:00,1909.29,cancelado,tarjeta,app movil
+1703,382,2026-08-13 19:44:00,2784.6,pendiente,tarjeta,app movil
+1704,206,2026-09-27 03:53:00,340.69,cancelado,transferencia,tienda fisica
+1705,252,2026-10-30 02:31:00,2982.5,pagado,tarjeta,app movil
+1706,426,2026-10-11 17:41:00,2664.55,pendiente,transferencia,web
+1707,171,2026-10-08 02:48:00,3446.4,pagado,paypal,tienda fisica
+1708,451,2026-08-16 00:33:00,101.02,pagado,tarjeta,tienda fisica
+1709,383,2026-09-23 22:25:00,312.17,devuelto??,tarjeta,tienda fisica
+1710,357,2026-10-16 15:00:00,2193.88,pagado,paypal,tienda fisica
+1711,302,2026-10-11 20:45:00,2133.78,cancelado,paypal,tienda fisica
+1712,89,2026-09-04 01:02:00,199.8,pagado,efectivo,tienda fisica
+1713,388,2026-10-18 01:41:00,195.25,pendiente,transferencia,web
+1714,395,2026-09-18 09:34:00,654.13,pagado,tarjeta,tienda fisica
+1715,326,2026-09-17 05:16:00,188.94,pendiente,efectivo,tienda fisica
+1716,281,2026-10-13 23:59:00,1592.12,pagado,tarjeta,tienda fisica
+1717,49,2026-08-31 03:03:00,970.31,pendiente,efectivo,web
+1718,54,2026-09-20 06:26:00,391.52,enviado,paypal,tienda fisica
+1719,464,2026-08-17 00:15:00,6601.94,pagado,tarjeta,web
+1720,264,2026-08-14 05:26:00,2522.65,pendiente,transferencia,app movil
+1721,96,2026-09-01 01:08:00,779.19,cancelado,tarjeta,app movil
+1722,175,2026-08-23 06:44:00,582.08,enviado,paypal,web
+1723,471,2026-08-12 13:05:00,1589.6,pendiente,paypal,web
+1724,411,2026-10-30 04:46:00,1141.0,cancelado,paypal,web
+1725,135,2026-10-07 02:43:00,1565.98,pagado,paypal,tienda fisica
+1726,53,2026-10-22 11:24:00,1435.67,pendiente,tarjeta,tienda fisica
+1727,293,2026-11-08 09:18:00,1165.65,cancelado,efectivo,web
+1728,325,2026-08-31 22:28:00,587.33,enviado,transferencia,web
+1729,464,2026-09-22 00:47:00,354.27,enviado,transferencia,app movil
+1730,391,2026-10-06 12:36:00,2251.31,enviado,efectivo,app movil
+1731,113,2026-10-09 11:44:00,2457.04,pendiente,efectivo,app movil
+1732,482,2026-09-26 00:39:00,1574.43,cancelado,paypal,tienda fisica
+1733,187,2026-09-04 06:56:00,2201.59,pendiente,efectivo,web
+1734,17,2026-09-26 22:12:00,4941.33,pagado,efectivo,web
+1735,138,2026-09-20 07:11:00,356.53,pagado,tarjeta,web
+1736,469,2026-09-09 18:10:00,2540.38,cancelado,efectivo,app movil
+1737,287,2026-09-27 19:15:00,593.68,pagado,tarjeta,tienda fisica
+1738,337,2026-10-18 03:49:00,659.82,pendiente,efectivo,web
+1739,136,2026-08-14 23:34:00,425.12,pagado,transferencia,app movil
+1740,181,2026-08-29 22:01:00,698.63,pagado,transferencia,app movil
+1741,187,2026-09-08 15:23:00,2767.27,cancelado,transferencia,tienda fisica
+1742,409,2026-08-25 01:39:00,1966.7,pendiente,transferencia,app movil
+1743,243,2026-10-18 04:27:00,1650.68,pendiente,paypal,app movil
+1744,132,2026-10-29 17:05:00,1342.26,enviado,tarjeta,tienda fisica
+1745,82,2026-11-09 02:54:00,312.78,cancelado,tarjeta,app movil
+1746,11,2026-10-11 01:54:00,502.36,cancelado,efectivo,web
+1747,361,2026-09-18 07:58:00,1678.16,pagado,tarjeta,web
+1748,158,2026-09-07 11:16:00,1878.75,pendiente,efectivo,tienda fisica
+1749,24,2026-08-16 18:04:00,1578.89,cancelado,transferencia,tienda fisica
+1750,194,2026-09-12 16:42:00,1049.15,cancelado,tarjeta,web
+1751,104,2026-08-20 12:48:00,1325.75,pagado,paypal,tienda fisica
+1752,300,2026-09-10 06:30:00,mil pesos,pendiente,tarjeta,app movil
+1753,65,2026-09-22 11:25:00,617.72,pendiente,paypal,web
+1754,315,2026-10-31 21:11:00,260.94,cancelado,paypal,web
+1755,291,2026-11-01 12:01:00,394.22,enviado,transferencia,tienda fisica
+1756,150,2026-09-27 02:42:00,2027.37,cancelado,tarjeta,app movil
+1757,27,2026-11-09 16:57:00,469.59,pendiente,transferencia,tienda fisica
+1758,382,2026-10-02 01:14:00,639.12,pagado,tarjeta,web
+1759,351,2026-08-14 07:20:00,mil pesos,pagado,efectivo,tienda fisica
+1760,455,2026-10-10 04:15:00,833.91,devuelto??,paypal,web
+1761,193,2026-11-03 19:35:00,1472.26,cancelado,efectivo,web
+1762,281,2026-10-20 10:40:00,466.72,pagado,transferencia,web
+1763,371,2026-08-21 08:59:00,2587.99,pagado,paypal,web
+1764,378,2026-09-23 02:31:00,2144.0,pendiente,paypal,tienda fisica
+1765,67,2026-10-31 14:14:00,1970.4,pendiente,tarjeta,app movil
+1766,111,2026-09-13 22:47:00,4359.61,cancelado,efectivo,web
+1767,156,2026-09-25 14:09:00,181.27,pagado,paypal,tienda fisica
+1768,229,2026-08-15 19:02:00,5614.76,cancelado,paypal,web
+1769,206,2026-09-23 07:58:00,1144.41,cancelado,transferencia,web
+1770,352,2026-08-19 13:09:00,3861.56,enviado,tarjeta,app movil
+1771,413,2026-09-13 08:48:00,1249.12,pendiente,efectivo,web
+1772,262,2026-10-12 19:10:00,200.0,cancelado,paypal,tienda fisica
+1773,161,2026-09-23 04:37:00,933.32,cancelado,paypal,tienda fisica
+1774,350,2026-08-25 01:08:00,1412.61,pagado,paypal,tienda fisica
+1775,500,2026-10-18 18:04:00,533.76,cancelado,tarjeta,tienda fisica
+1776,480,2026-08-15 18:03:00,2019.21,cancelado,tarjeta,web
+1777,266,2026-10-17 22:19:00,3383.09,pendiente,tarjeta,app movil
+1778,458,2026-10-05 03:09:00,1734.28,cancelado,paypal,tienda fisica
+1779,405,2026-09-29 08:45:00,3298.72,pagado,tarjeta,tienda fisica
+1780,253,2026-10-14 01:26:00,553.32,pagado,paypal,web
+1781,215,2026-08-26 12:36:00,3848.97,cancelado,paypal,web
+1782,270,2026-08-14 02:52:00,650.35,cancelado,tarjeta,app movil
+1783,422,2026-11-09 05:57:00,594.68,pendiente,paypal,app movil
+1784,472,2026-10-26 14:45:00,2570.23,pendiente,paypal,tienda fisica
+1785,125,2026-09-11 00:03:00,3020.62,pagado,efectivo,tienda fisica
+1786,281,2026-10-26 17:47:00,2221.63,enviado,efectivo,tienda fisica
+1787,36,2026-08-25 23:06:00,1396.41,pagado,efectivo,tienda fisica
+1788,445,2026-09-18 16:53:00,495.53,pendiente,transferencia,tienda fisica
+1789,120,2026-08-29 02:35:00,697.68,pagado,efectivo,app movil
+1790,161,2026-09-22 15:35:00,704.35,pendiente,transferencia,web
+1791,452,2026-08-28 04:38:00,3073.47,enviado,transferencia,tienda fisica
+1792,444,2026-10-18 23:02:00,697.23,pendiente,paypal,app movil
+1793,35,2026-10-15 15:39:00,1839.37,cancelado,paypal,web
+1794,471,2026-10-18 12:35:00,1500.56,pagado,transferencia,tienda fisica
+1795,376,2026-10-11 08:12:00,1335.02,pagado,efectivo,web
+1796,138,2026-10-20 12:53:00,1608.0,cancelado,efectivo,web
+1797,414,2026-09-24 22:46:00,482.01,cancelado,efectivo,app movil
+1798,337,2026-11-02 11:32:00,697.68,enviado,efectivo,web
+1799,34,2026-10-17 07:03:00,1532.36,pendiente,efectivo,app movil
+1800,261,2026-10-19 09:51:00,1591.92,pendiente,tarjeta,web
+1801,19,2026-08-21 17:03:00,2898.73,pagado,paypal,app movil
+1802,292,2026-10-09 19:50:00,2478.28,pendiente,transferencia,tienda fisica
+1803,2,2026-09-23 08:31:00,1151.92,pagado,transferencia,app movil
+1804,132,2026-10-15 06:53:00,1240.91,pagado,tarjeta,tienda fisica
+1805,373,2026-08-31 16:59:00,2743.53,enviado,transferencia,tienda fisica
+1806,175,2026-11-08 03:18:00,220.53,pagado,transferencia,tienda fisica
+1807,448,2026-09-17 13:20:00,1110.43,pagado,transferencia,app movil
+1808,409,2026-08-27 11:24:00,4245.66,pagado,transferencia,tienda fisica
+1809,302,2026-09-03 02:09:00,,cancelado,efectivo,app movil
+1810,494,2026-10-14 05:08:00,3595.71,pagado,paypal,web
+1811,484,2026-11-07 23:35:00,4006.35,pendiente,paypal,app movil
+1812,265,2026-09-30 22:22:00,1130.74,pagado,efectivo,web
+1813,408,2026-08-31 08:10:00,4007.7,pendiente,paypal,tienda fisica
+1814,170,2026-11-02 23:43:00,393.5,pagado,efectivo,tienda fisica
+1815,126,2026-09-19 03:55:00,4079.48,pendiente,paypal,web
+1816,282,2026-08-29 10:08:00,587.3,cancelado,efectivo,web
+1817,465,2026-08-12 06:18:00,719.33,enviado,efectivo,tienda fisica
+1818,156,2026-08-15 13:24:00,2056.13,pagado,efectivo,app movil
+1819,348,2026-09-18 19:59:00,2605.9,enviado,tarjeta,app movil
+1820,444,2026-09-26 07:16:00,220.53,enviado,paypal,web
+1821,357,2026-11-05 05:37:00,1503.41,cancelado,paypal,app movil
+1822,301,2026-09-26 16:31:00,1974.39,enviado,paypal,app movil
+1823,200,2026-09-12 08:41:00,mil pesos,cancelado,paypal,app movil
+1824,182,2026-10-31 12:29:00,2417.86,cancelado,paypal,app movil
+1825,393,2026-10-15 00:46:00,456.71,pagado,tarjeta,tienda fisica
+1826,436,2026-10-06 21:52:00,135.37,enviado,efectivo,app movil
+1827,269,2026-09-29 00:40:00,2105.86,enviado,efectivo,web
+1828,350,2026-08-17 22:33:00,653.12,pendiente,efectivo,app movil
+1829,126,2026-10-02 03:03:00,65.21,pagado,paypal,web
+1830,206,2026-09-17 20:24:00,3172.52,pagado,efectivo,app movil
+1831,250,2026-08-17 23:00:00,296.32,pagado,paypal,tienda fisica
+1832,176,2026-08-26 03:00:00,2862.51,pagado,tarjeta,tienda fisica
+1833,120,2026-08-14 15:06:00,981.38,pendiente,transferencia,tienda fisica
+1834,469,2026-10-22 20:43:00,,pagado,tarjeta,app movil
+1835,233,2026-09-07 11:25:00,1935.78,pagado,efectivo,app movil
+1836,477,2026-08-16 17:20:00,1139.66,pagado,paypal,tienda fisica
+1837,155,2026-10-29 16:03:00,1275.16,pendiente,transferencia,app movil
+1838,137,2026-09-18 12:09:00,523.59,cancelado,tarjeta,app movil
+1839,449,2026-08-23 01:51:00,1112.29,pendiente,efectivo,tienda fisica
+1840,170,2026-09-25 05:18:00,475.0,pendiente,paypal,app movil
+1841,160,31/02/2026 25:61,2054.05,pendiente,tarjeta,tienda fisica
+1842,133,2026-10-25 02:18:00,2434.44,pagado,efectivo,web
+1843,33,2026-09-06 12:17:00,1075.23,pagado,paypal,web
+1844,101,2026-10-10 20:09:00,1647.48,pagado,efectivo,app movil
+1845,20,2026-10-17 21:00:00,244.53,pagado,efectivo,web
+1846,316,2026-09-19 10:42:00,102.82,cancelado,efectivo,tienda fisica
+1847,454,2026-10-03 18:55:00,5021.68,cancelado,transferencia,tienda fisica
+1848,29,2026-09-18 12:32:00,2352.78,pendiente,tarjeta,web
+1849,195,2026-08-14 01:59:00,829.82,pendiente,tarjeta,web
+1850,275,2026-10-23 08:46:00,719.29,cancelado,transferencia,web
+1851,324,2026-10-07 06:04:00,3602.28,devuelto??,tarjeta,tienda fisica
+1852,322,2026-09-13 21:20:00,671.23,pagado,transferencia,web
+1853,75,2026-08-24 11:04:00,2862.99,pendiente,efectivo,app movil
+1854,12,2026-08-12 17:59:00,173.56,cancelado,paypal,web
+1855,89,2026-10-18 14:04:00,1291.15,pendiente,paypal,app movil
+1856,258,2026-08-28 05:46:00,4365.94,pagado,paypal,app movil
+1857,113,2026-09-06 03:56:00,1588.08,enviado,paypal,tienda fisica
+1858,332,2026-10-25 18:18:00,1313.97,cancelado,tarjeta,web
+1859,142,2026-08-17 07:45:00,2827.86,pendiente,tarjeta,web
+1860,301,2026-09-30 14:37:00,1044.19,cancelado,transferencia,tienda fisica
+1861,25,2026-09-25 15:03:00,3386.83,pagado,paypal,web
+1862,337,2026-09-21 06:10:00,860.77,pendiente,efectivo,tienda fisica
+1863,481,2026-08-18 04:45:00,1986.06,pagado,transferencia,tienda fisica
+1864,112,2026-10-22 14:38:00,177.92,pagado,transferencia,web
+1865,10,2026-08-24 09:23:00,2686.28,pagado,efectivo,tienda fisica
+1866,119,2026-09-26 01:18:00,1756.98,pagado,tarjeta,app movil
+1867,141,2026-09-03 07:24:00,2138.61,pagado,tarjeta,tienda fisica
+1868,334,2026-10-26 01:57:00,1358.21,cancelado,paypal,app movil
+1869,393,2026-09-26 01:07:00,1528.01,enviado,efectivo,web
+1870,32,2026-10-27 09:29:00,2631.62,pagado,tarjeta,web
+1871,269,2026-10-06 04:32:00,2205.61,pagado,efectivo,tienda fisica
+1872,412,2026-08-21 05:44:00,3915.14,pendiente,efectivo,web
+1873,225,2026-10-11 10:13:00,1580.45,cancelado,paypal,app movil
+1874,21,2026-08-24 08:05:00,3114.91,enviado,efectivo,tienda fisica
+1875,294,2026-11-02 19:21:00,1174.06,cancelado,transferencia,tienda fisica
+1876,44,2026-09-26 12:03:00,1641.76,pagado,transferencia,web
+1877,190,2026-09-21 06:42:00,3343.53,cancelado,efectivo,app movil
+1878,398,2026-11-08 06:36:00,330.8,pagado,tarjeta,tienda fisica
+1879,234,2026-09-10 10:13:00,627.95,pagado,tarjeta,web
+1880,470,2026-10-06 01:51:00,647.13,cancelado,transferencia,tienda fisica
+1881,226,2026-09-15 08:11:00,1833.39,pagado,paypal,app movil
+1882,167,2026-10-03 02:06:00,636.28,pagado,transferencia,tienda fisica
+1883,173,2026-09-19 03:46:00,958.29,pagado,transferencia,tienda fisica
+1884,178,2026-10-15 10:43:00,1286.43,cancelado,paypal,app movil
+1885,64,2026-09-29 01:03:00,342.76,pagado,paypal,app movil
+1886,69,2026-10-19 10:59:00,3409.13,pagado,paypal,tienda fisica
+1887,169,2026-08-19 10:14:00,1731.42,enviado,transferencia,tienda fisica
+1888,283,2026-11-08 00:00:00,1001.33,cancelado,efectivo,app movil
+1889,396,2026-10-08 01:34:00,779.89,pendiente,transferencia,app movil
+1890,239,2026-10-28 14:25:00,963.27,enviado,paypal,tienda fisica
+1891,64,2026-08-31 11:05:00,2259.63,pagado,efectivo,web
+1892,63,2026-09-12 22:08:00,1939.09,pagado,paypal,web
+1893,225,2026-11-06 09:56:00,342.76,enviado,efectivo,tienda fisica
+1894,384,2026-09-25 03:16:00,2722.77,pagado,paypal,app movil
+1895,451,2026-08-16 10:51:00,238.12,cancelado,paypal,web
+1896,386,2026-10-17 02:07:00,1331.39,pendiente,tarjeta,app movil
+1897,246,2026-08-30 08:53:00,1440.29,enviado,tarjeta,tienda fisica
+1898,27,2026-09-13 00:01:00,179.85,pagado,efectivo,tienda fisica
+1899,213,2026-10-11 06:56:00,1804.98,cancelado,efectivo,tienda fisica
+1900,200,2026-09-17 03:06:00,1400.71,pendiente,tarjeta,web
+1901,444,2026-10-21 10:07:00,447.74,pendiente,tarjeta,tienda fisica
+1902,494,2026-10-08 01:32:00,957.18,pagado,paypal,app movil
+1903,267,2026-10-28 23:32:00,558.23,cancelado,efectivo,web
+1904,354,2026-08-27 15:37:00,2090.33,enviado,paypal,tienda fisica
+1905,481,2026-10-31 14:08:00,,enviado,transferencia,web
+1906,57,2026-10-18 07:53:00,-2448.45,pagado,transferencia,app movil
+1907,56,2026-09-02 14:55:00,4550.77,enviado,paypal,web
+1908,491,2026-10-29 05:59:00,2359.72,pagado,tarjeta,app movil
+1909,83,2026-09-22 12:51:00,2962.8,pagado,paypal,app movil
+1910,350,2026-11-08 09:48:00,1073.42,pagado,tarjeta,tienda fisica
+1911,28,2026-10-26 04:09:00,1498.32,pendiente,efectivo,tienda fisica
+1912,489,2026-11-09 07:14:00,2577.81,pagado,transferencia,web
+1913,71,2026-09-28 17:09:00,821.05,enviado,tarjeta,web
+1914,119,2026-10-16 10:27:00,2487.05,cancelado,transferencia,tienda fisica
+1915,186,2026-09-14 14:50:00,844.22,pagado,tarjeta,app movil
+1916,42,2026-10-03 21:24:00,1986.29,pendiente,transferencia,tienda fisica
+1917,263,2026-08-21 03:07:00,675.42,enviado,tarjeta,web
+1918,232,2026-11-03 03:27:00,1657.7,pagado,tarjeta,web
+1919,230,2026-09-22 03:56:00,2027.04,pagado,tarjeta,tienda fisica
+1920,432,2026-08-27 07:29:00,3799.26,pagado,tarjeta,tienda fisica
+1921,406,2026-09-18 07:36:00,1016.23,pagado,paypal,app movil
+1922,359,2026-09-15 15:36:00,1751.12,pendiente,tarjeta,app movil
+1923,419,2026-08-28 12:48:00,3296.53,enviado,paypal,web
+1924,201,2026-10-02 07:40:00,3022.33,pagado,efectivo,tienda fisica
+1925,152,2026-09-07 11:29:00,3363.67,pagado,tarjeta,web
+1926,303,2026-08-26 16:48:00,2271.41,enviado,tarjeta,web
+1927,388,2026-08-19 16:00:00,3414.8,cancelado,paypal,web
+1928,64,2026-10-25 04:06:00,4180.2,cancelado,paypal,web
+1929,470,2026-10-20 13:12:00,1331.28,pagado,transferencia,web
+1930,130,2026-10-06 10:04:00,1077.3,pendiente,paypal,tienda fisica
+1931,225,2026-09-03 09:38:00,1120.9,pagado,transferencia,tienda fisica
+1932,403,2026-09-23 13:58:00,1154.47,pagado,efectivo,app movil
+1933,180,2026-10-02 18:07:00,2732.29,cancelado,tarjeta,app movil
+1934,492,2026-09-14 04:26:00,5337.62,enviado,tarjeta,tienda fisica
+1935,455,2026-11-01 06:36:00,648.45,pendiente,tarjeta,tienda fisica
+1936,416,2026-09-11 03:42:00,2039.45,cancelado,paypal,web
+1937,469,2026-08-17 03:18:00,1927.58,enviado,efectivo,app movil
+1938,278,2026-08-31 05:43:00,,pendiente,paypal,web
+1939,160,2026-09-27 23:38:00,1343.49,pendiente,transferencia,web
+1940,153,2026-09-25 13:44:00,812.64,pendiente,paypal,app movil
+1941,68,2026-09-12 12:06:00,1425.87,pendiente,tarjeta,app movil
+1942,377,2026-09-02 16:34:00,1559.68,pagado,tarjeta,tienda fisica
+1943,172,2026-09-14 02:43:00,1224.89,pagado,transferencia,web
+1944,257,2026-08-12 19:36:00,1425.15,cancelado,paypal,web
+1945,222,2026-09-08 02:13:00,98.72,enviado,transferencia,web
+1946,370,2026-09-26 18:42:00,1458.3,pagado,transferencia,tienda fisica
+1947,176,31/02/2026 25:61,2224.29,pagado,efectivo,web
+1948,469,2026-10-18 12:48:00,827.01,cancelado,paypal,web
+1949,474,2026-09-02 14:54:00,1153.8,pendiente,transferencia,app movil
+1950,98,2026-08-21 12:34:00,4022.34,pagado,efectivo,app movil
+1951,458,2026-09-04 23:55:00,3243.81,pendiente,transferencia,tienda fisica
+1952,476,2026-09-03 00:55:00,395.38,pendiente,efectivo,web
+1953,117,2026-09-10 08:50:00,3115.08,pagado,efectivo,web
+1954,114,2026-09-19 02:33:00,953.93,pagado,tarjeta,tienda fisica
+1955,484,2026-08-12 19:08:00,1187.44,enviado,transferencia,web
+1956,216,2026-08-29 22:34:00,2434.44,pendiente,tarjeta,tienda fisica
+1957,411,2026-10-02 17:25:00,1405.97,pagado,transferencia,tienda fisica
+1958,221,2026-10-21 12:44:00,3508.7,enviado,transferencia,app movil
+1959,310,2026-08-30 22:28:00,219.38,cancelado,tarjeta,tienda fisica
+1960,209,2026-11-02 01:00:00,805.07,pagado,efectivo,web
+1961,318,2026-09-08 02:34:00,3807.77,pagado,tarjeta,tienda fisica
+1962,301,2026-11-08 13:33:00,2416.58,pagado,transferencia,tienda fisica
+1963,356,2026-10-13 11:36:00,1074.28,enviado,transferencia,web
+1964,479,2026-09-10 15:04:00,269.9,pagado,efectivo,web
+1965,433,2026-10-19 17:48:00,1159.87,pagado,paypal,app movil
+1966,469,2026-11-01 09:22:00,862.91,pendiente,transferencia,web
+1967,440,2026-09-08 21:10:00,530.29,cancelado,efectivo,tienda fisica
+1968,459,2026-08-19 23:33:00,570.06,pagado,efectivo,app movil
+1969,191,2026-09-24 20:01:00,850.9,pagado,efectivo,web
+1970,301,2026-10-30 14:30:00,319.6,pagado,tarjeta,app movil
+1971,366,2026-09-11 19:15:00,1150.35,pagado,paypal,app movil
+1972,89,2026-09-06 01:27:00,1038.92,pagado,efectivo,app movil
+1973,448,2026-11-10 07:22:00,mil pesos,enviado,tarjeta,app movil
+1974,338,2026-09-22 05:55:00,350.78,pagado,paypal,tienda fisica
+1975,111,2026-08-14 08:35:00,63.94,pendiente,tarjeta,tienda fisica
+1976,470,2026-10-05 08:45:00,115.65,pendiente,tarjeta,tienda fisica
+1977,276,2026-08-26 15:56:00,1151.29,pendiente,efectivo,app movil
+1978,419,2026-08-15 10:57:00,5665.95,enviado,tarjeta,app movil
+1979,487,2026-10-22 06:21:00,1678.99,pagado,tarjeta,tienda fisica
+1980,80,2026-08-22 16:25:00,489.03,enviado,transferencia,app movil
+1981,373,2026-11-07 04:48:00,1247.0,pagado,tarjeta,app movil
+1982,457,2026-10-31 14:08:00,2213.01,enviado,paypal,app movil
+1983,44,2026-09-17 12:37:00,3452.06,pagado,paypal,web
+1984,302,2026-10-23 22:27:00,2722.98,pendiente,transferencia,app movil
+1985,10,2026-08-16 16:11:00,3407.77,pendiente,paypal,app movil
+1986,437,2026-10-28 18:06:00,2315.98,pagado,tarjeta,web
+1987,260,2026-11-06 00:17:00,3738.97,cancelado,transferencia,tienda fisica
+1988,7,2026-10-16 13:23:00,-3278.27,pagado,transferencia,tienda fisica
+1989,81,2026-08-24 12:31:00,823.74,cancelado,transferencia,web
+1990,79,2026-09-06 01:52:00,2142.37,enviado,transferencia,app movil
+1991,128,2026-11-06 18:35:00,1727.84,pagado,efectivo,web
+1992,53,2026-09-05 01:32:00,984.3,pagado,tarjeta,app movil
+1993,249,2026-08-21 02:03:00,1874.89,pendiente,paypal,web
+1994,80,2026-11-09 18:04:00,1443.05,pagado,efectivo,tienda fisica
+1995,40,2026-10-03 10:29:00,1073.37,pendiente,transferencia,web
+1996,79,2026-09-22 23:50:00,81.83,enviado,tarjeta,app movil
+1997,13,2026-10-08 07:30:00,823.63,pendiente,tarjeta,web
+1998,455,2026-10-03 06:25:00,-2779.36,enviado,transferencia,app movil
+1999,265,2026-10-28 19:13:00,868.75,devuelto??,tarjeta,app movil
+2000,162,2026-08-21 19:03:00,556.76,enviado,tarjeta,app movil

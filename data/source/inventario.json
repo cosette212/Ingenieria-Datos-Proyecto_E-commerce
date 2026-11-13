@@ -1,0 +1,4086 @@
+[
+  {
+    "producto_id": "100",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 108,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-10T16:15:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-1",
+            "tipo": "salida",
+            "cantidad": 1,
+            "fecha_hora": "2026-10-05T13:38:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-2",
+            "tipo": "entrada",
+            "cantidad": 50,
+            "fecha_hora": "2026-10-12T19:36:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-3",
+            "tipo": "salida",
+            "cantidad": 65,
+            "fecha_hora": "2026-10-12T05:02:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "101",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 232,
+        "stock_reservado": 8,
+        "ultima_actualizacion": "2026-11-10T15:25:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-4",
+            "tipo": "salida",
+            "cantidad": 17,
+            "fecha_hora": "2026-09-11T17:48:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-5",
+            "tipo": "salida",
+            "cantidad": 42,
+            "fecha_hora": "2026-09-29T06:53:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-6",
+            "tipo": "ajuste",
+            "cantidad": 35,
+            "fecha_hora": "2026-09-21T21:09:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 201,
+        "stock_reservado": 19,
+        "ultima_actualizacion": "2026-11-06T19:58:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-7",
+            "tipo": "salida",
+            "cantidad": 34,
+            "fecha_hora": "2026-10-02T01:36:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-8",
+            "tipo": "ajuste",
+            "cantidad": 79,
+            "fecha_hora": "2026-09-13T05:05:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-9",
+            "tipo": "salida",
+            "cantidad": 1,
+            "fecha_hora": "2026-10-03T15:10:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-10",
+            "tipo": "entrada",
+            "cantidad": 78,
+            "fecha_hora": "2026-11-04T15:12:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "102",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 218,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-11-05T15:02:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-11",
+            "tipo": "salida",
+            "cantidad": 3,
+            "fecha_hora": "2026-10-27T17:17:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 123,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-10-31T21:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-12",
+            "tipo": "salida",
+            "cantidad": 63,
+            "fecha_hora": "2026-09-12T09:28:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "103",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 225,
+        "stock_reservado": 9,
+        "ultima_actualizacion": "2026-11-02T09:21:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-13",
+            "tipo": "salida",
+            "cantidad": 13,
+            "fecha_hora": "2026-10-31T12:01:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-14",
+            "tipo": "entrada",
+            "cantidad": 51,
+            "fecha_hora": "2026-11-08T09:45:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-15",
+            "tipo": "salida",
+            "cantidad": 3,
+            "fecha_hora": "2026-11-07T13:25:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 264,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-03T22:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-16",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-22T01:19:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-17",
+            "tipo": "ajuste",
+            "cantidad": 75,
+            "fecha_hora": "2026-09-19T05:18:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-18",
+            "tipo": "ajuste",
+            "cantidad": 35,
+            "fecha_hora": "2026-10-09T14:24:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "104",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 239,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-11-09T07:50:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-19",
+            "tipo": "entrada",
+            "cantidad": 7,
+            "fecha_hora": "2026-09-13T07:27:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "105",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 293,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-10T21:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-20",
+            "tipo": "salida",
+            "cantidad": 74,
+            "fecha_hora": "2026-09-13T12:26:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-21",
+            "tipo": "ajuste",
+            "cantidad": 26,
+            "fecha_hora": "2026-09-20T16:07:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-22",
+            "tipo": "entrada",
+            "cantidad": 57,
+            "fecha_hora": "2026-10-08T19:29:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-23",
+            "tipo": "entrada",
+            "cantidad": 10,
+            "fecha_hora": "2026-10-13T19:22:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "106",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 182,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-01T08:34:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-24",
+            "tipo": "salida",
+            "cantidad": 37,
+            "fecha_hora": "2026-10-23T20:04:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "107",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 191,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-07T03:38:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-25",
+            "tipo": "ajuste",
+            "cantidad": 67,
+            "fecha_hora": "2026-10-22T00:21:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-26",
+            "tipo": "ajuste",
+            "cantidad": 53,
+            "fecha_hora": "2026-09-27T11:19:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "108",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 299,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-08T09:53:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-27",
+            "tipo": "ajuste",
+            "cantidad": 30,
+            "fecha_hora": "2026-10-18T14:41:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-28",
+            "tipo": "entrada",
+            "cantidad": 8,
+            "fecha_hora": "2026-10-22T01:56:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 110,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-06T08:25:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-29",
+            "tipo": "entrada",
+            "cantidad": 50,
+            "fecha_hora": "2026-09-26T19:12:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-30",
+            "tipo": "ajuste",
+            "cantidad": 79,
+            "fecha_hora": "2026-10-11T00:54:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-31",
+            "tipo": "salida",
+            "cantidad": 31,
+            "fecha_hora": "2026-11-04T07:30:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "109",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 78,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-10-31T09:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-32",
+            "tipo": "ajuste",
+            "cantidad": 20,
+            "fecha_hora": "2026-09-12T16:19:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-33",
+            "tipo": "ajuste",
+            "cantidad": 72,
+            "fecha_hora": "2026-09-19T11:06:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-34",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-17T11:46:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-35",
+            "tipo": "ajuste",
+            "cantidad": 32,
+            "fecha_hora": "2026-09-18T01:47:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "110",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 63,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-01T09:41:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-36",
+            "tipo": "entrada",
+            "cantidad": 36,
+            "fecha_hora": "2026-10-05T16:09:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "111",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 51,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-07T12:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-37",
+            "tipo": "salida",
+            "cantidad": 47,
+            "fecha_hora": "2026-10-06T01:08:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "112",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 201,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-02T02:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-38",
+            "tipo": "salida",
+            "cantidad": 18,
+            "fecha_hora": "2026-10-20T22:10:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "113",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 167,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-03T22:50:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-39",
+            "tipo": "salida",
+            "cantidad": 27,
+            "fecha_hora": "2026-09-19T02:47:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-40",
+            "tipo": "ajuste",
+            "cantidad": 77,
+            "fecha_hora": "2026-10-13T22:29:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-41",
+            "tipo": "entrada",
+            "cantidad": 38,
+            "fecha_hora": "2026-09-29T01:34:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 276,
+        "stock_reservado": 12,
+        "ultima_actualizacion": "2026-11-04T03:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-42",
+            "tipo": "ajuste",
+            "cantidad": 31,
+            "fecha_hora": "2026-10-25T00:26:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-43",
+            "tipo": "entrada",
+            "cantidad": 61,
+            "fecha_hora": "2026-09-27T19:38:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "114",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 199,
+        "stock_reservado": 1,
+        "ultima_actualizacion": "2026-11-10T21:22:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-44",
+            "tipo": "salida",
+            "cantidad": 4,
+            "fecha_hora": "2026-10-02T17:05:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 217,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-04T20:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-45",
+            "tipo": "ajuste",
+            "cantidad": 8,
+            "fecha_hora": "2026-11-05T11:51:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "115",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 284,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-08T00:39:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-46",
+            "tipo": "ajuste",
+            "cantidad": 80,
+            "fecha_hora": "2026-10-01T05:27:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-47",
+            "tipo": "entrada",
+            "cantidad": 18,
+            "fecha_hora": "2026-09-11T20:01:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-48",
+            "tipo": "entrada",
+            "cantidad": 1,
+            "fecha_hora": "2026-11-07T00:03:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 244,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-07T00:00:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-49",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-18T03:27:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-50",
+            "tipo": "ajuste",
+            "cantidad": 7,
+            "fecha_hora": "2026-09-22T23:47:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-51",
+            "tipo": "ajuste",
+            "cantidad": 72,
+            "fecha_hora": "2026-09-17T09:11:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "116",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 162,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-09T02:20:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-52",
+            "tipo": "ajuste",
+            "cantidad": 34,
+            "fecha_hora": "2026-10-08T18:45:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-53",
+            "tipo": "salida",
+            "cantidad": 60,
+            "fecha_hora": "2026-09-11T01:34:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-54",
+            "tipo": "entrada",
+            "cantidad": 53,
+            "fecha_hora": "2026-09-17T10:37:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "117",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": "N/D",
+        "stock_reservado": 3,
+        "ultima_actualizacion": "2026-11-03T09:53:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-55",
+            "tipo": "entrada",
+            "cantidad": 3,
+            "fecha_hora": "2026-10-15T15:44:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-56",
+            "tipo": "entrada",
+            "cantidad": 68,
+            "fecha_hora": "2026-09-25T09:26:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "118",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 216,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-07T12:12:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-57",
+            "tipo": "salida",
+            "cantidad": 34,
+            "fecha_hora": "2026-09-23T19:02:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-58",
+            "tipo": "ajuste",
+            "cantidad": 56,
+            "fecha_hora": "2026-10-03T14:52:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "119",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 175,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-02T17:55:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-59",
+            "tipo": "salida",
+            "cantidad": 36,
+            "fecha_hora": "2026-11-10T14:41:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-60",
+            "tipo": "entrada",
+            "cantidad": 29,
+            "fecha_hora": "2026-09-21T03:18:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-61",
+            "tipo": "ajuste",
+            "cantidad": 9,
+            "fecha_hora": "2026-09-26T03:30:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-62",
+            "tipo": "ajuste",
+            "cantidad": 30,
+            "fecha_hora": "2026-09-29T16:53:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "120",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 290,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-08T16:39:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-63",
+            "tipo": "salida",
+            "cantidad": 78,
+            "fecha_hora": "2026-10-26T07:16:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-64",
+            "tipo": "ajuste",
+            "cantidad": 34,
+            "fecha_hora": "2026-10-03T01:41:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 38,
+        "stock_reservado": 9,
+        "ultima_actualizacion": "2026-11-07T15:28:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-65",
+            "tipo": "teletransporte",
+            "cantidad": 34,
+            "fecha_hora": "2026-10-21T23:40:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-66",
+            "tipo": "ajuste",
+            "cantidad": 36,
+            "fecha_hora": "2026-09-23T14:32:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-67",
+            "tipo": "ajuste",
+            "cantidad": 55,
+            "fecha_hora": "2026-09-22T04:30:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-68",
+            "tipo": "salida",
+            "cantidad": 65,
+            "fecha_hora": "2026-11-03T19:03:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "121",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 43,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-04T23:02:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-69",
+            "tipo": "salida",
+            "cantidad": 72,
+            "fecha_hora": "2026-10-10T06:40:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "122",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 8,
+        "stock_reservado": 8,
+        "ultima_actualizacion": "2026-11-04T14:58:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-70",
+            "tipo": "ajuste",
+            "cantidad": 22,
+            "fecha_hora": "2026-09-22T06:34:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-71",
+            "tipo": "ajuste",
+            "cantidad": 62,
+            "fecha_hora": "2026-09-12T02:12:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-72",
+            "tipo": "entrada",
+            "cantidad": 22,
+            "fecha_hora": "2026-09-12T10:51:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-73",
+            "tipo": "ajuste",
+            "cantidad": 13,
+            "fecha_hora": "2026-09-27T17:49:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "123",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 260,
+        "stock_reservado": 9,
+        "ultima_actualizacion": "2026-11-09T04:44:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-74",
+            "tipo": "ajuste",
+            "cantidad": 51,
+            "fecha_hora": "2026-10-16T22:14:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-75",
+            "tipo": "entrada",
+            "cantidad": 19,
+            "fecha_hora": "2026-10-29T11:57:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "124",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 100,
+        "stock_reservado": 19,
+        "ultima_actualizacion": "2026-11-05T06:19:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-76",
+            "tipo": "salida",
+            "cantidad": 80,
+            "fecha_hora": "2026-10-04T03:38:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-77",
+            "tipo": "salida",
+            "cantidad": 60,
+            "fecha_hora": "2026-09-22T15:15:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-78",
+            "tipo": "ajuste",
+            "cantidad": 59,
+            "fecha_hora": "2026-09-13T03:31:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "125",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 110,
+        "stock_reservado": 12,
+        "ultima_actualizacion": "2026-11-03T22:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-79",
+            "tipo": "salida",
+            "cantidad": 58,
+            "fecha_hora": "2026-10-23T23:43:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-80",
+            "tipo": "entrada",
+            "cantidad": 10,
+            "fecha_hora": "2026-11-06T06:39:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 15,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-11-02T21:33:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-81",
+            "tipo": "entrada",
+            "cantidad": 46,
+            "fecha_hora": "2026-10-16T00:43:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-82",
+            "tipo": "salida",
+            "cantidad": 56,
+            "fecha_hora": "2026-11-04T19:29:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-83",
+            "tipo": "entrada",
+            "cantidad": 47,
+            "fecha_hora": "2026-09-11T04:03:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-84",
+            "tipo": "salida",
+            "cantidad": 21,
+            "fecha_hora": "2026-10-28T15:55:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "126",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 238,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-08T19:14:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-85",
+            "tipo": "ajuste",
+            "cantidad": null,
+            "fecha_hora": "2026-10-01T14:23:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-86",
+            "tipo": "ajuste",
+            "cantidad": 72,
+            "fecha_hora": "2026-11-02T05:33:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "127",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 76,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-10T06:54:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-87",
+            "tipo": "ajuste",
+            "cantidad": 57,
+            "fecha_hora": "2026-10-27T08:26:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-88",
+            "tipo": "salida",
+            "cantidad": 38,
+            "fecha_hora": "2026-10-07T11:06:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "128",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 107,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-04T11:52:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-89",
+            "tipo": "teletransporte",
+            "cantidad": 71,
+            "fecha_hora": "2026-10-23T18:18:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-90",
+            "tipo": "ajuste",
+            "cantidad": 61,
+            "fecha_hora": "2026-10-25T00:01:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-91",
+            "tipo": "entrada",
+            "cantidad": 56,
+            "fecha_hora": "2026-09-28T17:32:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-92",
+            "tipo": "salida",
+            "cantidad": 79,
+            "fecha_hora": "2026-09-27T08:20:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "129",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 16,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-09T01:54:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-93",
+            "tipo": "entrada",
+            "cantidad": 47,
+            "fecha_hora": "2026-09-15T20:15:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 231,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-08T14:48:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-94",
+            "tipo": "ajuste",
+            "cantidad": 17,
+            "fecha_hora": "2026-11-02T08:21:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-95",
+            "tipo": "entrada",
+            "cantidad": 27,
+            "fecha_hora": "2026-09-27T21:23:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-96",
+            "tipo": "entrada",
+            "cantidad": 27,
+            "fecha_hora": "2026-10-15T22:39:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "130",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 140,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-03T11:43:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-97",
+            "tipo": "entrada",
+            "cantidad": 25,
+            "fecha_hora": "2026-09-29T13:44:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-98",
+            "tipo": "ajuste",
+            "cantidad": 19,
+            "fecha_hora": "2026-09-15T01:10:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "131",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 113,
+        "stock_reservado": 3,
+        "ultima_actualizacion": "2026-11-04T08:27:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-99",
+            "tipo": "ajuste",
+            "cantidad": 4,
+            "fecha_hora": "2026-09-16T02:19:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-100",
+            "tipo": "entrada",
+            "cantidad": 54,
+            "fecha_hora": "2026-09-26T09:29:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "132",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": -25,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-06T14:23:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-101",
+            "tipo": "entrada",
+            "cantidad": 27,
+            "fecha_hora": "2026-09-17T22:58:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 237,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-11-09T23:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-102",
+            "tipo": "salida",
+            "cantidad": 51,
+            "fecha_hora": "2026-10-25T03:12:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "133",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 48,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-04T12:47:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-103",
+            "tipo": "entrada",
+            "cantidad": 43,
+            "fecha_hora": "2026-09-25T00:37:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 293,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-09T16:21:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-104",
+            "tipo": "ajuste",
+            "cantidad": 22,
+            "fecha_hora": "2026-10-08T22:53:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-105",
+            "tipo": "ajuste",
+            "cantidad": 17,
+            "fecha_hora": "2026-10-23T19:44:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-106",
+            "tipo": "entrada",
+            "cantidad": 46,
+            "fecha_hora": "2026-11-10T12:10:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-107",
+            "tipo": "entrada",
+            "cantidad": 79,
+            "fecha_hora": "2026-09-20T09:05:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "134",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 280,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-03T00:54:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-108",
+            "tipo": "salida",
+            "cantidad": 21,
+            "fecha_hora": "2026-09-27T14:40:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-109",
+            "tipo": "ajuste",
+            "cantidad": 21,
+            "fecha_hora": "2026-11-02T00:27:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-110",
+            "tipo": "ajuste",
+            "cantidad": 7,
+            "fecha_hora": "2026-10-21T05:50:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "135",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 23,
+        "stock_reservado": 3,
+        "ultima_actualizacion": "2026-11-09T19:03:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-111",
+            "tipo": "ajuste",
+            "cantidad": 8,
+            "fecha_hora": "2026-09-27T12:34:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-112",
+            "tipo": "salida",
+            "cantidad": 52,
+            "fecha_hora": "2026-10-30T11:24:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-113",
+            "tipo": "ajuste",
+            "cantidad": 26,
+            "fecha_hora": "2026-10-03T10:35:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 278,
+        "stock_reservado": 17,
+        "ultima_actualizacion": "2026-11-02T16:58:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-114",
+            "tipo": "salida",
+            "cantidad": 41,
+            "fecha_hora": "2026-10-08T23:36:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-115",
+            "tipo": "salida",
+            "cantidad": 24,
+            "fecha_hora": "2026-10-12T07:48:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "136",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 221,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-06T18:32:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-116",
+            "tipo": "salida",
+            "cantidad": 69,
+            "fecha_hora": "2026-10-04T22:22:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-117",
+            "tipo": "entrada",
+            "cantidad": 3,
+            "fecha_hora": "2026-10-25T10:46:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-118",
+            "tipo": "ajuste",
+            "cantidad": 65,
+            "fecha_hora": "2026-11-10T02:46:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-119",
+            "tipo": "salida",
+            "cantidad": 16,
+            "fecha_hora": "2026-09-18T04:27:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "137",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 226,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-03T06:05:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-120",
+            "tipo": "ajuste",
+            "cantidad": 38,
+            "fecha_hora": "2026-09-29T10:34:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-121",
+            "tipo": "ajuste",
+            "cantidad": 24,
+            "fecha_hora": "2026-11-08T11:53:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-122",
+            "tipo": "ajuste",
+            "cantidad": 46,
+            "fecha_hora": "2026-10-05T09:07:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "138",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 169,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-11-04T18:08:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-123",
+            "tipo": "salida",
+            "cantidad": 76,
+            "fecha_hora": "2026-09-20T04:18:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-124",
+            "tipo": "entrada",
+            "cantidad": 3,
+            "fecha_hora": "2026-09-26T12:35:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "139",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 182,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-01T07:09:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-125",
+            "tipo": "salida",
+            "cantidad": 1,
+            "fecha_hora": "2026-10-06T03:33:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 92,
+        "stock_reservado": 3,
+        "ultima_actualizacion": "2026-11-07T16:08:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-126",
+            "tipo": "entrada",
+            "cantidad": 45,
+            "fecha_hora": "2026-09-29T17:17:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "140",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 259,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-01T05:23:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-127",
+            "tipo": "salida",
+            "cantidad": 59,
+            "fecha_hora": "2026-10-13T23:46:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-128",
+            "tipo": "ajuste",
+            "cantidad": 10,
+            "fecha_hora": "2026-11-02T00:05:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 292,
+        "stock_reservado": 19,
+        "ultima_actualizacion": "2026-10-31T06:39:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-129",
+            "tipo": "entrada",
+            "cantidad": 64,
+            "fecha_hora": "2026-10-24T09:41:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-130",
+            "tipo": "entrada",
+            "cantidad": 15,
+            "fecha_hora": "2026-09-24T14:36:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "141",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 24,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-07T05:14:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-131",
+            "tipo": "ajuste",
+            "cantidad": 43,
+            "fecha_hora": "2026-09-27T09:34:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "142",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 254,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-06T02:00:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-132",
+            "tipo": "ajuste",
+            "cantidad": 14,
+            "fecha_hora": "2026-10-07T14:12:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-133",
+            "tipo": "entrada",
+            "cantidad": 74,
+            "fecha_hora": "2026-10-12T09:30:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-134",
+            "tipo": "ajuste",
+            "cantidad": 32,
+            "fecha_hora": "2026-11-07T03:36:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-135",
+            "tipo": "entrada",
+            "cantidad": 1,
+            "fecha_hora": "2026-10-11T14:55:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 231,
+        "stock_reservado": 12,
+        "ultima_actualizacion": "2026-11-01T17:12:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-136",
+            "tipo": "salida",
+            "cantidad": 41,
+            "fecha_hora": "2026-10-11T23:40:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-137",
+            "tipo": "ajuste",
+            "cantidad": 33,
+            "fecha_hora": "2026-09-16T12:26:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-138",
+            "tipo": "salida",
+            "cantidad": 15,
+            "fecha_hora": "2026-09-17T21:32:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "143",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 127,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-01T00:45:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-139",
+            "tipo": "salida",
+            "cantidad": 30,
+            "fecha_hora": "2026-10-22T07:35:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-140",
+            "tipo": "salida",
+            "cantidad": 73,
+            "fecha_hora": "2026-11-03T23:29:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-141",
+            "tipo": "salida",
+            "cantidad": 4,
+            "fecha_hora": "2026-09-12T14:10:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "144",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 230,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-07T00:04:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-142",
+            "tipo": "ajuste",
+            "cantidad": 73,
+            "fecha_hora": "2026-09-24T21:10:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-143",
+            "tipo": "salida",
+            "cantidad": 78,
+            "fecha_hora": "2026-09-26T03:28:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-144",
+            "tipo": "salida",
+            "cantidad": 47,
+            "fecha_hora": "2026-10-09T12:17:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "145",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 238,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-11-04T19:48:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-145",
+            "tipo": "salida",
+            "cantidad": 68,
+            "fecha_hora": "2026-10-22T15:34:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-146",
+            "tipo": "salida",
+            "cantidad": 5,
+            "fecha_hora": "2026-10-09T23:20:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-147",
+            "tipo": "entrada",
+            "cantidad": 8,
+            "fecha_hora": "2026-10-13T00:45:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-148",
+            "tipo": "ajuste",
+            "cantidad": 13,
+            "fecha_hora": "2026-09-19T23:34:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 111,
+        "stock_reservado": 12,
+        "ultima_actualizacion": "2026-11-01T17:40:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-149",
+            "tipo": "salida",
+            "cantidad": 4,
+            "fecha_hora": "2026-09-30T01:38:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-150",
+            "tipo": "entrada",
+            "cantidad": 63,
+            "fecha_hora": "2026-10-09T04:46:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "146",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 22,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-07T20:02:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-151",
+            "tipo": "salida",
+            "cantidad": 2,
+            "fecha_hora": "2026-10-26T16:33:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-152",
+            "tipo": "salida",
+            "cantidad": 75,
+            "fecha_hora": "2026-10-04T02:23:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-153",
+            "tipo": "salida",
+            "cantidad": 17,
+            "fecha_hora": "2026-10-06T11:38:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "147",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 134,
+        "stock_reservado": 19,
+        "ultima_actualizacion": "2026-11-10T16:35:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-154",
+            "tipo": "salida",
+            "cantidad": 26,
+            "fecha_hora": "2026-10-31T07:21:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-155",
+            "tipo": "entrada",
+            "cantidad": 41,
+            "fecha_hora": "2026-09-27T00:06:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-156",
+            "tipo": "ajuste",
+            "cantidad": 43,
+            "fecha_hora": "2026-09-20T18:57:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-157",
+            "tipo": "salida",
+            "cantidad": 80,
+            "fecha_hora": "2026-10-13T17:41:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "148",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 160,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-04T23:17:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-158",
+            "tipo": "salida",
+            "cantidad": 63,
+            "fecha_hora": "2026-11-06T13:02:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-159",
+            "tipo": "salida",
+            "cantidad": 79,
+            "fecha_hora": "2026-10-20T21:52:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-160",
+            "tipo": "ajuste",
+            "cantidad": 32,
+            "fecha_hora": "2026-09-26T10:49:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "149",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 128,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-07T08:44:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-161",
+            "tipo": "entrada",
+            "cantidad": 53,
+            "fecha_hora": "2026-11-03T06:57:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "150",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 214,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-10T08:04:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-162",
+            "tipo": "salida",
+            "cantidad": 15,
+            "fecha_hora": "2026-09-22T17:33:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-163",
+            "tipo": "entrada",
+            "cantidad": 71,
+            "fecha_hora": "2026-10-05T14:30:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-164",
+            "tipo": "ajuste",
+            "cantidad": 77,
+            "fecha_hora": "2026-11-05T01:20:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-165",
+            "tipo": "entrada",
+            "cantidad": 62,
+            "fecha_hora": "2026-09-28T22:31:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 277,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-07T00:37:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-166",
+            "tipo": "entrada",
+            "cantidad": 22,
+            "fecha_hora": "2026-09-16T17:54:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "151",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 26,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-04T15:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-167",
+            "tipo": "salida",
+            "cantidad": 37,
+            "fecha_hora": "2026-10-15T03:59:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-168",
+            "tipo": "ajuste",
+            "cantidad": 46,
+            "fecha_hora": "2026-10-26T00:06:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-169",
+            "tipo": "entrada",
+            "cantidad": 33,
+            "fecha_hora": "2026-10-18T10:23:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-170",
+            "tipo": "salida",
+            "cantidad": 44,
+            "fecha_hora": "2026-10-04T11:39:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "152",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 210,
+        "stock_reservado": 1,
+        "ultima_actualizacion": "2026-11-10T05:16:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-171",
+            "tipo": "salida",
+            "cantidad": 69,
+            "fecha_hora": "2026-10-03T00:04:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-172",
+            "tipo": "salida",
+            "cantidad": 28,
+            "fecha_hora": "2026-10-27T00:57:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-173",
+            "tipo": "entrada",
+            "cantidad": 63,
+            "fecha_hora": "2026-10-15T16:28:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-174",
+            "tipo": "ajuste",
+            "cantidad": 77,
+            "fecha_hora": "2026-11-07T14:02:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 8,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-10-31T16:44:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-175",
+            "tipo": "salida",
+            "cantidad": 73,
+            "fecha_hora": "2026-10-17T00:27:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-176",
+            "tipo": "entrada",
+            "cantidad": 55,
+            "fecha_hora": "2026-09-15T03:48:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "153",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": -22,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-10-31T07:14:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-177",
+            "tipo": "salida",
+            "cantidad": 14,
+            "fecha_hora": "2026-10-12T02:20:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 299,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-06T12:27:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-178",
+            "tipo": "entrada",
+            "cantidad": 5,
+            "fecha_hora": "2026-11-07T15:56:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "154",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 118,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-10-31T20:32:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-179",
+            "tipo": "entrada",
+            "cantidad": 49,
+            "fecha_hora": "2026-10-30T20:29:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-180",
+            "tipo": "ajuste",
+            "cantidad": 25,
+            "fecha_hora": "2026-09-28T14:54:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 172,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-10T06:37:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-181",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-21T00:52:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-182",
+            "tipo": "ajuste",
+            "cantidad": 19,
+            "fecha_hora": "2026-11-03T22:55:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "155",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 261,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-10-31T07:12:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-183",
+            "tipo": "entrada",
+            "cantidad": 72,
+            "fecha_hora": "2026-11-02T18:03:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "156",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 165,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-02T04:44:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-184",
+            "tipo": "salida",
+            "cantidad": 37,
+            "fecha_hora": "2026-10-02T03:54:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 265,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-11-09T17:18:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-185",
+            "tipo": "ajuste",
+            "cantidad": 19,
+            "fecha_hora": "2026-11-07T09:21:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-186",
+            "tipo": "entrada",
+            "cantidad": 20,
+            "fecha_hora": "2026-10-30T23:21:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "157",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 213,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-10-31T08:27:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-187",
+            "tipo": "salida",
+            "cantidad": 54,
+            "fecha_hora": "2026-10-18T05:50:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-188",
+            "tipo": "ajuste",
+            "cantidad": 42,
+            "fecha_hora": "2026-11-02T13:46:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-189",
+            "tipo": "salida",
+            "cantidad": 53,
+            "fecha_hora": "2026-11-10T03:38:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "158",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 280,
+        "stock_reservado": 17,
+        "ultima_actualizacion": "2026-11-06T22:32:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-190",
+            "tipo": "salida",
+            "cantidad": 23,
+            "fecha_hora": "2026-10-18T07:16:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-191",
+            "tipo": "entrada",
+            "cantidad": 58,
+            "fecha_hora": "2026-10-06T07:07:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-192",
+            "tipo": "ajuste",
+            "cantidad": 33,
+            "fecha_hora": "2026-10-11T06:07:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 232,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-02T12:33:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-193",
+            "tipo": "salida",
+            "cantidad": 41,
+            "fecha_hora": "2026-10-11T07:02:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-194",
+            "tipo": "salida",
+            "cantidad": 7,
+            "fecha_hora": "2026-10-14T20:04:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-195",
+            "tipo": "entrada",
+            "cantidad": 79,
+            "fecha_hora": "2026-10-09T05:56:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "159",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 193,
+        "stock_reservado": 8,
+        "ultima_actualizacion": "2026-11-09T08:04:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-196",
+            "tipo": "teletransporte",
+            "cantidad": 19,
+            "fecha_hora": "2026-09-14T09:19:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-197",
+            "tipo": "ajuste",
+            "cantidad": 10,
+            "fecha_hora": "2026-09-26T01:02:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "160",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 17,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-04T09:26:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-198",
+            "tipo": "ajuste",
+            "cantidad": 67,
+            "fecha_hora": "2026-09-11T08:32:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "161",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 241,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-05T01:18:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-199",
+            "tipo": "ajuste",
+            "cantidad": null,
+            "fecha_hora": "2026-10-17T12:35:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "162",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 138,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-04T22:24:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-200",
+            "tipo": "salida",
+            "cantidad": 18,
+            "fecha_hora": "2026-10-05T23:38:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-201",
+            "tipo": "salida",
+            "cantidad": 31,
+            "fecha_hora": "2026-10-18T00:04:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "163",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 204,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-09T10:29:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-202",
+            "tipo": "ajuste",
+            "cantidad": 3,
+            "fecha_hora": "2026-10-08T07:59:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-203",
+            "tipo": "entrada",
+            "cantidad": 16,
+            "fecha_hora": "2026-10-11T22:58:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-204",
+            "tipo": "ajuste",
+            "cantidad": 66,
+            "fecha_hora": "2026-09-21T23:37:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "164",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 115,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-04T04:18:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-205",
+            "tipo": "salida",
+            "cantidad": 37,
+            "fecha_hora": "2026-11-07T13:17:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": -32,
+        "stock_reservado": 1,
+        "ultima_actualizacion": "2026-10-31T07:00:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-206",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-10-12T23:08:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-207",
+            "tipo": "entrada",
+            "cantidad": 38,
+            "fecha_hora": "2026-10-15T20:10:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-208",
+            "tipo": "ajuste",
+            "cantidad": 7,
+            "fecha_hora": "2026-10-21T20:43:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-209",
+            "tipo": "entrada",
+            "cantidad": 5,
+            "fecha_hora": "2026-09-12T03:32:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "165",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 147,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-03T17:26:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-210",
+            "tipo": "salida",
+            "cantidad": 7,
+            "fecha_hora": "2026-11-01T11:08:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 240,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-01T02:25:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-211",
+            "tipo": "ajuste",
+            "cantidad": 80,
+            "fecha_hora": "2026-10-30T21:53:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-212",
+            "tipo": "entrada",
+            "cantidad": 2,
+            "fecha_hora": "2026-09-28T17:08:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "166",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 130,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-05T17:51:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-213",
+            "tipo": "ajuste",
+            "cantidad": 55,
+            "fecha_hora": "2026-10-21T02:42:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-214",
+            "tipo": "ajuste",
+            "cantidad": 58,
+            "fecha_hora": "2026-09-24T12:27:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 20,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-09T16:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-215",
+            "tipo": "ajuste",
+            "cantidad": 22,
+            "fecha_hora": "2026-11-07T13:24:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-216",
+            "tipo": "entrada",
+            "cantidad": 52,
+            "fecha_hora": "2026-10-23T19:09:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-217",
+            "tipo": "salida",
+            "cantidad": 28,
+            "fecha_hora": "2026-10-13T13:03:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "167",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 45,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-11-06T02:34:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-218",
+            "tipo": "salida",
+            "cantidad": 74,
+            "fecha_hora": "2026-09-21T23:34:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-219",
+            "tipo": "ajuste",
+            "cantidad": 58,
+            "fecha_hora": "2026-10-17T04:48:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-220",
+            "tipo": "entrada",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-22T22:51:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-221",
+            "tipo": "ajuste",
+            "cantidad": 41,
+            "fecha_hora": "2026-10-20T06:04:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "168",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 23,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-03T14:17:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-222",
+            "tipo": "ajuste",
+            "cantidad": 66,
+            "fecha_hora": "2026-11-05T13:37:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-223",
+            "tipo": "salida",
+            "cantidad": 76,
+            "fecha_hora": "2026-10-02T21:49:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-224",
+            "tipo": "ajuste",
+            "cantidad": 8,
+            "fecha_hora": "2026-10-28T11:29:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-225",
+            "tipo": "ajuste",
+            "cantidad": 52,
+            "fecha_hora": "2026-10-31T13:20:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 223,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-08T14:11:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-226",
+            "tipo": "ajuste",
+            "cantidad": 80,
+            "fecha_hora": "2026-10-05T03:58:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "169",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 265,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-09T04:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-227",
+            "tipo": "salida",
+            "cantidad": 76,
+            "fecha_hora": "2026-11-04T19:41:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-228",
+            "tipo": "entrada",
+            "cantidad": 12,
+            "fecha_hora": "2026-09-27T21:04:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "170",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 107,
+        "stock_reservado": 1,
+        "ultima_actualizacion": "2026-10-31T07:31:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-229",
+            "tipo": "entrada",
+            "cantidad": 10,
+            "fecha_hora": "2026-10-26T10:49:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-230",
+            "tipo": "ajuste",
+            "cantidad": 53,
+            "fecha_hora": "2026-11-03T05:56:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 75,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-06T17:43:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-231",
+            "tipo": "ajuste",
+            "cantidad": 36,
+            "fecha_hora": "2026-09-27T04:51:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-232",
+            "tipo": "entrada",
+            "cantidad": 6,
+            "fecha_hora": "2026-09-15T17:41:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "171",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 83,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-02T06:29:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-233",
+            "tipo": "salida",
+            "cantidad": 43,
+            "fecha_hora": "2026-10-23T04:21:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 144,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-10-31T14:17:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-234",
+            "tipo": "ajuste",
+            "cantidad": 79,
+            "fecha_hora": "2026-11-01T20:49:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "172",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 41,
+        "stock_reservado": 8,
+        "ultima_actualizacion": "2026-11-04T20:20:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-235",
+            "tipo": "entrada",
+            "cantidad": 38,
+            "fecha_hora": "2026-10-30T03:05:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-236",
+            "tipo": "entrada",
+            "cantidad": 59,
+            "fecha_hora": "2026-11-04T06:34:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-237",
+            "tipo": "ajuste",
+            "cantidad": 71,
+            "fecha_hora": "2026-09-13T14:24:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-238",
+            "tipo": "ajuste",
+            "cantidad": 61,
+            "fecha_hora": "2026-09-21T16:51:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 232,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-02T05:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-239",
+            "tipo": "salida",
+            "cantidad": 69,
+            "fecha_hora": "2026-11-07T13:45:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-240",
+            "tipo": "salida",
+            "cantidad": 19,
+            "fecha_hora": "2026-10-02T16:50:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-241",
+            "tipo": "salida",
+            "cantidad": 58,
+            "fecha_hora": "2026-09-16T08:24:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-242",
+            "tipo": "ajuste",
+            "cantidad": 65,
+            "fecha_hora": "2026-10-08T00:51:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "173",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 69,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-07T08:49:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-243",
+            "tipo": "salida",
+            "cantidad": 66,
+            "fecha_hora": "2026-10-25T07:35:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-244",
+            "tipo": "salida",
+            "cantidad": 9,
+            "fecha_hora": "2026-10-26T13:32:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-245",
+            "tipo": "entrada",
+            "cantidad": 15,
+            "fecha_hora": "2026-09-13T02:10:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 93,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-11-05T00:22:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-246",
+            "tipo": "ajuste",
+            "cantidad": 43,
+            "fecha_hora": "2026-10-03T08:10:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "174",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 178,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-09T20:37:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-247",
+            "tipo": "entrada",
+            "cantidad": 67,
+            "fecha_hora": "2026-10-03T22:05:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-248",
+            "tipo": "entrada",
+            "cantidad": 20,
+            "fecha_hora": "2026-09-18T13:30:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-249",
+            "tipo": "ajuste",
+            "cantidad": 37,
+            "fecha_hora": "2026-09-21T12:57:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-250",
+            "tipo": "salida",
+            "cantidad": 78,
+            "fecha_hora": "2026-10-26T08:36:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "175",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 214,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-01T14:24:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-251",
+            "tipo": "ajuste",
+            "cantidad": 17,
+            "fecha_hora": "2026-09-27T14:49:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-252",
+            "tipo": "entrada",
+            "cantidad": 60,
+            "fecha_hora": "2026-11-09T00:34:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 109,
+        "stock_reservado": 14,
+        "ultima_actualizacion": "2026-10-31T17:00:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-253",
+            "tipo": "entrada",
+            "cantidad": 14,
+            "fecha_hora": "2026-10-17T21:49:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-254",
+            "tipo": "entrada",
+            "cantidad": 17,
+            "fecha_hora": "2026-10-13T01:19:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-255",
+            "tipo": "salida",
+            "cantidad": 31,
+            "fecha_hora": "2026-10-26T21:12:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "176",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 53,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-10-31T20:24:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-256",
+            "tipo": "salida",
+            "cantidad": 39,
+            "fecha_hora": "2026-10-12T10:59:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-257",
+            "tipo": "salida",
+            "cantidad": 25,
+            "fecha_hora": "2026-09-16T20:52:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 285,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-02T21:23:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-258",
+            "tipo": "salida",
+            "cantidad": 70,
+            "fecha_hora": "2026-09-17T16:40:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "177",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 151,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-02T22:02:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-259",
+            "tipo": "salida",
+            "cantidad": 80,
+            "fecha_hora": "2026-09-16T05:35:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-260",
+            "tipo": "salida",
+            "cantidad": 66,
+            "fecha_hora": "2026-10-16T10:09:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-261",
+            "tipo": "entrada",
+            "cantidad": 46,
+            "fecha_hora": "2026-10-14T11:53:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 195,
+        "stock_reservado": 13,
+        "ultima_actualizacion": "2026-11-01T21:36:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-262",
+            "tipo": "salida",
+            "cantidad": 18,
+            "fecha_hora": "2026-11-06T17:10:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-263",
+            "tipo": "ajuste",
+            "cantidad": 67,
+            "fecha_hora": "2026-09-26T04:34:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "178",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 124,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-10-31T15:29:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-264",
+            "tipo": "ajuste",
+            "cantidad": 78,
+            "fecha_hora": "2026-10-08T12:25:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-265",
+            "tipo": "entrada",
+            "cantidad": 69,
+            "fecha_hora": "2026-10-09T17:40:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-266",
+            "tipo": "ajuste",
+            "cantidad": 69,
+            "fecha_hora": "2026-10-23T07:41:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-267",
+            "tipo": "entrada",
+            "cantidad": 43,
+            "fecha_hora": "2026-11-01T21:29:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 8,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-04T09:59:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-268",
+            "tipo": "ajuste",
+            "cantidad": 70,
+            "fecha_hora": "2026-10-06T07:18:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-269",
+            "tipo": "entrada",
+            "cantidad": 22,
+            "fecha_hora": "2026-10-28T17:34:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "179",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 258,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-03T03:51:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-270",
+            "tipo": "ajuste",
+            "cantidad": 50,
+            "fecha_hora": "2026-11-02T08:25:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-271",
+            "tipo": "ajuste",
+            "cantidad": 44,
+            "fecha_hora": "2026-10-30T06:55:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-272",
+            "tipo": "entrada",
+            "cantidad": 68,
+            "fecha_hora": "2026-10-12T10:05:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-273",
+            "tipo": "entrada",
+            "cantidad": 32,
+            "fecha_hora": "2026-11-01T22:48:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 177,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-05T06:37:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-274",
+            "tipo": "salida",
+            "cantidad": 11,
+            "fecha_hora": "2026-09-24T22:46:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-275",
+            "tipo": "salida",
+            "cantidad": 24,
+            "fecha_hora": "2026-09-29T04:41:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-276",
+            "tipo": "entrada",
+            "cantidad": 29,
+            "fecha_hora": "2026-10-24T01:14:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "180",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 173,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-05T03:04:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-277",
+            "tipo": "salida",
+            "cantidad": 64,
+            "fecha_hora": "2026-09-30T21:46:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-278",
+            "tipo": "entrada",
+            "cantidad": 33,
+            "fecha_hora": "2026-10-20T15:44:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 64,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-02T11:15:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-279",
+            "tipo": "entrada",
+            "cantidad": 60,
+            "fecha_hora": "2026-10-27T01:18:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "181",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 210,
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-10-31T23:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-280",
+            "tipo": "salida",
+            "cantidad": 6,
+            "fecha_hora": "2026-09-23T17:48:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-281",
+            "tipo": "salida",
+            "cantidad": 44,
+            "fecha_hora": "2026-10-20T13:06:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 235,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-02T09:40:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-282",
+            "tipo": "salida",
+            "cantidad": 5,
+            "fecha_hora": "2026-10-23T19:27:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-283",
+            "tipo": "entrada",
+            "cantidad": 54,
+            "fecha_hora": "2026-10-11T03:58:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-284",
+            "tipo": "ajuste",
+            "cantidad": 9,
+            "fecha_hora": "2026-10-18T03:05:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-285",
+            "tipo": "salida",
+            "cantidad": 37,
+            "fecha_hora": "2026-10-16T01:00:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "182",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 36,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-06T04:26:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-286",
+            "tipo": "salida",
+            "cantidad": 66,
+            "fecha_hora": "2026-09-29T13:59:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-287",
+            "tipo": "ajuste",
+            "cantidad": 56,
+            "fecha_hora": "2026-10-10T15:13:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-288",
+            "tipo": "entrada",
+            "cantidad": 24,
+            "fecha_hora": "2026-09-26T16:55:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 134,
+        "stock_reservado": 10,
+        "ultima_actualizacion": "2026-11-01T02:46:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-289",
+            "tipo": "ajuste",
+            "cantidad": 60,
+            "fecha_hora": "2026-09-12T23:28:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-290",
+            "tipo": "salida",
+            "cantidad": 4,
+            "fecha_hora": "2026-11-10T00:30:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-291",
+            "tipo": "salida",
+            "cantidad": 21,
+            "fecha_hora": "2026-10-25T23:53:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "183",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 24,
+        "stock_reservado": 7,
+        "ultima_actualizacion": "2026-11-07T03:21:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-292",
+            "tipo": "entrada",
+            "cantidad": 63,
+            "fecha_hora": "2026-10-15T22:11:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-293",
+            "tipo": "ajuste",
+            "cantidad": 72,
+            "fecha_hora": "2026-10-03T11:59:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-294",
+            "tipo": "entrada",
+            "cantidad": 8,
+            "fecha_hora": "2026-11-05T18:37:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 192,
+        "stock_reservado": 4,
+        "ultima_actualizacion": "2026-11-02T15:22:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-295",
+            "tipo": "entrada",
+            "cantidad": 65,
+            "fecha_hora": "2026-10-10T19:54:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "184",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 143,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-05T09:14:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-296",
+            "tipo": "ajuste",
+            "cantidad": 10,
+            "fecha_hora": "2026-11-08T04:33:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-297",
+            "tipo": "ajuste",
+            "cantidad": 3,
+            "fecha_hora": "2026-09-11T19:01:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-298",
+            "tipo": "salida",
+            "cantidad": 28,
+            "fecha_hora": "2026-10-28T07:24:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 195,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-01T08:17:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-299",
+            "tipo": "ajuste",
+            "cantidad": 58,
+            "fecha_hora": "2026-10-10T17:21:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-300",
+            "tipo": "ajuste",
+            "cantidad": 59,
+            "fecha_hora": "2026-11-06T12:08:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "185",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 122,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-04T18:26:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-301",
+            "tipo": "salida",
+            "cantidad": 44,
+            "fecha_hora": "2026-10-05T11:18:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-302",
+            "tipo": "ajuste",
+            "cantidad": 73,
+            "fecha_hora": "2026-10-18T10:27:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-303",
+            "tipo": "entrada",
+            "cantidad": 44,
+            "fecha_hora": "2026-10-21T00:52:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 186,
+        "stock_reservado": 9,
+        "ultima_actualizacion": "2026-11-09T03:55:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-304",
+            "tipo": "salida",
+            "cantidad": 15,
+            "fecha_hora": "2026-10-22T05:28:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "186",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 83,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-04T00:49:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-305",
+            "tipo": "ajuste",
+            "cantidad": 47,
+            "fecha_hora": "2026-11-01T20:54:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-306",
+            "tipo": "salida",
+            "cantidad": 68,
+            "fecha_hora": "2026-09-30T05:55:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 191,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-06T12:55:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-307",
+            "tipo": "ajuste",
+            "cantidad": 24,
+            "fecha_hora": "2026-11-05T12:47:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "187",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 197,
+        "stock_reservado": 19,
+        "ultima_actualizacion": "2026-11-06T07:12:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-308",
+            "tipo": "ajuste",
+            "cantidad": 18,
+            "fecha_hora": "2026-10-11T01:29:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "188",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 88,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-08T13:18:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-309",
+            "tipo": "entrada",
+            "cantidad": 47,
+            "fecha_hora": "2026-09-28T14:45:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "189",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 90,
+        "stock_reservado": 2,
+        "ultima_actualizacion": "2026-11-02T21:41:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-310",
+            "tipo": "salida",
+            "cantidad": 30,
+            "fecha_hora": "2026-10-23T01:02:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-311",
+            "tipo": "entrada",
+            "cantidad": 74,
+            "fecha_hora": "2026-10-25T19:56:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "MTY",
+        "stock_disponible": 144,
+        "stock_reservado": 15,
+        "ultima_actualizacion": "2026-11-01T14:23:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-312",
+            "tipo": "salida",
+            "cantidad": 62,
+            "fecha_hora": "2026-10-05T12:11:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-313",
+            "tipo": "ajuste",
+            "cantidad": 73,
+            "fecha_hora": "2026-11-07T22:05:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "190",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": "N/D",
+        "stock_reservado": 16,
+        "ultima_actualizacion": "2026-11-05T06:52:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-314",
+            "tipo": "salida",
+            "cantidad": 53,
+            "fecha_hora": "2026-11-10T20:04:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-315",
+            "tipo": "ajuste",
+            "cantidad": 77,
+            "fecha_hora": "2026-11-05T19:07:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-316",
+            "tipo": "entrada",
+            "cantidad": 39,
+            "fecha_hora": "2026-09-24T15:03:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "191",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 44,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-02T20:09:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-317",
+            "tipo": "salida",
+            "cantidad": 70,
+            "fecha_hora": "2026-10-15T20:02:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-318",
+            "tipo": "entrada",
+            "cantidad": 64,
+            "fecha_hora": "2026-10-26T13:06:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-319",
+            "tipo": "entrada",
+            "cantidad": 15,
+            "fecha_hora": "2026-09-22T19:02:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-320",
+            "tipo": "entrada",
+            "cantidad": 4,
+            "fecha_hora": "2026-09-22T17:22:00",
+            "motivo": "reposicion"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 286,
+        "stock_reservado": 1,
+        "ultima_actualizacion": "2026-11-08T01:55:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-321",
+            "tipo": "entrada",
+            "cantidad": 38,
+            "fecha_hora": "2026-10-04T12:35:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "192",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 154,
+        "stock_reservado": 11,
+        "ultima_actualizacion": "2026-11-08T16:35:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-322",
+            "tipo": "ajuste",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-28T08:56:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "193",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 111,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-05T09:37:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-323",
+            "tipo": "ajuste",
+            "cantidad": 20,
+            "fecha_hora": "2026-11-06T00:07:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "194",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 111,
+        "stock_reservado": 17,
+        "ultima_actualizacion": "2026-11-01T19:52:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-324",
+            "tipo": "entrada",
+            "cantidad": 30,
+            "fecha_hora": "2026-09-23T08:18:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-325",
+            "tipo": "ajuste",
+            "cantidad": 52,
+            "fecha_hora": "2026-10-10T21:10:00",
+            "motivo": "merma"
+          },
+          {
+            "id_movimiento": "M-326",
+            "tipo": "salida",
+            "cantidad": 9,
+            "fecha_hora": "2026-09-13T06:29:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-327",
+            "tipo": "entrada",
+            "cantidad": 2,
+            "fecha_hora": "2026-09-17T00:39:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "195",
+    "almacenes": [
+      {
+        "almacen": "CDMX",
+        "stock_disponible": 220,
+        "stock_reservado": 0,
+        "ultima_actualizacion": "2026-11-03T20:24:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-328",
+            "tipo": "entrada",
+            "cantidad": 15,
+            "fecha_hora": "2026-10-26T15:59:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-329",
+            "tipo": "entrada",
+            "cantidad": 3,
+            "fecha_hora": "2026-09-23T14:31:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-330",
+            "tipo": "salida",
+            "cantidad": 34,
+            "fecha_hora": "2026-10-04T10:27:00",
+            "motivo": "venta"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 60,
+        "stock_reservado": 12,
+        "ultima_actualizacion": "2026-11-10T16:19:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-331",
+            "tipo": "salida",
+            "cantidad": 45,
+            "fecha_hora": "2026-11-07T06:05:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-332",
+            "tipo": "salida",
+            "cantidad": 45,
+            "fecha_hora": "2026-09-23T17:46:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-333",
+            "tipo": "salida",
+            "cantidad": 59,
+            "fecha_hora": "2026-11-01T15:17:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-334",
+            "tipo": "entrada",
+            "cantidad": 49,
+            "fecha_hora": "2026-09-23T15:53:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "196",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": 96,
+        "stock_reservado": 18,
+        "ultima_actualizacion": "2026-11-01T10:04:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-335",
+            "tipo": "salida",
+            "cantidad": 57,
+            "fecha_hora": "2026-09-17T21:57:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "197",
+    "almacenes": [
+      {
+        "almacen": "GDL",
+        "stock_disponible": -48,
+        "stock_reservado": 6,
+        "ultima_actualizacion": "2026-11-03T20:59:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-336",
+            "tipo": "salida",
+            "cantidad": 60,
+            "fecha_hora": "2026-11-09T22:33:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-337",
+            "tipo": "salida",
+            "cantidad": 77,
+            "fecha_hora": "2026-10-03T13:25:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-338",
+            "tipo": "salida",
+            "cantidad": 77,
+            "fecha_hora": "2026-09-16T09:28:00",
+            "motivo": "venta"
+          },
+          {
+            "id_movimiento": "M-339",
+            "tipo": "salida",
+            "cantidad": 78,
+            "fecha_hora": "2026-10-26T18:20:00",
+            "motivo": "venta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "198",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 140,
+        "stock_reservado": 20,
+        "ultima_actualizacion": "2026-11-10T03:55:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-340",
+            "tipo": "ajuste",
+            "cantidad": 64,
+            "fecha_hora": "2026-09-16T20:46:00",
+            "motivo": "merma"
+          }
+        ]
+      },
+      {
+        "almacen": "GDL",
+        "stock_disponible": 251,
+        "stock_reservado": 9,
+        "ultima_actualizacion": "2026-11-05T23:15:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-341",
+            "tipo": "entrada",
+            "cantidad": 28,
+            "fecha_hora": "2026-10-22T15:39:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-342",
+            "tipo": "entrada",
+            "cantidad": 52,
+            "fecha_hora": "2026-10-20T04:46:00",
+            "motivo": "reposicion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "producto_id": "199",
+    "almacenes": [
+      {
+        "almacen": "MTY",
+        "stock_disponible": 252,
+        "stock_reservado": 5,
+        "ultima_actualizacion": "2026-11-08T05:06:00",
+        "movimientos": [
+          {
+            "id_movimiento": "M-343",
+            "tipo": "entrada",
+            "cantidad": 60,
+            "fecha_hora": "2026-10-20T02:32:00",
+            "motivo": "reposicion"
+          },
+          {
+            "id_movimiento": "M-344",
+            "tipo": "ajuste",
+            "cantidad": 1,
+            "fecha_hora": "2026-09-18T03:17:00",
+            "motivo": "merma"
+          }
+        ]
+      }
+    ]
+  }
+]

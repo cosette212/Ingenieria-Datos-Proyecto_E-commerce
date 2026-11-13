@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/raw/
+data/stream_in/
+data/stream_processed/
+data/dlq/
+logs/
