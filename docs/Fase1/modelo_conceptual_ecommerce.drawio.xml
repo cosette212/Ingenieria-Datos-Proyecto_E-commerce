@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="r2FjXklFZKItseGtwfUX">
+    <mxGraphModel dx="1310" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-3" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;CLIENTE&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="350" width="200" x="480" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-4" parent="-L5eHlOipNNOiw1ZAOVc-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-5" parent="-L5eHlOipNNOiw1ZAOVc-4" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-6" parent="-L5eHlOipNNOiw1ZAOVc-4" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de cliente&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="30" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-7" parent="-L5eHlOipNNOiw1ZAOVc-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="290" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-8" parent="-L5eHlOipNNOiw1ZAOVc-7" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="290" width="30" as="geometry">
+            <mxRectangle height="290" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-9" parent="-L5eHlOipNNOiw1ZAOVc-7" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Nombre&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Correo electrónico&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Fecha de registro&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Edad&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Tipo de cliente (registrado /invitado)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Canal de adquisición (orgánico, pago, referido)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="170" x="30" as="geometry">
+            <mxRectangle height="290" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-45" edge="1" parent="1" source="-L5eHlOipNNOiw1ZAOVc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERmandOne;endArrow=ERoneToMany;" target="2xh8ZazVcBxu5vY9Hblq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-56" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;TIENE&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0894" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-16" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;swimlaneLine=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;PRODUCTO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="310" width="210" x="480" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-17" parent="-L5eHlOipNNOiw1ZAOVc-16" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="40" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-18" parent="-L5eHlOipNNOiw1ZAOVc-17" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="40" width="30" as="geometry">
+            <mxRectangle height="40" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-19" parent="-L5eHlOipNNOiw1ZAOVc-17" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de producto&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="30" as="geometry">
+            <mxRectangle height="40" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-20" parent="-L5eHlOipNNOiw1ZAOVc-16" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="240" width="210" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-21" parent="-L5eHlOipNNOiw1ZAOVc-20" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="240" width="30" as="geometry">
+            <mxRectangle height="240" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-22" parent="-L5eHlOipNNOiw1ZAOVc-20" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Nombre&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Categoría&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Subcategoría&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Precio de lista&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Marca&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Estado (activo / descontinuado)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="180" x="30" as="geometry">
+            <mxRectangle height="240" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;LÍNEA DE PEDIDO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="230" width="200" x="80" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-2" parent="2xh8ZazVcBxu5vY9Hblq-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-3" parent="2xh8ZazVcBxu5vY9Hblq-2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-4" parent="2xh8ZazVcBxu5vY9Hblq-2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Número de línea&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="30" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-5" parent="2xh8ZazVcBxu5vY9Hblq-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="170" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-6" parent="2xh8ZazVcBxu5vY9Hblq-5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="170" width="30" as="geometry">
+            <mxRectangle height="170" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-7" parent="2xh8ZazVcBxu5vY9Hblq-5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 14px;&quot;&gt;Cantidad&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Precio unitario al momento de la compra&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Descuento aplicado&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="30" as="geometry">
+            <mxRectangle height="170" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-8" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;EVENTO DE COMPORTAMIENTO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="320" width="249" x="920" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-9" parent="2xh8ZazVcBxu5vY9Hblq-8" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="249" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-10" parent="2xh8ZazVcBxu5vY9Hblq-9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-11" parent="2xh8ZazVcBxu5vY9Hblq-9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de evento&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="219" x="30" as="geometry">
+            <mxRectangle height="30" width="219" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-12" parent="2xh8ZazVcBxu5vY9Hblq-8" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="260" width="249" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-13" parent="2xh8ZazVcBxu5vY9Hblq-12" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="260" width="30" as="geometry">
+            <mxRectangle height="260" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-14" parent="2xh8ZazVcBxu5vY9Hblq-12" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;Tipo de evento (&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;vista, añadir al carrito, checkout, compra)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Fecha y hora del evento&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Sesión del usuario&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Dispositivo (móvil, escritorio, tableta)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Fuente de tráfico (orgánico, pago, directo)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="219" x="30" as="geometry">
+            <mxRectangle height="260" width="219" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-18" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;INVENTARIO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="240" width="225" x="485" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-19" parent="2xh8ZazVcBxu5vY9Hblq-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="40" width="225" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-20" parent="2xh8ZazVcBxu5vY9Hblq-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="40" width="30" as="geometry">
+            <mxRectangle height="40" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-21" parent="2xh8ZazVcBxu5vY9Hblq-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de inventario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="30" as="geometry">
+            <mxRectangle height="40" width="195" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-22" parent="2xh8ZazVcBxu5vY9Hblq-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="170" width="225" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-23" parent="2xh8ZazVcBxu5vY9Hblq-22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="170" width="30" as="geometry">
+            <mxRectangle height="170" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-24" parent="2xh8ZazVcBxu5vY9Hblq-22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Almacén o ubicación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Stock disponible&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Stock reservado&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Fecha de última actualización&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="195" x="30" as="geometry">
+            <mxRectangle height="170" width="195" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-25" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;MOVIMIENTO DE INVENTARIO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="270" width="240" x="929" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-26" parent="2xh8ZazVcBxu5vY9Hblq-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-27" parent="2xh8ZazVcBxu5vY9Hblq-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-28" parent="2xh8ZazVcBxu5vY9Hblq-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de movimiento&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="30" as="geometry">
+            <mxRectangle height="30" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-29" parent="2xh8ZazVcBxu5vY9Hblq-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="210" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-30" parent="2xh8ZazVcBxu5vY9Hblq-29" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="210" width="30" as="geometry">
+            <mxRectangle height="210" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-31" parent="2xh8ZazVcBxu5vY9Hblq-29" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tipo de movimiento (entrada, salida, ajuste)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cantidad&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Fecha y hora&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Motivo (reposición, venta, devolución, merma)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="210" x="30" as="geometry">
+            <mxRectangle height="210" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-40" edge="1" parent="1" source="-L5eHlOipNNOiw1ZAOVc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERmandOne;endArrow=ERoneToMany;" target="2xh8ZazVcBxu5vY9Hblq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-49" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;CONTIENE&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.096" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-23" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Tahoma&quot;&gt;PEDIDO&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="320" width="200" x="40" y="-530" as="geometry">
+            <mxRectangle height="60" width="100" x="570" y="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-24" parent="-L5eHlOipNNOiw1ZAOVc-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-25" parent="-L5eHlOipNNOiw1ZAOVc-24" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-26" parent="-L5eHlOipNNOiw1ZAOVc-24" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Código de pedido&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="30" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-27" parent="-L5eHlOipNNOiw1ZAOVc-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="260" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-28" parent="-L5eHlOipNNOiw1ZAOVc-27" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="" vertex="1">
+          <mxGeometry height="260" width="30" as="geometry">
+            <mxRectangle height="260" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L5eHlOipNNOiw1ZAOVc-29" parent="-L5eHlOipNNOiw1ZAOVc-27" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fecha y hora del pedido&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Monto total&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Estado del pedido (pendiente, pagado, enviado, cancelado)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Método de pago&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;Canal de venta (web, app móvil, tienda física)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="170" x="30" as="geometry">
+            <mxRectangle height="260" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-39" edge="1" parent="1" source="-L5eHlOipNNOiw1ZAOVc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERmandOne;endArrow=ERzeroToMany;" target="-L5eHlOipNNOiw1ZAOVc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-48" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;REALIZA&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0021" y="-1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-41" edge="1" parent="1" source="-L5eHlOipNNOiw1ZAOVc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERmandOne;endArrow=ERzeroToMany;" target="2xh8ZazVcBxu5vY9Hblq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-54" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;&quot;&gt;APARECE&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0294" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-42" edge="1" parent="1" source="-L5eHlOipNNOiw1ZAOVc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERzeroToOne;endArrow=ERzeroToMany;" target="2xh8ZazVcBxu5vY9Hblq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-50" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;GENERA&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1519" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERzeroToOne;endArrow=ERzeroToMany;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="130" as="sourcePoint" />
+            <mxPoint x="1054.26" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-55" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 15px;&quot;&gt;RECIBE&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2271" y="-3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-46" edge="1" parent="1" source="2xh8ZazVcBxu5vY9Hblq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startFill=0;endFill=0;startSize=14;endSize=14;startArrow=ERmandOne;endArrow=ERzeroToMany;" target="2xh8ZazVcBxu5vY9Hblq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-57" connectable="0" parent="2xh8ZazVcBxu5vY9Hblq-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;REGISTRA&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0096" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-58" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Todo pedido debe tener al menos una línea de pedido.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="133" width="100" x="220" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-59" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Toda línea referencia un producto del catálogo. La cantidad debe ser mayor a 0. El precio unitario puede diferir del precio de lista&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="100" x="330" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-60" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Todo pedido pertenece a un cliente.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="100" x="320" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-61" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Un visitante anónimo se identifica por sesión, no por código de cliente.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="100" x="740" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-62" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Un evento puede no tener producto (ej. checkout), pero las vistas y añadir al carrito sí deben tenerlo.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="180" width="100" x="920" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-63" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;Todo producto tiene al menos un registro de inventario. Solo uno por producto de almacén.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="100" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-64" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" value="&lt;font face=&quot;monospace&quot;&gt;El stock disponible es la suma de los movimientos. No puede ser negativo (salvo ajuste auditado).&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="100" x="770" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#0f1115&quot; face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 25px; background-color: rgb(235, 238, 242);&quot;&gt;&lt;b&gt;MODELO CONCEPTUAL DE DATOS&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#0f1115&quot; face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 25px; background-color: rgb(235, 238, 242);&quot;&gt;&lt;b&gt;&quot;E-COMMERCE&quot;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="615" x="277" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Materia: Ingeniería de Datos&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Proyecto; Proyecto Final (E-Commerce)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Integrantes:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Gaudencio Isaac Gutiérrez Méndez&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 15px;&quot;&gt;&amp;nbsp;,&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Francisco de Jesus Gonzalez Lopez&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 15px; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;,Juan Pablo Huerta y Regina Ordoñez&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Fecha: 11 de noviembre de 2026&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Versión: v0.1.0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;Fase 1: Modelado Conceptual&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="40" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="2xh8ZazVcBxu5vY9Hblq-67" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Notación: Crow´s foot (Pata de Gallo)&lt;/font&gt;&lt;/h1&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 15px;&quot;&gt;Significado de los símbolos:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;code dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ERmandOne&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: dos rayitas ‖ = &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;uno y solo uno&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;code dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ERzeroToOne&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: círculo y una rayita ○| = &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cero o uno&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;code dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ERzeroToMany&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: círculo y tridente ○&amp;lt; = &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cero o muchos&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;code dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ERoneToMany&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: rayita y tridente |&amp;lt; = &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;uno o muchos&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="290" width="440" x="20" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
