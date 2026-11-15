@@ -5,3 +5,5 @@ data/stream_in/
 data/stream_processed/
 data/dlq/
 logs/
+data/warehouse/
+data/benchmark/
