@@ -1,6 +1,6 @@
-# Fase 2 — ELT, Normalización y Almacenamiento Analítico
+# Fase 2 "ELT", Normalización y Almacenamiento Analítico
 
-Versión: v0.3.0 · Integrantes: [ESCRIBE AQUÍ TUS NOMBRES]
+Versión: v0.3.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
 
 ## 1. Paradigma elegido: ELT
 
@@ -62,9 +62,9 @@ erDiagram
 
 | Medición | Valor |
 |---|---|
-| Join comparando el texto tal cual | [____] líneas con producto |
-| Join con el tipo traducido a entero | [____] líneas con producto |
-| Líneas rescatadas por la traducción | [____] |
+| Join comparando el texto tal cual | 4927 líneas con producto |
+| Join con el tipo traducido a entero | 4947 líneas con producto |
+| Líneas rescatadas por la traducción | 20 |
 
 Los ids que no existen en el catálogo (por ejemplo `"999"`) no rompen el flujo: la línea se guarda en `rechazado_integridad` con el motivo `producto_inexistente_o_nulo`.
 
@@ -83,11 +83,12 @@ Parquet guarda los datos **por columnas**, comprimidos y con tipos. Una consulta
 
 | Consulta | CSV (s) | Parquet (s) | Veces más rápido |
 |---|---:|---:|---:|
-| A. Lectura completa (10 columnas) | [__] | [__] | [__] |
-| B. Top 5 productos por importe (4 columnas) | [__] | [__] | [__] |
-| C. Unidades por mes (2 columnas) | [__] | [__] | [__] |
+| A. Lectura completa (10 columnas) | 1.12 | 0.05 | 23.0x |
+| B. Top 5 productos por importe (4 columnas) | 0.77 | 0.05 | 17.0x |
+| C. Unidades por mes (2 columnas) | 0.88 | 0.04 | 21.0x |
 
-Tamaño en disco: CSV [__] MB (365 archivos) frente a Parquet [__] MB (1 archivo).
+Tamaño en disco: CSV 29.8 MB (365 archivos) frente a Parquet 3.0 MB (1 archivo).
+*Resultados idénticos entre ambos formatos: Sí.*
 
 *El histórico es simulado para poder medir; los datos reales exportados están en `data/curated/`.*
 

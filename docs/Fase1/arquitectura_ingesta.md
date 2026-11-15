@@ -1,4 +1,4 @@
-# Arquitectura de Ingesta — E-Commerce (Fase 1)
+# Arquitectura de Ingesta "E-Commerce" (Fase 1)
 
 Versión: v0.2.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
 
