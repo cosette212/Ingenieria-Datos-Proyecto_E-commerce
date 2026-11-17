@@ -4,7 +4,7 @@ Proyecto final de **Fundamentos de Ingeniería de Datos** · Fecha: 30 de noviem
 
 > Pipeline de datos *end-to-end* (Batch + Stream) para un caso de uso de **E-commerce**, diseñado para sobrevivir al "caos operativo": datos corruptos, tipos mezclados, eventos retrasados y consultas analíticas lentas.
 
-**Estado actual:** Fases 1 y 2 completadas · Fases 3 a 5 en desarrollo.
+**Estado actual:** Fases 1, 2 y 3 completadas · Fases 4 y 5 en desarrollo.
 
 ---
 
@@ -18,7 +18,10 @@ Proyecto final de **Fundamentos de Ingeniería de Datos** · Fecha: 30 de noviem
 | Gaudencio Isaac Gutierrez Mendez | |
 
 **Docente:** Guadalupe Jeanette González Díaz
+
 **Institución:** Universidad de Guadalajara
+
+**Campus:** Centro Universitario de Guadalajara (CUGDL)
 
 ---
 
@@ -55,9 +58,10 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 | Cruda (raw) | `data/raw/` y tablas `raw_*` | Copia fiel de lo ingerido, todo como texto |
 | Staging | tablas `stg_*` | Tipos correctos y JSON desanidado (1FN) |
 | Modelo 3FN | almacén SQLite | 9 tablas normalizadas + `rechazado_integridad` |
-| Analítica | `data/curated/` | Un archivo Apache Parquet por tabla |
+| Analítica (Fase 2) | `data/curated/` | Un archivo Apache Parquet por tabla, sin limpiar |
+| Limpia (Fase 3) | tablas `clean_*` y `data/clean/` | Datos validados e imputados en Parquet, más la DLQ y la bitácora de imputación |
 
-> 📎 Detalle en la documentación: [Arquitectura de ingesta](docs/Fase1/arquitectura_ingesta.md) · [Modelo conceptual](docs/Fase1/modelo_conceptual.md) ([PDF](docs/Fase1/modelo_conceptual_ecommerce.drawio.pdf)) · [ELT, normalización y Parquet](docs/Fase%202/fase2_elt_normalizacion_parquet.md) · [Benchmark CSV vs Parquet](docs/Fase%202/benchmark_resultado.md)
+> 📎 Detalle en la documentación: [Arquitectura de ingesta](docs/Fase1/arquitectura_ingesta.md) · [Modelo conceptual](docs/Fase1/modelo_conceptual.md) ([PDF](docs/Fase1/modelo_conceptual_ecommerce.drawio.pdf)) · [ELT, normalización y Parquet](docs/Fase%202/fase2_elt_normalizacion_parquet.md) · [Benchmark CSV vs Parquet](docs/Fase%202/benchmark_resultado.md) · [Validación, DLQ e imputación](docs/Fase3/fase3_validacion_dlq_imputacion.md) · [Comparación de imputación](docs/Fase3/imputacion_comparacion.md)
 
 ---
 
@@ -67,18 +71,22 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 .
 ├── data/
 │   ├── source/                    # Datos fuente con "caos controlado"
-│   ├── curated/                   # Capa analítica en Parquet (una por tabla)
+│   ├── curated/                   # Capa analítica de la Fase 2 en Parquet (una por tabla)
+│   ├── clean/                     # Capa limpia de la Fase 3 en Parquet, DLQ y auditoría
 │   └── sample/                    # Muestra de 100 filas en CSV, JSON y Parquet
 ├── docs/
 │   ├── Fase1/                     # Arquitectura de ingesta y modelo conceptual
 │   ├── Fase 2/                    # ELT, normalización, Parquet y benchmark
+│   ├── Fase3/                     # Validación, DLQ e imputación
 │   └── screenshots/               # Capturas de evidencia por fase
 ├── sql/
 │   ├── 01_staging.sql             # Tipos correctos y desanidado de JSON (1FN)
-│   └── 02_modelo_3fn.sql          # Modelo normalizado con llaves PK/FK
+│   ├── 02_modelo_3fn.sql          # Modelo normalizado con llaves PK/FK
+│   └── 03_validacion_dlq.sql      # Reglas de validación y Dead Letter Queue
 ├── src/
 │   ├── f1_*.py                    # Fase 1: generación de datos, ingesta batch/stream, join roto
-│   └── f2_*.py                    # Fase 2: carga, transformación, validación, Parquet, benchmark
+│   ├── f2_*.py                    # Fase 2: carga, transformación, validación, Parquet, benchmark
+│   └── f3_*.py                    # Fase 3: validación, imputación, exportación, chaos test
 ├── requirements.txt               # pandas, pyarrow
 └── README.md
 ```
@@ -122,6 +130,13 @@ python src/f2_transform.py
 python src/f2_validate_phase2.py
 python src/f2_export_parquet.py
 python src/f2_benchmark_parquet.py
+
+# --- Fase 3: validación, DLQ e imputación ---
+python src/f3_validate.py
+python src/f3_impute.py
+python src/f3_export_clean.py
+python src/f3_verificar_cadena.py
+python src/f3_chaos_test.py
 ```
 
 ---
@@ -139,11 +154,11 @@ python src/f2_benchmark_parquet.py
 - [x] **Reto del Join Roto:** traducción de tipos en identificadores (`"100"` texto ↔ `100` entero)
 - [x] Exportación a **Apache Parquet** con prueba comparativa frente a 365 CSV: consultas **17x a 23x más rápidas** y **10x menos espacio** en disco (3.0 MB vs 29.8 MB)
 
-### Fase 3 · Escudo de validación y limpieza inteligente
-- [ ] Validación por **esquema** (tipos técnicos)
-- [ ] Validación por **reglas de negocio** (p. ej. montos positivos, edades > 18)
-- [ ] **Dead Letter Queue (DLQ):** ≥ 5 % de registros corruptos aislados sin detener el flujo
-- [ ] Imputación de nulos y outliers: comparación **mediana vs. KNN**
+### Fase 3 · Escudo de validación y limpieza inteligente ✔️
+- [x] Validación en doble capa: **esquema** (tipos técnicos) y **reglas de negocio** (p. ej. montos positivos, edades 18–100), más verificación de integridad referencial
+- [x] **Dead Letter Queue (DLQ):** el escudo detecta el 7.3 % de los registros de origen con problemas (mínimo requerido: 5 %), sin detener el flujo
+- [x] Imputación de nulos y outliers con **mediana** (criterio de Tukey), comparada contra la media; **KNN** se descartó y se justifica en la documentación
+- [x] **Chaos Test** (`f3_chaos_test.py`) y verificación de la cadena completa (`f3_verificar_cadena.py`)
 
 ### Fase 4 · Orquestación y resiliencia
 - [ ] Orquestador con dependencias entre tareas y horarios
@@ -168,7 +183,7 @@ Durante la demostración se inyectan en vivo registros con:
 | Eventos tardíos | Gestionados con watermark |
 | Fallo temporal de conexión | Reintento automático (Retry) |
 
-El pipeline **no se detiene** y actualiza la capa Parquet con los datos válidos.
+El pipeline **no se detiene** y actualiza la capa Parquet con los datos válidos. Se ejecuta con `python src/f3_chaos_test.py` (usa `--mantener` para dejar los datos del caos en el almacén durante la demo). El reintento automático (Retry) queda para la Fase 4.
 
 ---
 
@@ -186,8 +201,10 @@ Se sigue [Versionado Semántico](https://semver.org/lang/es/):
 
 | Versión | Descripción |
 |---|---|
-| `v0.1.0` | Modelado conceptual e Ingesta Híbrida (Fase 1) |
+| `v0.1.0` | Modelado conceptual (Fase 1) |
+| `v0.2.0` | Ingesta Híbrida (Fase 1) |
 | `v0.3.0` | ELT, normalización y almacenamiento en Parquet (Fase 2) |
+| `v0.4.0` | Validación, DLQ e imputación estadística (Fase 3) |
 | `v1.0.0` | Entrega final del proyecto |
 
 ---

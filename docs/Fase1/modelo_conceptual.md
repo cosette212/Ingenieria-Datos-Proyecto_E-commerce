@@ -2,12 +2,12 @@
 
 **Materia:** Ingeniería de Datos
 **Proyecto:** Proyecto Final (E-Commerce)
-**Integrantes:** Gaudencio Isaac Gutiérrez Méndez, Francisco de Jesus Gonzalez Lopez, Juan Pablo Huerta y Regina Ordoñez
+**Integrantes:** Gaudencio Isaac Gutiérrez Méndez, Francisco de Jesus Gonzalez Lopez, Juan Pablo Huerta Gonzalez y Regina Cosette Ordoñez Pinedo
 **Fecha:** 11 de noviembre de 2026
 **Versión del modelo:** v0.1.0
 **Fase:** 1 — Modelado conceptual
 
-![Modelo conceptual E-Commerce](Fase1/modelo_conceptual_ecommerce.png)
+![Modelo conceptual E-Commerce](modelo_conceptual_ecommerce.png)
 
 ## 1. Contexto del negocio
 Tienda en línea con catálogo de varias categorías (por ejemplo electrónica, hogar, ropa y deportes). Busca unificar los datos de pedidos históricos (batch) con el comportamiento de los usuarios en el sitio (streaming) para mejorar la conversión y evitar quiebres de stock.
@@ -36,7 +36,7 @@ El identificador de cada entidad va en **negrita**.
 | INVENTARIO **registra** MOVIMIENTO | 1 a N | Un movimiento afecta a un solo inventario. Un inventario registra cero o muchos movimientos. |
 
 ## 4. Reglas de negocio
-Son los post-its del diagrama. Cuando una regla se viola, el registro se envía a la Dead Letter Queue (se implementa en la Fase 3).
+Son los post-its del diagrama. Cuando una regla se viola, el registro queda en la Dead Letter Queue (Fase 3): se rechaza o, en los atributos descriptivos de los maestros, se corrige e imputa, siempre con registro en la DLQ.
 
 | # | Regla | Relación que rige |
 |---|---|---|
@@ -46,7 +46,7 @@ Son los post-its del diagrama. Cuando una regla se viola, el registro se envía 
 | R4 | Un evento puede no tener producto (ej. checkout), pero las vistas y añadir al carrito sí deben tenerlo. | PRODUCTO recibe EVENTO |
 | R5 | Toda línea referencia un producto del catálogo. La cantidad debe ser mayor a 0. El precio unitario puede diferir del precio de lista. | PRODUCTO aparece en LÍNEA |
 | R6 | Todo producto tiene al menos un registro de inventario (solo uno por producto y almacén). | PRODUCTO tiene INVENTARIO |
-| R7 | El stock disponible es la suma de los movimientos. No puede ser negativo (salvo ajuste auditado). | INVENTARIO registra MOVIMIENTO |
+| R7 | El stock disponible no puede ser negativo (salvo ajuste auditado). En principio equivale a la suma de los movimientos; con datos sintéticos esa igualdad no se puede comprobar (ver [Fase 3](../Fase3/fase3_validacion_dlq_imputacion.md)). | INVENTARIO registra MOVIMIENTO |
 
 ## 5. Decisiones de diseño
 - **EVENTO separado de PEDIDO:** tienen distinta granularidad y frecuencia. El pedido es un hecho financiero consolidado; el evento es una acción de comportamiento. Mezclarlos impediría analizar el embudo (vista, carrito, checkout, compra).
@@ -54,7 +54,7 @@ Son los post-its del diagrama. Cuando una regla se viola, el registro se envía 
 - **Almacén como atributo de INVENTARIO, no como entidad:** por eso un producto puede tener varios registros de inventario (relación 1 a N).
 - **Sin relación directa PRODUCTO – MOVIMIENTO:** se llega a través de INVENTARIO, para evitar redundancia.
 - **Invitado y visitante anónimo:** CLIENTE incluye a quien compra sin cuenta (invitado), que sí tiene código. El visitante que solo navega no es CLIENTE y se identifica por la sesión; por eso el cliente es opcional en el evento.
-- **Categoría y subcategoría como atributos de PRODUCTO:** es una decisión conceptual. En la Fase 2 se separan en tablas propias para cumplir la 3FN (ver `Fase2/fase2_elt_normalizacion_parquet.md`).
+- **Categoría y subcategoría como atributos de PRODUCTO:** es una decisión conceptual. En la Fase 2 se separan en tablas propias para cumplir la 3FN (ver `/Fase 2/fase2_elt_normalizacion_parquet.md`).
 - **Monto total del pedido:** es un dato derivado de las líneas; la Fase 3 valida que coincida.
 
 ## 6. Trazabilidad con las fuentes
@@ -68,4 +68,4 @@ Notación **Crow's Foot (pata de gallo)**, estándar para el modelado entidad-re
 - `○<` cero o muchos
 - `|<` uno o muchos
 
-Archivos del diagrama en `docs/Fase1/`: `modelo_conceptual_ecommerce.drawio` (editable) y `modelo_conceptual_ecommerce.png` (imagen).
+Archivos del diagrama en `docs/Fase1/`: `modelo_conceptual_ecommerce.drawio.xml` (editable) y `modelo_conceptual_ecommerce.drawio.png` (imagen).

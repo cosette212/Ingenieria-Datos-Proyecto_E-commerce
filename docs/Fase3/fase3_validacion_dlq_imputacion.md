@@ -1,6 +1,6 @@
 # Fase 3 — Escudo de validación, DLQ e imputación estadística
 
-Versión: v0.4.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
+Versión: v0.4.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta Gonzalez, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
 
 ## 1. Dónde encaja en el pipeline
 
@@ -82,15 +82,17 @@ Una fila de la DLQ por cada regla violada. Un registro puede tener varias. Para 
 
 | Entidad | Evaluados | Aceptados | Rechazados | Corregidos |
 |---|---:|---:|---:|---:|
-| cliente | [__] | [__] | [__] | [__] |
-| producto | [__] | [__] | [__] | [__] |
-| pedido | [__] | [__] | [__] | [__] |
-| línea de pedido | [__] | [__] | [__] | [__] |
-| inventario | [__] | [__] | [__] | [__] |
-| movimiento de inventario | [__] | [__] | [__] | [__] |
+| cliente | 505 | 500 | 5 | 22 |
+| producto | 100 | 100 | 0 | 1 |
+| pedido | 2000 | 1832 | 168 | 0 |
+| línea de pedido | 4956 | 4564 | 392 | 0 |
+| inventario | 147 | 141 | 6 | 0 |
+| movimiento de inventario | 344 | 324 | 20 | 0 |
 | evento de comportamiento | [__] | [__] | [__] | [__] |
 
 Balance: evaluados = aceptados + rechazados en todas las entidades.
+
+*Nota de reproducibilidad: Las cifras de clientes, productos, pedidos, líneas, inventario y movimientos son deterministas (el generador usa semilla). El stream usa `--seed 42` para que la fila de eventos también se repita.*
 
 ## 5. Corrupción inyectada contra corrupción detectada
 

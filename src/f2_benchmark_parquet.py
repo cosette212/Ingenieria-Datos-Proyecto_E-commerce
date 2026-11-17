@@ -8,7 +8,7 @@ en ~1 anio (cerca de 500 mil filas). Luego guarda ese historico de dos formas:
   - data/benchmark/ventas_hist.parquet         (un solo archivo columnar)
 y mide cuanto tardan 3 consultas equivalentes en cada formato (mediana de 3 corridas).
 
-Resultados: se imprimen y se guardan en docs/Fase2/benchmark_resultado.md
+Resultados: se imprimen y se guardan en docs/Fase 2/benchmark_resultado.md
 
 Uso:
     python src/benchmark_parquet.py
@@ -36,7 +36,7 @@ WAREHOUSE = ROOT / "data" / "warehouse" / "tienda_dwh.db"
 BENCH = ROOT / "data" / "benchmark"
 CSV_DIR = BENCH / "csv"
 PARQUET = BENCH / "ventas_hist.parquet"
-REPORTE = ROOT / "docs" / "Fase2" / "benchmark_resultado.md"
+REPORTE = ROOT / "docs" / "Fase 2" / "benchmark_resultado.md"
 
 COPIAS = 100        # cuantas veces se repite la tabla real para simular historico
 DIAS_EXTRA = 275    # reparte las fechas hacia atras (con los ~90 dias reales ~ 1 anio)

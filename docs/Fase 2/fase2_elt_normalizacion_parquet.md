@@ -1,6 +1,6 @@
 # Fase 2 "ELT", Normalización y Almacenamiento Analítico
 
-Versión: v0.3.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
+Versión: v0.3.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta Gonzalez, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
 
 ## 1. Paradigma elegido: ELT
 
@@ -8,8 +8,8 @@ La arquitectura opera bajo **ELT**. Los datos crudos se cargan primero en el alm
 
 | Capa | Dónde vive | Qué contiene | Quién la crea |
 |---|---|---|---|
-| Fuente | `data/source/` | CSV y JSON con caos controlado | `generate_chaos_data.py` |
-| Cruda (raw) | `data/raw/` y tablas `raw_*` | Copia fiel, todo como texto, JSON con listas anidadas | `ingest_batch.py`, `ingest_stream.py`, `load_raw.py` |
+| Fuente | `data/source/` | CSV y JSON con caos controlado | `f1_generate_chaos_data.py` |
+| Cruda (raw) | `data/raw/` y tablas `raw_*` | Copia fiel, todo como texto, JSON con listas anidadas | `f1_ingest_batch.py`, `f1_ingest_stream.py`, `load_raw.py` |
 | Staging | tablas `stg_*` | Tipos correctos, JSON desanidado (1FN), ids traducidos | `sql/01_staging.sql` |
 | Modelo normalizado (3FN) | tablas finales | Llaves primarias y foráneas, sin redundancia | `sql/02_modelo_3fn.sql` |
 | Analítica | `data/curated/*.parquet` | Capa histórica columnar | `export_parquet.py` |
@@ -58,7 +58,7 @@ erDiagram
 | `inventario.json` → `producto_id` | Texto | Entero | Misma regla |
 | Eventos del stream → `producto_id` | Texto | Entero | Misma regla |
 
-**Evidencia** (pega aquí tu salida de `validate_phase2.py`, sección 2):
+**Evidencia**
 
 | Medición | Valor |
 |---|---|
@@ -79,7 +79,7 @@ Los ids que no existen en el catálogo (por ejemplo `"999"`) no rompen el flujo:
 
 Parquet guarda los datos **por columnas**, comprimidos y con tipos. Una consulta lee solo las columnas que necesita, mientras que un CSV obliga a leer y convertir todas las filas completas, y además un histórico en CSV suele estar repartido en muchos archivos.
 
-**Prueba comparativa:** `src/benchmark_parquet.py` construye un histórico simulado (~485 mil filas) y lo guarda como 365 CSV (uno por día) y como un solo Parquet. Pega aquí la tabla de `docs/Fase2/benchmark_resultado.md`:
+**Prueba comparativa:** `src/benchmark_parquet.py` construye un histórico simulado (~485 mil filas) y lo guarda como 365 CSV (uno por día) y como un solo Parquet.
 
 | Consulta | CSV (s) | Parquet (s) | Veces más rápido |
 |---|---:|---:|---:|
@@ -97,14 +97,14 @@ Tamaño en disco: CSV 29.8 MB (365 archivos) frente a Parquet 3.0 MB (1 archivo)
 - **Almacén: SQLite.** No requiere instalación, es un motor SQL real con llaves foráneas y funciones JSON, y es portable. En producción el mismo SQL se llevaría a un almacén como DuckDB, BigQuery o Snowflake.
 - **Casts seguros** (`to_int`, `to_real`, `to_date`, `to_ts`, `to_text`): un valor imposible de convertir se vuelve `NULL` en lugar de detener el proceso.
 - **Todo se lee como texto en raw**: no se adivinan tipos hasta la transformación.
-- **Parquet se vuelve a generar en la Fase 3**, después de validar e imputar, para que la capa analítica final sea la limpia.
+- **La capa limpia se exporta aparte en la Fase 3:** `data/curated/` queda como evidencia de la capa normalizada (sin validar ni imputar) y la Fase 3 escribe la versión validada e imputada en `data/clean/`.
 
 ## 8. Cómo reproducir
 
 ```
-python src/load_raw.py
-python src/transform.py
-python src/validate_phase2.py
-python src/export_parquet.py
-python src/benchmark_parquet.py
+python src/f2_load_raw.py
+python src/f2_transform.py
+python src/f2_validate_phase2.py
+python src/f2_export_parquet.py
+python src/f2_benchmark_parquet.py
 ```

@@ -1,6 +1,6 @@
 # Arquitectura de Ingesta "E-Commerce" (Fase 1)
 
-Versión: v0.2.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
+Versión: v0.2.0 · Integrantes: Gaudencio Isaac Gutiérrez Méndez, Juan Pablo Huerta Gonzalez, Francisco de Jesus Gonzalez Lopez y Regina Cosette Ordoñez Pinedo
 
 ## 1. Paradigma elegido: ELT
 
@@ -20,10 +20,10 @@ La arquitectura opera bajo **ELT** (Extract, Load, Transform):
 
 | Vía | Origen | Frecuencia | Destino crudo | Script |
 |---|---|---|---|---|
-| Batch | `clientes.csv`, `productos.csv`, `pedidos.csv`, `lineas_pedido.json`, `inventario.json` | Cierre nocturno (23:00) | `data/raw/batch_id=.../` | `src/ingest_batch.py` |
-| Stream (micro-batch) | Eventos de comportamiento (JSON lines) | Continua (archivo cada ~2 s) | `data/raw/eventos_stream/` | `src/ingest_stream.py` |
+| Batch | `clientes.csv`, `productos.csv`, `pedidos.csv`, `lineas_pedido.json`, `inventario.json` | Cierre nocturno (23:00) | `data/raw/batch_id=.../` | `f1_src/ingest_batch.py` |
+| Stream (micro-batch) | Eventos de comportamiento (JSON lines) | Continua (archivo cada ~2 s) | `data/raw/eventos_stream/` | `f1_src/ingest_stream.py` |
 
-Datos de prueba generados por `src/generate_chaos_data.py` (semilla fija, reproducibles).
+Datos de prueba generados por `f1_src/generate_chaos_data.py` (semilla fija, reproducibles).
 
 ## 3. Trazabilidad: fuente → modelo conceptual
 
@@ -41,9 +41,9 @@ Nota: el "Código de inventario" no viene en la fuente; se generará como clave 
 
 ## 4. Caos controlado inyectado en los datos
 
-Se inyecta aproximadamente **9 % de registros corruptos** (el enunciado pide mínimo 5 %): nulos, outliers (edad 150–999, precio 9 999 999), edades negativas, tipos mezclados (`"veinte"`, `"gratis"`, `"N/D"`), fechas inválidas, duplicados, pedidos sin líneas, productos inexistentes, cantidades en cero o negativas y stock negativo.
+Se inyecta aproximadamente **9 % de registros corruptos** (241 de 2 705, es decir 8.9 %; se piden mínimo 5 %): nulos, outliers (edad 150–999, precio 9 999 999), edades negativas, tipos mezclados (`"veinte"`, `"gratis"`, `"N/D"`), fechas inválidas, correos inválidos o vacíos, duplicados, estados fuera de dominio, montos negativos o nulos, pedidos sin líneas, pedidos de clientes inexistentes, productos inexistentes, cantidades en cero, precios de línea nulos, stock negativo y movimientos de inventario con tipo inválido o cantidad nula.
 
-**Join roto deliberado:** `producto_id` llega como **texto** (`"100"`, a veces `" 100 "`) en los JSON, y `id_producto` es **numérico** (`100`) en `productos.csv`. Ejecutar `src/demo_join_roto.py` muestra que el join directo falla y que funciona después de traducir el tipo.
+**Join roto deliberado:** `producto_id` llega como **texto** (`"100"`, a veces `" 100 "`) en los JSON, y `id_producto` es **numérico** (`100`) en `productos.csv`. Ejecutar `f1_src/demo_join_roto.py` muestra que el join directo falla y que funciona después de traducir el tipo.
 
 ## 5. Watermarking en la vía stream
 
@@ -57,13 +57,13 @@ Se eligió 60 s porque los fallos de red cortos (segundos) son comunes y convien
 
 ## 6. Justificación de costos: Batch vs servidor 24/7
 
-| | Servidor 24/7 | Batch nocturno |
+| | Servidor 24/7 | Batch nocturno (ventana de 1 h) |
 |---|---|---|
 | Horas de cómputo al mes | 24 × 30 = **720 h** | 1 × 30 = **30 h** |
 | Costo con precio ilustrativo de 0.10 USD/h | 72.00 USD | 3.00 USD |
 | Reducción | — | **≈ 95.8 %** menos horas de cómputo |
 
-*Los precios son ilustrativos: reemplázalos por los de tu proveedor o por tu propio cálculo. La reducción de horas (30 / 720 = 4.2 %) no depende del precio.*
+*El precio de 0.10 USD/h es ilustrativo y no corresponde a un proveedor específico. Se asume una ventana de 1 hora por noche; con los datos de ejemplo el batch real tarda menos de un segundo, así que el ahorro real sería aún mayor. La reducción de horas (30 / 720 = 4.2 %) no depende del precio.*
 
 **Criterio de decisión:** el batch se usa para datos que se consultan al día siguiente (clientes, productos, pedidos, inventario), así que no justifican cómputo continuo. El stream se reserva para eventos de comportamiento, donde la frescura tiene valor (por ejemplo, detectar abandono de carrito). Aun así se implementa como micro-batch para reducir el costo frente a un stream puro.
 
