@@ -4,14 +4,18 @@ Proyecto final de **Fundamentos de Ingeniería de Datos** · Fecha: 30 de noviem
 
 > Pipeline de datos *end-to-end* (Batch + Stream) para un caso de uso de **E-commerce**, diseñado para sobrevivir al "caos operativo": datos corruptos, tipos mezclados, eventos retrasados y consultas analíticas lentas.
 
+**Estado actual:** Fases 1 y 2 completadas · Fases 3 a 5 en desarrollo.
+
 ---
 
 ## 👥 Equipo
 
 | Integrante | Rol |
 |---|---|
-| <!-- Nombre completo --> | <!-- Rol --> |
-| <!-- Nombre completo --> | <!-- Rol --> |
+| Regina Cosette Ordoñez Pinedo | |
+| Juan Pablo Huerta Gonzalez | |
+| Francisco de Jesus Gonzalez Lopez | |
+| Gaudencio Isaac Gutierrez Mendez | |
 
 **Docente:** Guadalupe Jeanette González Díaz
 **Institución:** Universidad de Guadalajara
@@ -43,9 +47,17 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
                                                         └────────────┘      └──────────────────┘
 ```
 
-> 📎 Modelo conceptual: [`docs/modelo_conceptual.md`](docs/modelo_conceptual.md) · Diagrama: [`docs/fase1/modelo_conceptual_ecommerce.drawio.png`](docs/fase1/modelo_conceptual_ecommerce.drawio.png) ([PDF](docs/fase1/modelo_conceptual_ecommerce.drawio.pdf))
+**Paradigma adoptado: ELT.** Los datos crudos se cargan primero en el almacén (SQLite) y las transformaciones se ejecutan allí con SQL, de modo que se pueden repetir sin volver al origen.
 
-**Paradigma adoptado:** **ELT** — los datos crudos se cargan primero en el destino y las transformaciones se ejecutan allí. La justificación completa está en [`docs/arquitectura_ingesta.md`](docs/arquitectura_ingesta.md).
+| Capa | Ubicación | Contenido |
+|---|---|---|
+| Fuente | `data/source/` | CSV y JSON con caos controlado |
+| Cruda (raw) | `data/raw/` y tablas `raw_*` | Copia fiel de lo ingerido, todo como texto |
+| Staging | tablas `stg_*` | Tipos correctos y JSON desanidado (1FN) |
+| Modelo 3FN | almacén SQLite | 9 tablas normalizadas + `rechazado_integridad` |
+| Analítica | `data/curated/` | Un archivo Apache Parquet por tabla |
+
+> 📎 Detalle en la documentación: [Arquitectura de ingesta](docs/Fase1/arquitectura_ingesta.md) · [Modelo conceptual](docs/Fase1/modelo_conceptual.md) ([PDF](docs/Fase1/modelo_conceptual_ecommerce.drawio.pdf)) · [ELT, normalización y Parquet](docs/Fase%202/fase2_elt_normalizacion_parquet.md) · [Benchmark CSV vs Parquet](docs/Fase%202/benchmark_resultado.md)
 
 ---
 
@@ -53,37 +65,23 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 
 ```
 .
-├── data/source/                   # Datos fuente con "caos controlado"
-│   ├── clientes.csv
-│   ├── pedidos.csv
-│   ├── productos.csv
-│   ├── inventario.json
-│   └── lineas_pedido.json
+├── data/
+│   ├── source/                    # Datos fuente con "caos controlado"
+│   ├── curated/                   # Capa analítica en Parquet (una por tabla)
+│   └── sample/                    # Muestra de 100 filas en CSV, JSON y Parquet
 ├── docs/
-│   ├── arquitectura_ingesta.md    # Arquitectura de ingesta y paradigma ELT
-│   ├── modelo_conceptual.md       # Modelo conceptual (Fase 1)
-│   ├── fase1/                     # Diagrama conceptual (.drawio.pdf / .png / .xml)
-│   └── screenshots/               # Capturas de evidencia
+│   ├── Fase1/                     # Arquitectura de ingesta y modelo conceptual
+│   ├── Fase 2/                    # ELT, normalización, Parquet y benchmark
+│   └── screenshots/               # Capturas de evidencia por fase
+├── sql/
+│   ├── 01_staging.sql             # Tipos correctos y desanidado de JSON (1FN)
+│   └── 02_modelo_3fn.sql          # Modelo normalizado con llaves PK/FK
 ├── src/
-│   ├── generate_chaos_data.py     # Genera datos con nulos, outliers y tipos mixtos
-│   ├── ingest_batch.py            # Ingesta por lotes (CSV / JSON)
-│   ├── ingest_stream.py           # Ingesta de flujo continuo (micro-batch)
-│   ├── stream_simulator.py        # Simulador de eventos en tiempo real
-│   └── demo_join_roto.py          # Demo del reto del Join Roto
-├── .gitignore
+│   ├── f1_*.py                    # Fase 1: generación de datos, ingesta batch/stream, join roto
+│   └── f2_*.py                    # Fase 2: carga, transformación, validación, Parquet, benchmark
 ├── requirements.txt               # pandas, pyarrow
 └── README.md
 ```
-
-### Datos fuente
-
-| Archivo | Formato | Contenido |
-|---|---|---|
-| `clientes.csv` | CSV | Clientes de la tienda |
-| `pedidos.csv` | CSV | Encabezados de pedidos |
-| `productos.csv` | CSV | Catálogo de productos |
-| `lineas_pedido.json` | JSON | Líneas de cada pedido (estructura jerárquica) |
-| `inventario.json` | JSON | Existencias de inventario |
 
 ---
 
@@ -92,6 +90,7 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 - **Python 3.11+**
 - **pandas** – limpieza, transformación e imputación
 - **pyarrow** – lectura/escritura de Apache Parquet
+- **SQLite** – almacén destino del flujo ELT
 - Orquestador: *pendiente de definir* (Fase 4)
 
 ---
@@ -110,34 +109,35 @@ source venv/bin/activate        # En Windows: venv\Scripts\activate
 # 3. Instalar dependencias
 pip install -r requirements.txt
 
-# 4. Generar los datos con caos controlado
-python src/generate_chaos_data.py
+# --- Fase 1: datos e ingesta ---
+python src/f1_generate_chaos_data.py
+python src/f1_ingest_batch.py
+python src/f1_stream_simulator.py
+python src/f1_ingest_stream.py
+python src/f1_demo_join_roto.py
 
-# 5. Ingesta Batch
-python src/ingest_batch.py
-
-# 6. Ingesta Stream (simulador de eventos + consumidor)
-python src/stream_simulator.py
-python src/ingest_stream.py
-
-# 7. Demo del Join Roto
-python src/demo_join_roto.py
+# --- Fase 2: ELT, normalización y Parquet ---
+python src/f2_load_raw.py
+python src/f2_transform.py
+python src/f2_validate_phase2.py
+python src/f2_export_parquet.py
+python src/f2_benchmark_parquet.py
 ```
 
 ---
 
 ## ✅ Fases del proyecto
 
-### Fase 1 · Modelado conceptual e ingesta híbrida
-- [x] Modelo conceptual independiente de la tecnología ([`docs/modelo_conceptual.md`](docs/modelo_conceptual.md))
-- [x] **Vía Batch** (`src/ingest_batch.py`): extracción programada (cierre nocturno) desde CSV y JSON; justificación de costos frente a un servidor 24/7
-- [x] **Vía Stream / micro-batch** (`src/ingest_stream.py`, `src/stream_simulator.py`): flujo de eventos con **watermarking** para eventos tardíos
+### Fase 1 · Modelado conceptual e ingesta híbrida ✔️
+- [x] Modelo conceptual independiente de la tecnología
+- [x] **Vía Batch:** extracción programada (cierre nocturno) desde CSV y JSON
+- [x] **Vía Stream / micro-batch:** flujo de eventos con **watermarking** para eventos tardíos
 
-### Fase 2 · ETL/ELT, normalización y almacenamiento analítico
-- [x] Paradigma **ELT** elegido y justificado ([`docs/arquitectura_ingesta.md`](docs/arquitectura_ingesta.md))
-- [ ] Normalización 1FN → 3FN (valores atómicos, sin dependencias transitivas)
-- [x] **Reto del Join Roto** (`src/demo_join_roto.py`): traducción de tipos en identificadores (`"100"` texto ↔ `100` entero)
-- [ ] Exportación a **Apache Parquet** con prueba comparativa de rendimiento vs. múltiples CSV
+### Fase 2 · ETL/ELT, normalización y almacenamiento analítico ✔️
+- [x] Paradigma **ELT** elegido y justificado
+- [x] Normalización **1FN → 3FN** con llaves primarias y foráneas (integridad referencial sin errores)
+- [x] **Reto del Join Roto:** traducción de tipos en identificadores (`"100"` texto ↔ `100` entero)
+- [x] Exportación a **Apache Parquet** con prueba comparativa frente a 365 CSV: consultas **17x a 23x más rápidas** y **10x menos espacio** en disco (3.0 MB vs 29.8 MB)
 
 ### Fase 3 · Escudo de validación y limpieza inteligente
 - [ ] Validación por **esquema** (tipos técnicos)
@@ -186,7 +186,8 @@ Se sigue [Versionado Semántico](https://semver.org/lang/es/):
 
 | Versión | Descripción |
 |---|---|
-| `v0.1.0` | Modelado conceptual e Ingesta Híbrida |
+| `v0.1.0` | Modelado conceptual e Ingesta Híbrida (Fase 1) |
+| `v0.3.0` | ELT, normalización y almacenamiento en Parquet (Fase 2) |
 | `v1.0.0` | Entrega final del proyecto |
 
 ---
