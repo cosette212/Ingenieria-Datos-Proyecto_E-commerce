@@ -7,7 +7,7 @@
 **Versión del modelo:** v0.1.0
 **Fase:** 1 — Modelado conceptual
 
-![Modelo conceptual E-Commerce](modelo_conceptual_ecommerce.png)
+![Modelo conceptual E-Commerce](modelo_conceptual_ecommerce.drawio.png)
 
 ## 1. Contexto del negocio
 Tienda en línea con catálogo de varias categorías (por ejemplo electrónica, hogar, ropa y deportes). Busca unificar los datos de pedidos históricos (batch) con el comportamiento de los usuarios en el sitio (streaming) para mejorar la conversión y evitar quiebres de stock.
