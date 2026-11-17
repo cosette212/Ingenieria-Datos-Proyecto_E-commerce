@@ -4,7 +4,7 @@ Proyecto final de **Fundamentos de Ingeniería de Datos** · Fecha: 30 de noviem
 
 > Pipeline de datos *end-to-end* (Batch + Stream) para un caso de uso de **E-commerce**, diseñado para sobrevivir al "caos operativo": datos corruptos, tipos mezclados, eventos retrasados y consultas analíticas lentas.
 
-**Estado actual:** Fases 1, 2 y 3 completadas · Fases 4 y 5 en desarrollo.
+**Estado actual:** Fases 1, 2, 3 y 4 completadas · Fase 5 en desarrollo.
 
 ---
 
@@ -99,7 +99,7 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 - **pandas** – limpieza, transformación e imputación
 - **pyarrow** – lectura/escritura de Apache Parquet
 - **SQLite** – almacén destino del flujo ELT
-- Orquestador: *pendiente de definir* (Fase 4)
+- **Prefect 3** – orquestación DAG, horarios `cron` y política de reintentos (Fase 4)
 
 ---
 
@@ -137,6 +137,11 @@ python src/f3_impute.py
 python src/f3_export_clean.py
 python src/f3_verificar_cadena.py
 python src/f3_chaos_test.py
+
+
+# --- Fase 4: orquestación y resiliencia ---
+python src/f4_orchestrator.py
+python src/f4_orchestrator.py --simular-fallo
 ```
 
 ---
@@ -160,9 +165,9 @@ python src/f3_chaos_test.py
 - [x] Imputación de nulos y outliers con **mediana** (criterio de Tukey), comparada contra la media; **KNN** se descartó y se justifica en la documentación
 - [x] **Chaos Test** (`f3_chaos_test.py`) y verificación de la cadena completa (`f3_verificar_cadena.py`)
 
-### Fase 4 · Orquestación y resiliencia
-- [ ] Orquestador con dependencias entre tareas y horarios
-- [ ] Política de **Retry** con espera ante fallos temporales
+### Fase 4 · Orquestación y resiliencia ✔️
+- [x] Orquestador con dependencias entre tareas y horarios (`Prefect` + `prefect.yaml` con estrategia FinOps Batch nocturno vs. Stream cada 15 min)
+- [x] Política de **Retry** (`retries=3`, `retry_delay_seconds=5`) validada con simulación de fallo temporal (`--simular-fallo`)
 
 ### Fase 5 · Gobernanza, linaje y versionado
 - [ ] Diagrama de **Data Lineage** (tablas y columnas) + análisis de impacto
@@ -205,6 +210,7 @@ Se sigue [Versionado Semántico](https://semver.org/lang/es/):
 | `v0.2.0` | Ingesta Híbrida (Fase 1) |
 | `v0.3.0` | ELT, normalización y almacenamiento en Parquet (Fase 2) |
 | `v0.4.0` | Validación, DLQ e imputación estadística (Fase 3) |
+| `v0.5.0` | Orquestación DAG, horarios FinOps y política Retry (Fase 4) |
 | `v1.0.0` | Entrega final del proyecto |
 
 ---

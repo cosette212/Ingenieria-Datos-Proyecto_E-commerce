@@ -1,0 +1,28 @@
+name: ecommerce-data-pipeline
+prefect-version: 3.9.3
+
+deployments:
+  - name: batch-nocturno-completo
+    version: 0.5.0
+    tags: ["batch", "finops-offpeak", "prioridad-baja"]
+    description: "Ejecución completa nocturna (02:00 AM) para procesar lotes diarios y apagar recursos al concluir."
+    entrypoint: src/f4_orchestrator.py:flujo_pipeline_completo
+    parameters:
+      simular_fallo: false
+      duracion_stream: 6
+    schedules:
+      - cron: "0 2 * * *"
+        timezone: "America/Mexico_City"
+        active: true
+
+  - name: stream-microbatch-continuo
+    version: 0.5.0
+    tags: ["stream", "realtime", "prioridad-alta"]
+    description: "Micro-batch cada 15 minutos para ingesta de eventos con watermarking."
+    entrypoint: src/f4_orchestrator.py:flujo_stream_microbatch
+    parameters:
+      duracion_simulador: 6
+    schedules:
+      - cron: "*/15 * * * *"
+        timezone: "America/Mexico_City"
+        active: true
