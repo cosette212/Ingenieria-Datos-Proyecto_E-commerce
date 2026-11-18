@@ -18,12 +18,16 @@ La arquitectura opera bajo **ELT** (Extract, Load, Transform):
 
 ## 2. Mapa de ingesta
 
-| Vía | Origen | Frecuencia | Destino crudo | Script |
+| Vía | Origen | Frecuencia programada | Destino crudo | Script |
 |---|---|---|---|---|
-| Batch | `clientes.csv`, `productos.csv`, `pedidos.csv`, `lineas_pedido.json`, `inventario.json` | Cierre nocturno (23:00) | `data/raw/batch_id=.../` | `f1_src/ingest_batch.py` |
-| Stream (micro-batch) | Eventos de comportamiento (JSON lines) | Continua (archivo cada ~2 s) | `data/raw/eventos_stream/` | `f1_src/ingest_stream.py` |
+| Batch | `clientes.csv`, `productos.csv`, `pedidos.csv`, `lineas_pedido.json`, `inventario.json` | Diariamente a las 02:00 | `data/raw/batch_id=.../` | `src/f1_ingest_batch.py` |
+| Stream (micro-batch) | Eventos de comportamiento (JSON Lines) | Cada 15 minutos | `data/raw/eventos_stream/` | `src/f1_ingest_stream.py` |
 
-Datos de prueba generados por `f1_src/generate_chaos_data.py` (semilla fija, reproducibles).
+Los horarios corresponden a los despliegues configurados en `prefect.yaml`, utilizando la zona horaria `America/Mexico_City`.
+
+**Nota:** Durante la simulación, `src/f1_stream_simulator.py` genera eventos aproximadamente cada 2 segundos. Esta frecuencia de generación es independiente de la programación del flujo de ingesta mediante Prefect.
+
+Datos de prueba generados por `src/f1_generate_chaos_data.py` con semilla fija para facilitar la reproducibilidad.
 
 ## 3. Trazabilidad: fuente → modelo conceptual
 

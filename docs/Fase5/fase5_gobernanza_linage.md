@@ -16,11 +16,20 @@ El linaje de datos rastrea el ciclo de vida completo:
 5. **Capa Limpia / Analítica (`data/clean/` y `data/curated/`):** Exportación a Apache Parquet con validaciones y manejo de errores mediante la **DLQ**.
 
 ### Análisis de Impacto
-> *Si se renombra o elimina la columna `precio_unitario` en el origen:*
-* **Staging:** Las consultas SQL fallan o devuelven nulos.
-* **Modelo 3FN:** Pérdida de integridad en cálculos financieros.
-* **Escudo de Validación:** El 100% de los registros fallan y van directo a la **DLQ**.
-* **Capa Analítica:** Reportes en Parquet incompletos o vacíos.
+
+**Escenario:** Se renombra o elimina la columna `precio_unitario` del archivo de origen `lineas_pedido.json`.
+
+| Capa | Impacto observado |
+|---|---|
+| Ingesta y Raw | La carga continúa sin errores porque los registros JSON se almacenan como texto. |
+| Staging | `json_extract` devuelve `NULL` para `precio_unitario`. |
+| Modelo 3FN | Las 4,907 líneas conservan sus registros, pero su precio queda en `NULL`. |
+| Escudo de Validación | Se rechazan 4,956 líneas (regla E13) y 1,989 pedidos relacionados (regla I02), enviándolos a la DLQ. |
+| Capa Limpia | Las tablas `clean_linea_pedido` y `clean_pedido` quedan vacías. |
+| Otras entidades | Clientes, productos y otras entidades no se ven afectados por este cambio. |
+| Capa Analítica | La capa `data/curated/` conserva las líneas con precio nulo, mientras que los Parquet limpios de pedidos y líneas quedan vacíos. |
+
+**Conclusión:** La arquitectura permite detectar y aislar los efectos del cambio sin detener la ingesta. Sin embargo, la pérdida del campo afecta directamente a las líneas de pedido y a los pedidos relacionados, demostrando la importancia del linaje de datos y las reglas de validación.
 
 ---
 
