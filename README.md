@@ -35,20 +35,33 @@ Este proyecto construye una arquitectura que ingiere, valida, limpia, transforma
 
 ## 🏗️ Arquitectura
 
-```
- ┌─────────────┐    ┌─────────────────────────┐
- │ CSV / JSON  │───▶│ Ingesta BATCH (nocturna)│──┐
- └─────────────┘    └─────────────────────────┘  │   ┌────────────────────┐   ┌────────────────┐
-                                                 ├──▶│ Validación (doble  │──▶│ Normalización  │
- ┌─────────────┐    ┌─────────────────────────┐  │   │ capa) + DLQ        │   │ 1FN → 3FN      │
- │ Eventos     │───▶│ Ingesta STREAM          │──┘   └─────────┬──────────┘   └───────┬────────┘
- │ (clics,     │    │ (micro-batch+watermark) │                │ inválidos            │
- │  compras)   │    └─────────────────────────┘                ▼                      ▼
- └─────────────┘                                        ┌────────────┐      ┌──────────────────┐
-                                                        │ Tabla DLQ  │      │ Capa analítica   │
-                                                        │ (auditoría)│      │ Apache Parquet   │
-                                                        └────────────┘      └──────────────────┘
-                         Orquestación y reintentos: Prefect 3 (cron 02:00 y cada 15 min)
+```mermaid
+flowchart TD
+    A["CSV / JSON"] --> B["Ingesta Batch"]
+    C["Eventos de navegación y compras"] --> D["Ingesta Stream"]
+
+    B --> E["Capa Raw - SQLite"]
+    D --> E
+
+    E --> F["Staging - 1FN"]
+    F --> G["Modelo normalizado - 3FN"]
+
+    G --> H["Validación de datos"]
+
+    H --> I["Registros válidos"]
+    H --> J["Anomalías detectadas"]
+
+    I --> K["Limpieza e imputación"]
+    J --> L["Corrección o rechazo"]
+    L --> M["DLQ - Auditoría"]
+    L -->|Corregibles| K
+
+    K --> N["Capa limpia - Apache Parquet"]
+
+    O["Prefect 3 - Orquestación y reintentos"]
+    O -.-> B
+    O -.-> D
+    O -.-> H
 ```
 
 **Paradigma adoptado: ELT.** Los datos crudos se cargan primero en el almacén (SQLite) y las transformaciones se ejecutan allí con SQL, de modo que se pueden repetir sin volver al origen.
@@ -165,7 +178,7 @@ python src/f5_gobernanza.py
 - [x] Exportación a **Apache Parquet** con prueba comparativa frente a 365 CSV: consultas **17x a 23x más rápidas** y **10x menos espacio** en disco (3.0 MB vs 29.8 MB)
 
 ### Fase 3 · Escudo de validación y limpieza inteligente ✔️
-- [x] Validación en doble capa: **esquema** (tipos técnicos) y **reglas de negocio** (p. ej. montos positivos, edades 18–100), más verificación de integridad referencial
+- [x] Validación en tres capas: **esquema** (tipos de datos), **negocio** (p. ej., montos positivos y edades entre 18 y 100 años) e **integridad referencial** (existencia de registros relacionados).
 - [x] **Dead Letter Queue (DLQ):** el escudo detecta el 7.3 % de los registros de origen con problemas (mínimo requerido: 5 %), sin detener el flujo
 - [x] Imputación de nulos y outliers con **mediana** (criterio de Tukey), comparada contra la media; **KNN** se descartó y se justifica en la documentación
 - [x] **Chaos Test** (`f3_chaos_test.py`) y verificación de la cadena completa (`f3_verificar_cadena.py`)
@@ -194,6 +207,13 @@ Durante la demostración se inyectan en vivo registros con:
 | Fallo temporal de conexión | Reintento automático (Retry, Fase 4) |
 
 El pipeline **no se detiene** y actualiza la capa Parquet con los datos válidos. Se ejecuta con `python src/f3_chaos_test.py` (usa `--mantener` para dejar los datos del caos en el almacén durante la demo) y, para el reintento, con `python src/f4_orchestrator.py --simular-fallo`.
+
+
+### 🎬 Video demostrativo
+
+Demostración del Chaos Test del pipeline de e-commerce, incluyendo la inyección de anomalías, validación de registros, gestión de la DLQ, imputación y recuperación de datos.
+
+▶️ [Ver demostración del Chaos Test en YouTube](https://youtu.be/6HkayoJh0_E?si=xRyCZmWPpXjGn90u)
 
 ---
 
@@ -236,7 +256,7 @@ Se sigue [Versionado Semántico](https://semver.org/lang/es/):
 
 - [x] Repositorio versionado (`v1.0.0`) con código, configuración del orquestador y muestras en CSV, JSON y Parquet
 - [x] Blueprint de Arquitectura y Gobernanza (modelo conceptual, arquitectura, linaje, catálogo y costos Batch vs. Stream)
-- [ ] Demo en vivo o video **Chaos Test** (5 min)
+- [x] Demo en vivo o video **Chaos Test** (5 min)
 
 ---
 
