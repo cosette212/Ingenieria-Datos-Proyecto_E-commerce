@@ -9,7 +9,7 @@ Demuestra con evidencia (para tu Blueprint y tu defensa):
   5. 3FN  : la dependencia subcategoria -> categoria se cumple y se separo en tablas propias.
 
 Uso:
-    python src/validate_phase2.py
+    python src/f2_validate_phase2.py
 Termina con codigo 1 si alguna prueba falla.
 """
 import sqlite3
